@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<eqstates>
+  <xs:schema id="eqstates" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="eqstates" msdata:IsDataSet="true" msdata:MainDataTable="eqstate" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="eqstate" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIPMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTRY" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="PRESTATE" type="xs:string" minOccurs="0" />
+                <xs:element name="REPEAT" type="xs:string" minOccurs="0" />
+                <xs:element name="PERIOD" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIORITY" type="xs:string" minOccurs="0" />
+                <xs:element name="DRMODE" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</eqstates>

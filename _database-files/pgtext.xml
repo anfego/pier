@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<pgtexts>
+  <xs:schema id="pgtexts" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="pgtexts" msdata:IsDataSet="true" msdata:MainDataTable="pgtext" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="pgtext" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PAGE" type="xs:string" minOccurs="0" />
+                <xs:element name="AN" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_C" type="xs:string" minOccurs="0" />
+                <xs:element name="STR000" type="xs:string" minOccurs="0" />
+                <xs:element name="STR001" type="xs:string" minOccurs="0" />
+                <xs:element name="STR010" type="xs:string" minOccurs="0" />
+                <xs:element name="STR011" type="xs:string" minOccurs="0" />
+                <xs:element name="STR100" type="xs:string" minOccurs="0" />
+                <xs:element name="STR101" type="xs:string" minOccurs="0" />
+                <xs:element name="STR110" type="xs:string" minOccurs="0" />
+                <xs:element name="STR111" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT000" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT001" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT010" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT011" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT100" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT101" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT110" type="xs:string" minOccurs="0" />
+                <xs:element name="FONT111" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="VISIBLE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</pgtexts>

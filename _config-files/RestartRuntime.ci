@@ -1,0 +1,9 @@
+FUNCTION RestartRuntime()
+	INT iStatus;
+	
+	iStatus = Message("Restart Runtime" , "Restart Runtime. Are You Sure?" , 1);
+	
+	IF iStatus = 0 THEN
+		Shutdown("" , "" , 2);
+	END // END IF
+END // END FUNCTION

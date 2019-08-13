@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<protdirs>
+  <xs:schema id="protdirs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="protdirs" msdata:IsDataSet="true" msdata:MainDataTable="protdir" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="protdir" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="FILE" type="xs:string" minOccurs="0" />
+                <xs:element name="BIT_BLOCK" type="xs:string" minOccurs="0" />
+                <xs:element name="MAX_LENGTH" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONS" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</protdirs>

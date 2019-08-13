@@ -1,0 +1,1410 @@
+<?xml version="1.0" standalone="yes"?>
+<units>
+  <xs:schema id="units" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="units" msdata:IsDataSet="true" msdata:MainDataTable="unit" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="unit" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SERVER" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOL" type="xs:string" minOccurs="0" />
+                <xs:element name="PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="MODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGWRITE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGREAD" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHE" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHETIME" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOLID" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EXTERNDB" type="xs:string" minOccurs="0" />
+                <xs:element name="DRIVERID" type="xs:string" minOccurs="0" />
+                <xs:element name="CONNSTRING" type="xs:string" minOccurs="0" />
+                <xs:element name="REFRESH" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGPREFIX" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTEWRIT" type="xs:string" minOccurs="0" />
+                <xs:element name="TIME" type="xs:string" minOccurs="0" />
+                <xs:element name="PERIOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONE" type="xs:string" minOccurs="0" />
+                <xs:element name="CALLERID" type="xs:string" minOccurs="0" />
+                <xs:element name="ONCONNECT" type="xs:string" minOccurs="0" />
+                <xs:element name="ONHANGUP" type="xs:string" minOccurs="0" />
+                <xs:element name="ONBROWSE" type="xs:string" minOccurs="0" />
+                <xs:element name="LIVEUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTVARMOD" type="xs:string" minOccurs="0" />
+                <xs:element name="MEMORY" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSIST" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENTEMP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIORITY" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLL" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLLRATE" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSFREQ" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSPATH" type="xs:string" minOccurs="0" />
+                <xs:element name="MINUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="STALEPERIO" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_MAIN_M98</NAME>
+    <NUMBER>215</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>SP26_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_MAIN_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_MAIN_M98</NAME>
+    <NUMBER>198</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>SP24_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP8_XFMR_M98</NAME>
+    <NUMBER>686</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP8_MAIN_PM8_ECC_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP8_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP7_XFMR_M98</NAME>
+    <NUMBER>685</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP7_MAIN_PM8_ECC_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP7_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP6_XFMR_M98</NAME>
+    <NUMBER>684</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP6_MAIN_PM8_ECC_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP6_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP5_XFMR_M98</NAME>
+    <NUMBER>315</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP5_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP5_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP4_XFMR_M98</NAME>
+    <NUMBER>312</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP4_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP4_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP3_XFMR_M98</NAME>
+    <NUMBER>309</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP3_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP3_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP2_XFMR_M98</NAME>
+    <NUMBER>378</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP2_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP2_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP1_XFMR_M98</NAME>
+    <NUMBER>377</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>RP1_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>RP1_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSB_XFMR_M98</NAME>
+    <NUMBER>75</NUMBER>
+    <ADDR>11</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>MSB_MAIN_CM4_ECC_MTUE</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MSB_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSB_MDBM_MTU</NAME>
+    <NUMBER>359</NUMBER>
+    <ADDR>6</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>MSB_MAIN_CM4_ECC_MTUE</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MSB_MDBM_MTU</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSA_XFMR_M98</NAME>
+    <NUMBER>74</NUMBER>
+    <ADDR>11</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>MSA_MAIN_CM4_ECC_MTUE</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MSA_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSA_NHA_MTU</NAME>
+    <NUMBER>341</NUMBER>
+    <ADDR>9</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>MSA_MAIN_CM4_ECC_MTUE</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MSA_NHA_MTU</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MDB3_XFMR_M98</NAME>
+    <NUMBER>366</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>MDB3_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MDB3_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MDB2_XFMR_M98</NAME>
+    <NUMBER>365</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>MDB2_EGX_M92</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MDB2_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY2_XFMR_M98</NAME>
+    <NUMBER>306</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>LPCY2_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>LPCY2_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY1_XFMR_M98</NAME>
+    <NUMBER>303</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>LPCY1_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>LPCY1_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV2_XFMR_M98</NAME>
+    <NUMBER>687</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>IYLV2_MAIN_PM8_ECC_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYLV2_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV1_XFMR_M98</NAME>
+    <NUMBER>363</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>IYLV1_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYLV1_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYCBT1_XFMR_M98</NAME>
+    <NUMBER>364</NUMBER>
+    <ADDR>98</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>IYCBT1_EGX_M98</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYCBT1_XFMR_M98</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_12</NAME>
+    <NUMBER>85</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_12_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_12</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_11</NAME>
+    <NUMBER>84</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_11_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_10</NAME>
+    <NUMBER>88</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_10_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_10</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_09</NAME>
+    <NUMBER>8</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_09_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_09</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_06</NAME>
+    <NUMBER>90</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_06_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_06</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_05</NAME>
+    <NUMBER>91</NUMBER>
+    <ADDR>184</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_05_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_05</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_04</NAME>
+    <NUMBER>92</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_04_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_04</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_03</NAME>
+    <NUMBER>93</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_03_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_03</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_02</NAME>
+    <NUMBER>7</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>PWRMODBUS</PROTOCOL>
+    <PORT>BXB_BLDG_ACCUSINE_02_PM</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </unit>
+</units>

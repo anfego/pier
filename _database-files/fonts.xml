@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<fonts>
+  <xs:schema id="fonts" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="fonts" msdata:IsDataSet="true" msdata:MainDataTable="font" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="font" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="SIZE" type="xs:string" minOccurs="0" />
+                <xs:element name="FGND_COLR" type="xs:string" minOccurs="0" />
+                <xs:element name="BGND_COLR" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="FGND_COLF" type="xs:string" minOccurs="0" />
+                <xs:element name="BGND_COLF" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</fonts>

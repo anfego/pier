@@ -1,0 +1,103 @@
+//Functions
+FUNCTION Startup()
+	ErrSet(1);
+//	CheckAlarms();
+END
+
+//FUNCTION Item_Alarm_Set (STRING sPage, STRING sItem1, STRING sItem2, STRING sItem3, STRING sItem4, STRING sItem5, STRING sItem6, STRING sItem7, STRING sItem8, STRING sItem9)
+//		IF (StrLength(sItem1)) >  0 THEN
+//			Item_1_Alarm = sItem1;
+//		END
+//		IF (StrLength(sItem2)) >  0 THEN
+//			Item_2_Alarm = sItem2;
+//		END
+//		IF (StrLength(sItem3)) >  0 THEN
+//			Item_3_Alarm = sItem3;
+//		END
+//		IF (StrLength(sItem3)) >  0 THEN
+//			Item_3_Alarm = sItem3;
+//		END
+//		IF (StrLength(sPage)) >  0 THEN
+//			PageDisplay(sPage);
+//		END
+//END
+
+//IEnavigate FUNCTION TO embed website.  taken from KB Q4773
+//added 07APR2009: JST
+//
+FUNCTION IEnavigate(STRING sANnumber,STRING sURL)//Enter AN number and website on button eg IEnavigate("AN207", "www.google.com.")
+   OBJECT oBrowser = ObjectByName(sANnumber);      //Gets the handle of the Active X object and put it into a cicode variable called oBrowser
+	_ObjectCallMethod(oBrowser, "navigate", sURL);  //Using "navigate" parameters put the URL specified in the button into sURL 
+END
+
+//Function to create area alarms KB Q1163
+//FUNCTION CheckAlarms()
+//   INT nRec;
+//   WHILE TRUE DO 
+//      nRec = AlarmFirstCatRec(0, 1, 1);
+//      IF nRec = -1 THEN 
+//         IF Alarm_area1 <> 0 THEN 
+//            Alarm_area1 = 0;
+//         END 
+//      ELSE 
+//         IF Alarm_area1 <> 1 THEN 
+//            Alarm_area1 = 1;
+//         END 
+//      END 
+//      Sleep(2);
+//   END 
+//END 
+
+//Function to loop check for group alarms called by event
+FUNCTION EVT_gr_alm_chk()
+	ErrSet(1);
+	checkgroupalarms("GRpdu101");
+END
+
+//Function to check group alarms based on KB Q1163 and Q3419 and return -1 if no alarms active
+INT FUNCTION CheckGroupAlarms(STRING sGroupName)
+	INT hGrp;
+	hGrp = GrpOpen (sGroupName,0);
+	IF AlarmFirstCatRec(0, 1, hGrp) <> -1 THEN 
+		RETURN 1;
+		TagWrite("Alarm_" + sGroupName,1);
+	ELSE
+		RETURN 0;
+		TagWrite("Alarm_" + sGroupName,1);
+	END
+	GrpClose(hGrp);
+END 
+
+FUNCTION NetworkPDF(STRING sFilename)
+
+	STRING sFile = PathToStr("[Run]:" + sFilename);
+	
+
+
+	CreateControlObject("Microsoft Web Browser","Web Browser", 0, 219, 1024, 768);
+	_ObjectCallMethod(ObjectByName("Web Browser"),"Navigate",sFile,"","","","");
+
+
+END
+
+//Per KB Q2752
+FUNCTION VIEWPMCU()
+    INT pmcu;
+    STRING sRDP;
+    pmcu=WndFind("ION Setup System Log On");
+    IF pmcu=0 THEN 
+    	sRDP = "mstsc /admin " + "^"" + PathToStr("[Run]:ION_Setup.rdp") + "^"";
+    	Exec(sRDP, 1);
+        //Exec("mstsc /v:i90epmssrv", 3)
+    ELSE 
+        WndShow(pmcu,9)
+    END 
+END 
+//
+//Open MS keyboard
+FUNCTION keyboard()
+
+	Exec("C:\WINDOWS\system32\osk.exe",1)
+
+END
+

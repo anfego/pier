@@ -1,0 +1,247 @@
+<?xml version="1.0" standalone="yes"?>
+<digalms>
+  <xs:schema id="digalms" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="digalms" msdata:IsDataSet="true" msdata:MainDataTable="digalm" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="digalm" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <digalm>
+    <TAG>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd6\zInd</TAG>
+    <NAME>@(PM8 P26 Slt1 IO 10 Dig In On/Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd6\zInd</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>IYLV1_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>PCBased, ,IYLV1_MAIN_PM8,37138251</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(N/A),0</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>IYLV1_MAIN_PM8</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd5\zInd</TAG>
+    <NAME>@(PM8 P26 Slt1 IO 9 Dig In On/Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd5\zInd</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>IYLV1_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>PCBased, ,IYLV1_MAIN_PM8,37137251</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(N/A),0</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>IYLV1_MAIN_PM8</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd4\zInd</TAG>
+    <NAME>@(PM8 P26 Slt1 IO 8 Dig In On/Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd4\zInd</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>IYLV1_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>PCBased, ,IYLV1_MAIN_PM8,37136251</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(N/A),0</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>IYLV1_MAIN_PM8</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd3\zInd</TAG>
+    <NAME>@(PM8 P26 Slt1 IO 7 Dig In On/Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd3\zInd</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>IYLV1_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>PCBased, ,IYLV1_MAIN_PM8,37135251</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(N/A),0</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>IYLV1_MAIN_PM8</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd2\zInd</TAG>
+    <NAME>@(PM8 P26 Slt1 IO 6 Dig In On/Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd2\zInd</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>IYLV1_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>PCBased, ,IYLV1_MAIN_PM8,37134251</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(N/A),0</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>IYLV1_MAIN_PM8</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd1\zInd</TAG>
+    <NAME>@(PM8 P26 Slt1 IO 5 Dig In On/Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>IYLV1_MAIN_PM8\P26_GGIO1\ZMtrInd1\zInd</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>IYLV1_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>PCBased, ,IYLV1_MAIN_PM8,37133251</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(N/A),0</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>IYLV1_MAIN_PM8</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>IYLV1_MAIN_PM8\GGIO1\ZMtrInd\zInd</TAG>
+    <NAME>@(CM4/PM8 SltOB IO 2 Dig In On/Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>IYLV1_MAIN_PM8\GGIO1\ZMtrInd\zInd</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>IYLV1_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>PCBased, ,IYLV1_MAIN_PM8,35102251</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(N/A),0</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>IYLV1_MAIN_PM8</EQUIP>
+  </digalm>
+</digalms>

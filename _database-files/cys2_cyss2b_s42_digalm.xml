@@ -1,0 +1,1407 @@
+<?xml version="1.0" standalone="yes"?>
+<digalms>
+  <xs:schema id="digalms" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="digalms" msdata:IsDataSet="true" msdata:MainDataTable="digalm" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="digalm" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\XCBR1\ZCBCtlFlt</TAG>
+    <NAME>@(Control fault)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\XCBR1\ZCBCtlFlt</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090103</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\XCBR1\Loc</TAG>
+    <NAME>@(Remote control inhibited)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\XCBR1\Loc</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3095635</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\RBRF1\OpEx</TAG>
+    <NAME>@(Protection 50BF)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\RBRF1\OpEx</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090168</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Breakers),8</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\PTRC1\Tr</TAG>
+    <NAME>@(Breaker Trip Status)</NAME>
+    <DESC>Tripped,Not Tripped</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\PTRC1\Tr</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,1300202</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Breakers),8</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO14</TAG>
+    <NAME>@(M114 Output Status O14)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO14</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3095728</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO13</TAG>
+    <NAME>@(M114 Output Status O13)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO13</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3095727</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO12</TAG>
+    <NAME>@(M114 Output Status O12)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO12</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3095726</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO11</TAG>
+    <NAME>@(M114 Output Status O11)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\M114_GGIO1\SPCSO11</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3095725</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\LPHD1\ZTmLos</TAG>
+    <NAME>@(Time lost)</NAME>
+    <DESC>Pickup,Dropout</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\LPHD1\ZTmLos</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090231</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(Time),7</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\LLN0\ZProGrp2</TAG>
+    <NAME>@(Setting group B in service)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\LLN0\ZProGrp2</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090230</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\LLN0\ZProGrp1</TAG>
+    <NAME>@(Setting group A in service)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\LLN0\ZProGrp1</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090229</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\LLN0\VTFlt</TAG>
+    <NAME>@(TP phase fault)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\LLN0\VTFlt</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090220</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\LLN0\LEDRs</TAG>
+    <NAME>@(Sepam not reset after fault)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\LLN0\LEDRs</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090106</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(Breakers),8</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\LLN0\CTFlt</TAG>
+    <NAME>@(TC phase fault)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\LLN0\CTFlt</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090219</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\GGIO1\SPCSO4</TAG>
+    <NAME>@(Output Status O04)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\GGIO1\SPCSO4</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090374</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\GGIO1\SPCSO3</TAG>
+    <NAME>@(Output Status O03)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\GGIO1\SPCSO3</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090373</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\GGIO1\SPCSO2</TAG>
+    <NAME>@(Output Status O02)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\GGIO1\SPCSO2</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090372</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\GGIO1\SPCSO1</TAG>
+    <NAME>@(Output Status O01)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\GGIO1\SPCSO1</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090371</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A81L_PTUF4\Op</TAG>
+    <NAME>@(Protection 81L unit 4)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A81L_PTUF4\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090189</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Frequencies),5</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A81L_PTUF3\Op</TAG>
+    <NAME>@(Protection 81L unit 3)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A81L_PTUF3\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090188</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Frequencies),5</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A81L_PTUF2\Op</TAG>
+    <NAME>@(Protection 81L unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A81L_PTUF2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090187</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Frequencies),5</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A81L_PTUF1\Op</TAG>
+    <NAME>@(Protection 81L unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A81L_PTUF1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090186</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Frequencies),5</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A81H_PTOF2\Op</TAG>
+    <NAME>@(Protection 81H unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A81H_PTOF2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090185</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Frequencies),5</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A81H_PTOF1\Op</TAG>
+    <NAME>@(Protection 81H unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A81H_PTOF1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090184</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Frequencies),5</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A67N_PTOC2\Op</TAG>
+    <NAME>@(Protection 67N unit 2)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A67N_PTOC2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090156</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A67N_PTOC1\Op</TAG>
+    <NAME>@(Protection 67N unit 1)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A67N_PTOC1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090155</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A67_PTOC2\Op</TAG>
+    <NAME>@(Protection 67 unit 2)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A67_PTOC2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090154</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A67_PTOC1\Op</TAG>
+    <NAME>@(Protection 67 unit 1)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A67_PTOC1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090153</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A59N_PTOV2\Op</TAG>
+    <NAME>@(Protection 59N unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A59N_PTOV2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090150</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A59N_PTOV1\Op</TAG>
+    <NAME>@(Protection 59N unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A59N_PTOV1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090149</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A59_PTOV2\Op</TAG>
+    <NAME>@(Protection 59 unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A59_PTOV2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090146</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A59_PTOV1\Op</TAG>
+    <NAME>@(Protection 59 unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A59_PTOV1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090145</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51N_PTOC4\Op</TAG>
+    <NAME>@(Protection 50N/51N unit 4)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51N_PTOC4\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090132</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51N_PTOC3\Op</TAG>
+    <NAME>@(Protection 50N/51N unit 3)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51N_PTOC3\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090131</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51N_PTOC2\Op</TAG>
+    <NAME>@(Protection 50N/51N unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51N_PTOC2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090130</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51N_PTOC1\Op</TAG>
+    <NAME>@(Protection 50N/51N unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51N_PTOC1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090129</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51_PTOC4\Op</TAG>
+    <NAME>@(Protection 50/51 unit 4)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51_PTOC4\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090124</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51_PTOC3\Op</TAG>
+    <NAME>@(Protection 50/51 unit 3)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51_PTOC3\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090123</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51_PTOC2\Op</TAG>
+    <NAME>@(Protection 50/51 unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51_PTOC2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090122</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A51_PTOC1\Op</TAG>
+    <NAME>@(Protection 50/51 unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A51_PTOC1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090121</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A49_PTTR1\InhThmPro</TAG>
+    <NAME>@(Thermal protection inhibited)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A49_PTTR1\InhThmPro</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090206</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Temperatures),6</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A47_PTOV1\Op</TAG>
+    <NAME>@(Protection 47 unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A47_PTOV1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090159</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A46_PTOC2\Op</TAG>
+    <NAME>@(Protection 46 unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A46_PTOC2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090158</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A46_PTOC1\Op</TAG>
+    <NAME>@(Protection 46 unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A46_PTOC1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090157</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Currents),1</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A32P_PDOP1\Op</TAG>
+    <NAME>@(Protection 32P unit 1)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A32P_PDOP1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090161</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Powers),4</CUSTOM5>
+    <CUSTOM6>@(Differential),3</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A27_PTUV2\Op</TAG>
+    <NAME>@(Protection 27/27S unit 2)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A27_PTUV2\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090138</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>CYS2_CYSS2B_S42\A27_PTUV1\Op</TAG>
+    <NAME>@(Protection 27/27S unit 1)</NAME>
+    <DESC>Yes,No</DESC>
+    <VAR_A>CYS2_CYSS2B_S42\A27_PTUV1\Op</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>CYS2_CYSS2B_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYS2_CYSS2B_S42,3090137</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Protection),2</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </digalm>
+</digalms>

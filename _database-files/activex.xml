@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<activexs>
+  <xs:schema id="activexs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="activexs" msdata:IsDataSet="true" msdata:MainDataTable="activex" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="activex" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PAGE" type="xs:string" minOccurs="0" />
+                <xs:element name="AN" type="xs:string" minOccurs="0" />
+                <xs:element name="OBJ_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="OBJ_GUID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</activexs>

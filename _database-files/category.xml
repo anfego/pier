@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<categorys>
+  <xs:schema id="categorys" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="categorys" msdata:IsDataSet="true" msdata:MainDataTable="category" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="category" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="UNOFF_COL" type="xs:string" minOccurs="0" />
+                <xs:element name="ACKOFF_COL" type="xs:string" minOccurs="0" />
+                <xs:element name="UNON_COL" type="xs:string" minOccurs="0" />
+                <xs:element name="ACKON_COL" type="xs:string" minOccurs="0" />
+                <xs:element name="DIS_COL" type="xs:string" minOccurs="0" />
+                <xs:element name="ACTION" type="xs:string" minOccurs="0" />
+                <xs:element name="OFF_ACTION" type="xs:string" minOccurs="0" />
+                <xs:element name="MODE" type="xs:string" minOccurs="0" />
+                <xs:element name="DSPFMT" type="xs:string" minOccurs="0" />
+                <xs:element name="SUMDSPFMT" type="xs:string" minOccurs="0" />
+                <xs:element name="SUMDEVICE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGDEVICE" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIORITY" type="xs:string" minOccurs="0" />
+                <xs:element name="LOG_ON" type="xs:string" minOccurs="0" />
+                <xs:element name="LOG_OFF" type="xs:string" minOccurs="0" />
+                <xs:element name="LOG_ACK" type="xs:string" minOccurs="0" />
+                <xs:element name="SHOW_ALM" type="xs:string" minOccurs="0" />
+                <xs:element name="SHOW_SUM" type="xs:string" minOccurs="0" />
+                <xs:element name="ACK_ACTION" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</categorys>

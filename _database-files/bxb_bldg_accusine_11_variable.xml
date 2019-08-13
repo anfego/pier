@@ -1,0 +1,3016 @@
+<?xml version="1.0" standalone="yes"?>
+<variables>
+  <xs:schema id="variables" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="variables" msdata:IsDataSet="true" msdata:MainDataTable="variable" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="variable" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="RAW_ZERO" type="xs:string" minOccurs="0" />
+                <xs:element name="RAW_FULL" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_ZERO" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_FULL" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_UNITS" type="xs:string" minOccurs="0" />
+                <xs:element name="FORMAT" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="OID" type="xs:string" minOccurs="0" />
+                <xs:element name="REF1" type="xs:string" minOccurs="0" />
+                <xs:element name="REF2" type="xs:string" minOccurs="0" />
+                <xs:element name="DEADBAND" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\WaitRestrart</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:4000;m:6008:4000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Waiting for Restart)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\UnTempAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:400;m:6002:400;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Under Temperature Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\UnitRatMismat</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:2;m:6008:2;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Unit Rating Mismatch)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\UnitMazCap</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6005:4;m:6006:4;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Unit Max Capacity)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDSrcVoltCA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2089:u1;m:2090:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Source Voltage C-A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDSrcVoltBC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2087:u1;m:2088:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Source Voltage B-C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDSrcVoltAB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2085:u1;m:2086:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Source Voltage A-B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDSrcCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2077:u1;m:2078:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Source Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDSrcCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2075:u1;m:2076:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Source Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDSrcCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2073:u1;m:2074:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Source Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDLoadCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2083:u1;m:2084:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Load Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDLoadCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2081:u1;m:2082:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Load Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\THDLoadCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2079:u1;m:2080:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD Load Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SystemOn</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:5001:1;m:5002:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(System On)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SysAvailCurrentCap</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:3001:u1;m:3002:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(System Available Current Capacity)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SysActCurrentCap</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:3003:u1;m:3004:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(System Active Current Capacity)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcFundRealPwr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2111:u1;m:2112:u1;V:1E-3;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kW)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Fundamental Real Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Power),11</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcFundReactivePwr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2113:u1;m:2114:u1;V:1E-3;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVAR)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Fundamental Reactive Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Reactive Power),18</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcFundCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2101:u1;m:2102:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Fundamental Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcFundCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2099:u1;m:2100:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Fundamental Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcFundCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2097:u1;m:2098:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Fundamental Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcFundAprPwr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2109:u1;m:2110:u1;V:1E-3;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVA)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Fundamental Apparent Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Apparent Power),17</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcDispPF</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2123:u1;m:2124:u1;V:1E2;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>#.###</FORMAT>
+    <COMMENT>@(Source Displacement Power Factor)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Factors),6</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Power Factor),36</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2035:u1;m:2036:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2033:u1;m:2034:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\SrcCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2031:u1;m:2032:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Source Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\ReactiveOutputCurrent</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2039:u1;m:2040:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Reactive Output Current)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\ReactiveLoadCurrent</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2037:u1;m:2038:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Reactive Load Current)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\PwSupOutRagAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:1000;m:6002:1000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Power Supply Out of Range Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\PwrSaveOn</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:400;m:6008:400;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Power Save On)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\ProtFMTrAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6003:20;m:6004:20;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Protection Firmware Trip Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\PrllWireMismtAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6003:8;m:6004:8;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Parallel Wiring Mismatch Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\PrllVerMismat</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:8;m:6008:8;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Parallel Version Mismatch)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\PrllSysSetMismat</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6005:4000;m:6006:4000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Parallel System Setup Mismatch)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\PrllPwrWireMismat</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6005:8000;m:6006:8000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Parallel Power Wiring Mismatch)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\PrllIDConf</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6005:2000;m:6006:2000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Parallel ID conflict)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OvTempAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:200;m:6002:200;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Over Temperature Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OvrCurConDectAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:2;m:6002:2;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Over Current Condition Detected Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputHrmCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2017:u1;m:2018:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Harmonics Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputHrmCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2015:u1;m:2016:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Harmonics Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputHrmCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2013:u1;m:2014:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Harmonics Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputFundReactivePwr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2121:u1;m:2122:u1;V:1E-3;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVAR)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Fundamental Reactive Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Reactive Power),18</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputFundCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2023:u1;m:2024:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Fundamental Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputFundCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2021:u1;m:2022:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Fundamental Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputFundCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2019:u1;m:2020:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Fundamental Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputDisable</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:200;m:6008:200;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Unit Output is disabled)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputCurrentNegSeq</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2043:u1;m:2044:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output Current Negative Sequence)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputCurrentCTot</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2029:u1;m:2030:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output  Current C Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputCurrentBTot</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2027:u1;m:2028:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output  Current B Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\OutputCurrentATot</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2025:u1;m:2026:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Output  Current A Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\NoMastAvail</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:10;m:6008:10;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(No Master Available)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\NoCTConfig</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:20;m:6008:20;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(No CTs Configured)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\NewUnitRatApp</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:1;m:6008:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(New Unit Rating Applied)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\MOVSvrReqAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:2000;m:6002:2000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(MOV Requires Service Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\MMXU1\PPV\zavg</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2051:u1;m:2052:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage L-L Avg)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\MMXU1\Hz</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2053:u1;m:2054:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(Hz)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Frequency)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Frequencies),18</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Frequency),15</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoOrdHmrOff</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6005:2;m:6006:2;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Low Order Harmonics Off)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadHrmCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2011:u1;m:2012:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Harmonics Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadHrmCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2009:u1;m:2010:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Harmonics Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadHrmCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2007:u1;m:2008:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Harmonics Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadFundRealPwr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2117:u1;m:2118:u1;V:1E-3;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kW)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Fundamental Real Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Power),11</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadFundReactivePwr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2119:u1;m:2120:u1;V:1E-3;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVAR)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Fundamental Reactive Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Reactive Power),18</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadFundCurrentC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2095:u1;m:2096:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Fundamental Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadFundCurrentB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2093:u1;m:2094:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Fundamental Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadFundCurrentA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2091:u1;m:2092:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Fundamental Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadFundAprPwr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2115:u1;m:2116:u1;V:1E-3;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVA)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Fundamental Apparent Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Apparent Power),17</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadDispPF</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2125:u1;m:2126:u1;V:1E2;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>#.###</FORMAT>
+    <COMMENT>@(Load Displacement Power Factor)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Factors),6</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Power Factor),36</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadCurrentNegSeq</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2041:u1;m:2042:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Current Negative Sequence)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadCurrentCTot</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2005:u1;m:2006:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Current C Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadCurrentBTot</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2003:u1;m:2004:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Current B Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LoadCurrentATot</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2001:u1;m:2002:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Load Current A Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\LineNotQual</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:40;m:6008:40;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Line Not Qualified)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\InvConfig</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:80;m:6008:80;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Invalid configuration)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\IntXfmrTmpAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6003:4;m:6004:4;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Internal Transformer Over temp Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\IGBTTripAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:20;m:6002:20;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(IGBT Trip Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\HMICommLossAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:80;m:6002:80;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(HMI Communication Loss Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\HiFqVltDistAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6003:2;m:6004:2;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(High Frequency Voltage Distortion Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\HFFilterContTr</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:100;m:6008:100;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(HF Filter Contactor Trip)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\GtDriTripAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:40;m:6002:40;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Gate Drive Trip Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FWVerMismat</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:4;m:6008:4;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Firmware Version Mismatch)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FWTripAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:10;m:6002:10;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Firmware Trip Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FundVoltCA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2107:u1;m:2108:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Fundamental Voltage C-A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FundVoltBC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2105:u1;m:2106:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Fundamental Voltage B-C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FundVoltAB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2103:u1;m:2104:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Fundamental Voltage A-B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FundCurrentCReq</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2049:u1;m:2050:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Fundamental Current C Required)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FundCurrentBReq</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2047:u1;m:2048:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Fundamental Current B Required)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FundCurrentAReq</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:MV;m:2045:u1;m:2046:u1;E:2;L:P:37</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Fundamental Current A Required)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FilterTripAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:8;m:6002:8;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(FilterTrip Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\FanFailAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6003:40;m:6004:40;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Fan Failure Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\DCBusTripAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:4;m:6002:4;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(DC Bus Trip Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\CuSenInopAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:800;m:6002:800;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current Sensor Inoperable Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\CtrBrdIniti</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:1000;m:6008:1000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Control Board Initialization In Progress)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\CTClip</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6005:8;m:6006:8;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(CT Is Clipping)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\ContNotCls</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:2000;m:6008:2000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Contactor Not Closed)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\ContactorTrEvtAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6003:10;m:6004:10;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Contactor Trip Event Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\AutoStarting</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6007:800;m:6008:800;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Unit Auto-Starting)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\AtThrmDerat</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6005:1;m:6006:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Automatic Thermal  Derating)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\AtDectOutRangAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:100;m:6002:100;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Auto Detection Out of Range Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>BXB_BLDG_ACCUSINE_11\ACNotQualAlm</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>BXB_BLDG_ACCUSINE_11</UNIT>
+    <ADDR>T:SS;m:6001:1;m:6002:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(AC Line Not Qualified Alarm)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>BXB_BLDG_ACCUSINE_11</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>BXB_BLDG_ACCUSINE_11</EQUIP>
+    <CUSTOM1>BXB_BLDG_ACCUSINE_11</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+</variables>

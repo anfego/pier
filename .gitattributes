@@ -1,0 +1,4 @@
+*.ci gitlab-language=pascal
+*.profiles gitlab-language=xml
+
+

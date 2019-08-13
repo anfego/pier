@@ -1,0 +1,1140 @@
+<?xml version="1.0" standalone="yes"?>
+<units>
+  <xs:schema id="units" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="units" msdata:IsDataSet="true" msdata:MainDataTable="unit" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="unit" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SERVER" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOL" type="xs:string" minOccurs="0" />
+                <xs:element name="PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="MODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGWRITE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGREAD" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHE" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHETIME" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOLID" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EXTERNDB" type="xs:string" minOccurs="0" />
+                <xs:element name="DRIVERID" type="xs:string" minOccurs="0" />
+                <xs:element name="CONNSTRING" type="xs:string" minOccurs="0" />
+                <xs:element name="REFRESH" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGPREFIX" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTEWRIT" type="xs:string" minOccurs="0" />
+                <xs:element name="TIME" type="xs:string" minOccurs="0" />
+                <xs:element name="PERIOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONE" type="xs:string" minOccurs="0" />
+                <xs:element name="CALLERID" type="xs:string" minOccurs="0" />
+                <xs:element name="ONCONNECT" type="xs:string" minOccurs="0" />
+                <xs:element name="ONHANGUP" type="xs:string" minOccurs="0" />
+                <xs:element name="ONBROWSE" type="xs:string" minOccurs="0" />
+                <xs:element name="LIVEUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTVARMOD" type="xs:string" minOccurs="0" />
+                <xs:element name="MEMORY" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSIST" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENTEMP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIORITY" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLL" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLLRATE" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSFREQ" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSPATH" type="xs:string" minOccurs="0" />
+                <xs:element name="MINUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="STALEPERIO" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP05B_S24</NAME>
+    <NUMBER>167</NUMBER>
+    <ADDR>6</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP05B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP05A_S24</NAME>
+    <NUMBER>109</NUMBER>
+    <ADDR>5</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP05A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP04B_S24</NAME>
+    <NUMBER>108</NUMBER>
+    <ADDR>8</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP04B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP04A_S24</NAME>
+    <NUMBER>107</NUMBER>
+    <ADDR>7</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP04A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP03B_S24</NAME>
+    <NUMBER>106</NUMBER>
+    <ADDR>10</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP03B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP03A_S24</NAME>
+    <NUMBER>105</NUMBER>
+    <ADDR>9</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP03A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP02B_S24</NAME>
+    <NUMBER>103</NUMBER>
+    <ADDR>12</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP02B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP02A_S24</NAME>
+    <NUMBER>102</NUMBER>
+    <ADDR>11</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP02A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP01B_S24</NAME>
+    <NUMBER>101</NUMBER>
+    <ADDR>14</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP01B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_SP01A_S24</NAME>
+    <NUMBER>100</NUMBER>
+    <ADDR>13</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_SP01A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_PRI_T24</NAME>
+    <NUMBER>104</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_PRI_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_PRI_T24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_MAIN_B22</NAME>
+    <NUMBER>203</NUMBER>
+    <ADDR>4</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_MAIN_B22</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP10B_S24</NAME>
+    <NUMBER>190</NUMBER>
+    <ADDR>6</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP10B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP10A_S24</NAME>
+    <NUMBER>189</NUMBER>
+    <ADDR>5</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP10A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP09B_S24</NAME>
+    <NUMBER>192</NUMBER>
+    <ADDR>8</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP09B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP09A_S24</NAME>
+    <NUMBER>191</NUMBER>
+    <ADDR>7</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP09A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP08B_S24</NAME>
+    <NUMBER>194</NUMBER>
+    <ADDR>10</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP08B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP08A_S24</NAME>
+    <NUMBER>193</NUMBER>
+    <ADDR>9</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP08A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP07B_S24</NAME>
+    <NUMBER>196</NUMBER>
+    <ADDR>12</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP07B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP07A_S24</NAME>
+    <NUMBER>195</NUMBER>
+    <ADDR>11</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP07A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP06B_S24</NAME>
+    <NUMBER>205</NUMBER>
+    <ADDR>14</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP06B_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_SP06A_S24</NAME>
+    <NUMBER>204</NUMBER>
+    <ADDR>13</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_SP06A_S24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_PRI_T24</NAME>
+    <NUMBER>89</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_PRI_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_PRI_T24</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_MAIN_B22</NAME>
+    <NUMBER>165</NUMBER>
+    <ADDR>4</ADDR>
+    <PROTOCOL>SEPAM20</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_MAIN_B22</EQUIP>
+  </unit>
+</units>

@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<arganas>
+  <xs:schema id="arganas" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="arganas" msdata:IsDataSet="true" msdata:MainDataTable="argana" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="argana" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR" type="xs:string" minOccurs="0" />
+                <xs:element name="SETPOINT" type="xs:string" minOccurs="0" />
+                <xs:element name="HIGHHIGH" type="xs:string" minOccurs="0" />
+                <xs:element name="HIGH" type="xs:string" minOccurs="0" />
+                <xs:element name="LOW" type="xs:string" minOccurs="0" />
+                <xs:element name="LOWLOW" type="xs:string" minOccurs="0" />
+                <xs:element name="DEVIATION" type="xs:string" minOccurs="0" />
+                <xs:element name="RATE" type="xs:string" minOccurs="0" />
+                <xs:element name="DEADBAND" type="xs:string" minOccurs="0" />
+                <xs:element name="FORMAT" type="xs:string" minOccurs="0" />
+                <xs:element name="TRIG" type="xs:string" minOccurs="0" />
+                <xs:element name="LATCH" type="xs:string" minOccurs="0" />
+                <xs:element name="TIMEOUT" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</arganas>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<scanners>
+  <xs:schema id="scanners" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="scanners" msdata:IsDataSet="true" msdata:MainDataTable="scanner" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="scanner" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="NETADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="PEERPORT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <scanner>
+    <NAME>IO1_Pier_E</NAME>
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <NETADDR>Server1_Pier_E</NETADDR>
+    <PORT />
+    <COMMENT />
+    <PEERPORT />
+  </scanner>
+</scanners>

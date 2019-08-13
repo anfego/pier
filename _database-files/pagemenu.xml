@@ -1,0 +1,1317 @@
+<?xml version="1.0" standalone="yes"?>
+<pagemenus>
+  <xs:schema id="pagemenus" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="pagemenus" msdata:IsDataSet="true" msdata:MainDataTable="pagemenu" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="pagemenu" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PAGE" type="xs:string" minOccurs="0" />
+                <xs:element name="LEVEL1" type="xs:string" minOccurs="0" />
+                <xs:element name="LEVEL2" type="xs:string" minOccurs="0" />
+                <xs:element name="LEVEL3" type="xs:string" minOccurs="0" />
+                <xs:element name="LEVEL4" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMAND" type="xs:string" minOccurs="0" />
+                <xs:element name="HIDDEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DISABLED" type="xs:string" minOccurs="0" />
+                <xs:element name="DISSTYLE" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIVILEGE" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHECKED" type="xs:string" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:string" minOccurs="0" />
+                <xs:element name="ORDER" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2 />
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND />
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_16x16.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>1</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>Home</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>PageHome()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>1</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND />
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>MTS2</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MTS2_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>1</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>MTS3</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MTS3_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYS1</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYS1_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>3</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYS2</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYS2_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>4</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYSS1A</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYSS1A_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>5</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYSS1B</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYSS1B_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>6</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYSS2A</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYSS2A_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>7</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYSS2B</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYSS2B_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>8</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYSS3A</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYSS3A_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>9</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>CYSS3B</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("CYSS3B_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>10</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>12kV</LEVEL2>
+    <LEVEL3>IYS1</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("IYS1_OL")</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>11</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>6.6kV</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND />
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>3</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>6.6kV</LEVEL2>
+    <LEVEL3>SP24</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("SP24_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>1</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>6.6kV</LEVEL2>
+    <LEVEL3>SP26</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("SP26_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND />
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>4</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>RP1-4</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("RP1_2_3_4_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>1</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>RP5-8</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("RP5_6_7_8_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>LPCY1-2</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("LPCY1_2_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>4</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>IYLV1-2</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("IYLV1_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>5</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>IYCBT1</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("IYCBT1_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>6</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>DB1</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("DB1_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>7</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>DPB</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("DPB_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>8</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>DPC</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("DPC_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>9</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>DPE</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("DPE_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>10</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>MSB</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MSB_SWBD_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>11</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>MSP</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MSP_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>12</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>480V</LEVEL2>
+    <LEVEL3>MDB1-2</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB2_3_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>13</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND />
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>5</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MSA/MSB MTM</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("BXB_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>1</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB2</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB2_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB3</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB3_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB4</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB4_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB5</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB5_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB6</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB6_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB9</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB9_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB10</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB10_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB11</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB11_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>BXB</LEVEL2>
+    <LEVEL3>MDB12</LEVEL3>
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("MDB12_OL");</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Oneline</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>2</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Reports</LEVEL1>
+    <LEVEL2 />
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>PLSPageDisplay("web");DisplayWebpage ("http://pr-e-epmssvr1/Web/",0, 219, 1024, 768)</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>es_icons_16x16.reporting</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>3</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2 />
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAlarm_Active()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_16x16.ActiveAlarms</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>5</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2>Active</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAlarm_Active()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.ActiveAlarms</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2>Unacknowledged</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAlarm_Unacknowledged()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.UnacknowledgedAlarms</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2>History</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAlarm_History()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.AlarmHistory</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2>Disabled</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAlarm_Disabled()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.DisabledAlarms</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2>System</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAlarm_System()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.SystemAlarms</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2>Comments</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowGeneralComment()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.OperatorComments</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Alarms</LEVEL1>
+    <LEVEL2>Legend</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAlarmLegend()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Legend</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Analysis</LEVEL1>
+    <LEVEL2 />
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND />
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_16x16.Trending</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>6</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Analysis</LEVEL1>
+    <LEVEL2>Trending</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAnalyst()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Trending</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Analysis</LEVEL1>
+    <LEVEL2>Instant Trend</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>InstantTrends_Show()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.InstantTrend</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Analysis</LEVEL1>
+    <LEVEL2>Waveform</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>PLSWaveformSearch()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.WaveformCapture</SYMBOL>
+    <PRIVILEGE>2</PRIVILEGE>
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Info</LEVEL1>
+    <LEVEL2 />
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND />
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_16x16.About</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>7</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Info</LEVEL1>
+    <LEVEL2>Tag Viewer</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowTagViewer()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.TagViewer</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Info</LEVEL1>
+    <LEVEL2>Tag Debug</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowTagDebug()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.TagDebug</SYMBOL>
+    <PRIVILEGE>7</PRIVILEGE>
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Info</LEVEL1>
+    <LEVEL2>Device Status</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowDeviceStatus()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.NetworkDiagram</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Info</LEVEL1>
+    <LEVEL2>About</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAbout()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.About</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Info</LEVEL1>
+    <LEVEL2>Tech Support</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowTechSupport()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Help</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER />
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+  <pagemenu>
+    <PAGE />
+    <LEVEL1>Onelines</LEVEL1>
+    <LEVEL2>Legend</LEVEL2>
+    <LEVEL3 />
+    <LEVEL4 />
+    <COMMAND>ES_ShowAOLLegend()</COMMAND>
+    <HIDDEN />
+    <DISABLED />
+    <DISSTYLE />
+    <SYMBOL>ES_Icons_32x32.Legend</SYMBOL>
+    <PRIVILEGE />
+    <AREA />
+    <CHECKED />
+    <WIDTH />
+    <ORDER>10</ORDER>
+    <COMMENT />
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </pagemenu>
+</pagemenus>

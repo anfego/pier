@@ -1,0 +1,1262 @@
+<?xml version="1.0" standalone="yes"?>
+<tsdigs>
+  <xs:schema id="tsdigs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="tsdigs" msdata:IsDataSet="true" msdata:MainDataTable="tsdig" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tsdig" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSCA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vca)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSCA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,30800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSCA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vca)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSCA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,30900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vcn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,60800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vcn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,60900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSBC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vbc)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSBC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,20800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSBC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vbc)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSBC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,20900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vbn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,50800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vbn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,50900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSAB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vab)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSAB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,10800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSAB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vab)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSAB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,10900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Van)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,40800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\SSA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Van)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\SSA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,40900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\PhC_QVTR1\Str\general\dchg</TAG>
+    <NAME>@(Impulsive Transient C)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\PhC_QVTR1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,41110</CUSTOM2>
+    <CUSTOM3>@(Transient),5</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\PhBC_QVTR1\Str\general\dchg</TAG>
+    <NAME>@(Impulsive Transient BC)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\PhBC_QVTR1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,61110</CUSTOM2>
+    <CUSTOM3>@(Transient),5</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\PhB_QVTR1\Str\general\dchg</TAG>
+    <NAME>@(Impulsive Transient B)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\PhB_QVTR1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,21110</CUSTOM2>
+    <CUSTOM3>@(Transient),5</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\PhAC_QVTR1\Str\general\dchg</TAG>
+    <NAME>@(Impulsive Transient AC)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\PhAC_QVTR1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,51110</CUSTOM2>
+    <CUSTOM3>@(Transient),5</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\PhABC_QVTR1\Str\general\dchg</TAG>
+    <NAME>@(Impulsive Transient ABC)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\PhABC_QVTR1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,71110</CUSTOM2>
+    <CUSTOM3>@(Transient),5</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\PhAB_QVTR1\Str\general\dchg</TAG>
+    <NAME>@(Impulsive Transient AB)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\PhAB_QVTR1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,31110</CUSTOM2>
+    <CUSTOM3>@(Transient),5</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\PhA_QVTR1\Str\general\dchg</TAG>
+    <NAME>@(Impulsive Transient A)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\PhA_QVTR1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,11110</CUSTOM2>
+    <CUSTOM3>@(Transient),5</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OWLN_QVUB1\Str\general\dchg</TAG>
+    <NAME>@(Over Voltage Unbalance L-N Worst)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OWLN_QVUB1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,11360100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(Unbalance),2</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OWLL_QVUB1\Str\general\dchg</TAG>
+    <NAME>@(Over Voltage Unbalance L-L Worst)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OWLL_QVUB1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,11320100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(Unbalance),2</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OCT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage C-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OCT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,12090100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OCAT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage C-A)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OCAT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,12130100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OCA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage C-A)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OCA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11220100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OCA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage C-A)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OCA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11220200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage C-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11260100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage C-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11260200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OBT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage B-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OBT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,12080100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OBCT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage B-C)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OBCT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,12120100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OBC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage B-C)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OBC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11210100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OBC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage B-C)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OBC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11210200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage B-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11250100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage B-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11250200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OAT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage A-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OAT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,12070100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OABT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage A-B)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OABT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>Waveform,CM4000,DPC_MAIN_CM4,12110100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OAB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage A-B)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OAB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11200100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OAB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage A-B)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OAB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11200200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage A-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11240100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\OA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage A-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\OA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,11240200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\LPHD1\ZDiag\zImpTrsThr\dchg</TAG>
+    <NAME>@(Impulsive Transient Threshold Invalid)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\LPHD1\ZDiag\zImpTrsThr\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,12500</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(Diagnostic),4</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\LPHD1\ZDiag\zImpTrsAlm\dchg</TAG>
+    <NAME>@(Impulsive Transient Alarm - Disabled)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\LPHD1\ZDiag\zImpTrsAlm\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,12500</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(Diagnostic),4</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>DPC_MAIN_CM4\LPHD1\PwrUp\stVal\dchg</TAG>
+    <NAME>@(Unary Power Up/ Reset)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>DPC_MAIN_CM4\LPHD1\PwrUp\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>DPC_MAIN_CM4</CUSTOM1>
+    <CUSTOM2> ,CM4000,DPC_MAIN_CM4,50700</CUSTOM2>
+    <CUSTOM3>@(Loss),8</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>DPC_MAIN_CM4</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+</tsdigs>

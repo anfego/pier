@@ -1,0 +1,5190 @@
+<?xml version="1.0" standalone="yes"?>
+<units>
+  <xs:schema id="units" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="units" msdata:IsDataSet="true" msdata:MainDataTable="unit" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="unit" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SERVER" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOL" type="xs:string" minOccurs="0" />
+                <xs:element name="PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="MODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGWRITE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGREAD" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHE" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHETIME" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOLID" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EXTERNDB" type="xs:string" minOccurs="0" />
+                <xs:element name="DRIVERID" type="xs:string" minOccurs="0" />
+                <xs:element name="CONNSTRING" type="xs:string" minOccurs="0" />
+                <xs:element name="REFRESH" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGPREFIX" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTEWRIT" type="xs:string" minOccurs="0" />
+                <xs:element name="TIME" type="xs:string" minOccurs="0" />
+                <xs:element name="PERIOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONE" type="xs:string" minOccurs="0" />
+                <xs:element name="CALLERID" type="xs:string" minOccurs="0" />
+                <xs:element name="ONCONNECT" type="xs:string" minOccurs="0" />
+                <xs:element name="ONHANGUP" type="xs:string" minOccurs="0" />
+                <xs:element name="ONBROWSE" type="xs:string" minOccurs="0" />
+                <xs:element name="LIVEUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTVARMOD" type="xs:string" minOccurs="0" />
+                <xs:element name="MEMORY" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSIST" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENTEMP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIORITY" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLL" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLLRATE" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSFREQ" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSPATH" type="xs:string" minOccurs="0" />
+                <xs:element name="MINUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="STALEPERIO" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_MAIN_S42</NAME>
+    <NUMBER>202</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>SP26_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP26_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_MAIN_S42</NAME>
+    <NUMBER>164</NUMBER>
+    <ADDR>3</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>SP24_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>SP24_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_SP26_S42</NAME>
+    <NUMBER>148</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_SP26_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_SP26_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_RP1_2_S42</NAME>
+    <NUMBER>152</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_RP1_2_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_RP1_2_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_MAIN_S42</NAME>
+    <NUMBER>156</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_LP26_S42</NAME>
+    <NUMBER>150</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_LP26_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_LP26_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CYSS1B_S42</NAME>
+    <NUMBER>154</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_CYSS1B_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_CYSS1B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN03B_S42</NAME>
+    <NUMBER>137</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_CRN03B_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_CRN03B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN03A_S42</NAME>
+    <NUMBER>135</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_CRN03A_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_CRN03A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN02B_S42</NAME>
+    <NUMBER>142</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_CRN02B_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_CRN02B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN02A_S42</NAME>
+    <NUMBER>140</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_CRN02A_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_CRN02A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN01B_S42</NAME>
+    <NUMBER>146</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_CRN01B_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_CRN01B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN01A_S42</NAME>
+    <NUMBER>144</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS3_CRN01A_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS3_CRN01A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_SP24_S42</NAME>
+    <NUMBER>117</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_SP24_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_SP24_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_MAIN_S42</NAME>
+    <NUMBER>131</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_LPCY1_S42</NAME>
+    <NUMBER>71</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_LPCY1_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_LPCY1_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_LP24_S42</NAME>
+    <NUMBER>115</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_LP24_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_LP24_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CYSS1A_S42</NAME>
+    <NUMBER>113</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_CYSS1A_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_CYSS1A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP06B_S42</NAME>
+    <NUMBER>129</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_CP06B_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_CP06B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP06A_S42</NAME>
+    <NUMBER>127</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_CP06A_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_CP06A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP05B_S42</NAME>
+    <NUMBER>125</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_CP05B_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_CP05B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP05A_S42</NAME>
+    <NUMBER>123</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_CP05A_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_CP05A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP04B_S42</NAME>
+    <NUMBER>121</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_CP04B_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_CP04B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP04A_S42</NAME>
+    <NUMBER>119</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_CP04A_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_CP04A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_BXB_S42</NAME>
+    <NUMBER>693</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_BXB_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_BXB_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_BLDGS_S42</NAME>
+    <NUMBER>691</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>MTS2_BLDGS_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>MTS2_BLDGS_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_TIE_IYS2_S42</NAME>
+    <NUMBER>354</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_TIE_IYS2_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_TIE_IYS2_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_SPR_4L_S42</NAME>
+    <NUMBER>689</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_SPR_4L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_SPR_4L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_MAIN_S42</NAME>
+    <NUMBER>347</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG3_S42</NAME>
+    <NUMBER>350</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_IYRMG3_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_IYRMG3_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG2_S42</NAME>
+    <NUMBER>351</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_IYRMG2_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_IYRMG2_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG1_S42</NAME>
+    <NUMBER>348</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_IYRMG1_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_IYRMG1_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYLV1_S42</NAME>
+    <NUMBER>352</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_IYLV1_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_IYLV1_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYCBT1_S42</NAME>
+    <NUMBER>353</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>IYS1_IYCBT1_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>IYS1_IYCBT1_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_SPR_5U_S42</NAME>
+    <NUMBER>678</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_SPR_5U_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_SPR_5U_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_SPR_3L_S42</NAME>
+    <NUMBER>675</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_SPR_3L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_SPR_3L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_MAIN_S42</NAME>
+    <NUMBER>673</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC25W_S42</NAME>
+    <NUMBER>674</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC25W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC25W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC24L_S42</NAME>
+    <NUMBER>677</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC24L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC24L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC23W_S42</NAME>
+    <NUMBER>676</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC23W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC23W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC22L_S42</NAME>
+    <NUMBER>679</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC22L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC22L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC20L_S42</NAME>
+    <NUMBER>681</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC20L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC20L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC19W_S42</NAME>
+    <NUMBER>680</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC19W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC19W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC18L_S42</NAME>
+    <NUMBER>683</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC18L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC18L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC17W_S42</NAME>
+    <NUMBER>682</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3B_ASC17W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3B_ASC17W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_7L_S42</NAME>
+    <NUMBER>672</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_SPR_7L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_SPR_7L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_5L_S42</NAME>
+    <NUMBER>668</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_SPR_5L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_SPR_5L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_4L_S42</NAME>
+    <NUMBER>666</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_SPR_4L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_SPR_4L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_MAIN_S42</NAME>
+    <NUMBER>662</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC25L_S42</NAME>
+    <NUMBER>671</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_ASC25L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_ASC25L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC24W_S42</NAME>
+    <NUMBER>670</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_ASC24W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_ASC24W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC23L_S42</NAME>
+    <NUMBER>669</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_ASC23L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_ASC23L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC21L_S42</NAME>
+    <NUMBER>667</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_ASC21L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_ASC21L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC19L_S42</NAME>
+    <NUMBER>665</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_ASC19L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_ASC19L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC18W_S42</NAME>
+    <NUMBER>664</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_ASC18W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_ASC18W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC17L_S42</NAME>
+    <NUMBER>663</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS3A_ASC17L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS3A_ASC17L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_MAIN_S42</NAME>
+    <NUMBER>241</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_16L_S42</NAME>
+    <NUMBER>257</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_16L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_16L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_15W_S42</NAME>
+    <NUMBER>255</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_15W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_15W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_14L_S42</NAME>
+    <NUMBER>253</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_14L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_14L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_13W_S42</NAME>
+    <NUMBER>251</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_13W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_13W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_12L_S42</NAME>
+    <NUMBER>249</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_12L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_12L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_11W_S42</NAME>
+    <NUMBER>247</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_11W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_11W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_10L_S42</NAME>
+    <NUMBER>245</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_10L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_10L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_09W_S42</NAME>
+    <NUMBER>243</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2B_09W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2B_09W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_MAIN_S42</NAME>
+    <NUMBER>223</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_16W_S42</NAME>
+    <NUMBER>239</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_16W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_16W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_15L_S42</NAME>
+    <NUMBER>237</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_15L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_15L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_14W_S42</NAME>
+    <NUMBER>235</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_14W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_14W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_13L_S42</NAME>
+    <NUMBER>233</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_13L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_13L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_12W_S42</NAME>
+    <NUMBER>231</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_12W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_12W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_11L_S42</NAME>
+    <NUMBER>229</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_11L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_11L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_10W_S42</NAME>
+    <NUMBER>227</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_10W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_10W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_09L_S42</NAME>
+    <NUMBER>225</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS2A_09L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS2A_09L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_MAIN_S42</NAME>
+    <NUMBER>181</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_08L_S42</NAME>
+    <NUMBER>221</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_08L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_08L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_07W_S42</NAME>
+    <NUMBER>219</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_07W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_07W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_06L_S42</NAME>
+    <NUMBER>217</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_06L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_06L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_05W_S42</NAME>
+    <NUMBER>214</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_05W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_05W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_04L_S42</NAME>
+    <NUMBER>197</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_04L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_04L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_03W_S42</NAME>
+    <NUMBER>187</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_03W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_03W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_02L_S42</NAME>
+    <NUMBER>185</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_02L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_02L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_01W_S42</NAME>
+    <NUMBER>183</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1B_01W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1B_01W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_MAIN_S42</NAME>
+    <NUMBER>158</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_08W_S42</NAME>
+    <NUMBER>179</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_08W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_08W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_07L_S42</NAME>
+    <NUMBER>177</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_07L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_07L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_06W_S42</NAME>
+    <NUMBER>175</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_06W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_06W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_05L_S42</NAME>
+    <NUMBER>173</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_05L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_05L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_04W_S42</NAME>
+    <NUMBER>171</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_04W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_04W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_03L_S42</NAME>
+    <NUMBER>169</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_03L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_03L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_02W_S42</NAME>
+    <NUMBER>166</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_02W_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_02W_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_01L_S42</NAME>
+    <NUMBER>160</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYSS1A_01L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYSS1A_01L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_15U_S42</NAME>
+    <NUMBER>299</NUMBER>
+    <ADDR>40</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_SPR_15U_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_SPR_15U_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_15L_S42</NAME>
+    <NUMBER>301</NUMBER>
+    <ADDR>42</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_SPR_15L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_SPR_15L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_14U_S42</NAME>
+    <NUMBER>295</NUMBER>
+    <ADDR>36</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_SPR_14U_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_SPR_14U_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_14L_S42</NAME>
+    <NUMBER>297</NUMBER>
+    <ADDR>38</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_SPR_14L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_SPR_14L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_13U_S42</NAME>
+    <NUMBER>291</NUMBER>
+    <ADDR>32</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_SPR_13U_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_SPR_13U_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_13L_S42</NAME>
+    <NUMBER>293</NUMBER>
+    <ADDR>34</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_SPR_13L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_SPR_13L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_12L_S42</NAME>
+    <NUMBER>289</NUMBER>
+    <ADDR>30</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_SPR_12L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_SPR_12L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_RP7_8_S42</NAME>
+    <NUMBER>956</NUMBER>
+    <ADDR>28</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_RP7_8_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_RP7_8_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_MAIN_S42</NAME>
+    <NUMBER>281</NUMBER>
+    <ADDR>44</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_CYSS3B_S42</NAME>
+    <NUMBER>954</NUMBER>
+    <ADDR>26</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_CYSS3B_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_CYSS3B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_CYSS2B_S42</NAME>
+    <NUMBER>283</NUMBER>
+    <ADDR>24</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS2_CYSS2B_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS2_CYSS2B_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_6U_S42</NAME>
+    <NUMBER>273</NUMBER>
+    <ADDR>16</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_SPR_6U_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_SPR_6U_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_6L_S42</NAME>
+    <NUMBER>275</NUMBER>
+    <ADDR>18</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_SPR_6L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_SPR_6L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_4U_S42</NAME>
+    <NUMBER>265</NUMBER>
+    <ADDR>8</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_SPR_4U_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_SPR_4U_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_3U_S42</NAME>
+    <NUMBER>261</NUMBER>
+    <ADDR>4</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_SPR_3U_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_SPR_3U_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_3L_S42</NAME>
+    <NUMBER>263</NUMBER>
+    <ADDR>6</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_SPR_3L_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_SPR_3L_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_RP5_6_S42</NAME>
+    <NUMBER>695</NUMBER>
+    <ADDR>14</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_RP5_6_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_RP5_6_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_RP3_4_S42</NAME>
+    <NUMBER>269</NUMBER>
+    <ADDR>12</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_RP3_4_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_RP3_4_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_MAIN_S42</NAME>
+    <NUMBER>259</NUMBER>
+    <ADDR>2</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_MAIN_CM4_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_MAIN_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_IYS1_S42</NAME>
+    <NUMBER>267</NUMBER>
+    <ADDR>10</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_IYS1_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_IYS1_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_CYSS3A_S42</NAME>
+    <NUMBER>697</NUMBER>
+    <ADDR>22</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_CYSS3A_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_CYSS3A_S42</EQUIP>
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_CYSS2A_S42</NAME>
+    <NUMBER>277</NUMBER>
+    <ADDR>20</ADDR>
+    <PROTOCOL>SEPAM40</PROTOCOL>
+    <PORT>CYS1_CYSS2A_PM8_ECC_S40</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY>1</PRIORITY>
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP>CYS1_CYSS2A_S42</EQUIP>
+  </unit>
+</units>

@@ -1,0 +1,175 @@
+<?xml version="1.0" standalone="yes"?>
+<anaalms>
+  <xs:schema id="anaalms" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="anaalms" msdata:IsDataSet="true" msdata:MainDataTable="anaalm" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="anaalm" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR" type="xs:string" minOccurs="0" />
+                <xs:element name="SETPOINT" type="xs:string" minOccurs="0" />
+                <xs:element name="HIGHHIGH" type="xs:string" minOccurs="0" />
+                <xs:element name="HIGH" type="xs:string" minOccurs="0" />
+                <xs:element name="LOW" type="xs:string" minOccurs="0" />
+                <xs:element name="LOWLOW" type="xs:string" minOccurs="0" />
+                <xs:element name="DEVIATION" type="xs:string" minOccurs="0" />
+                <xs:element name="RATE" type="xs:string" minOccurs="0" />
+                <xs:element name="DEADBAND" type="xs:string" minOccurs="0" />
+                <xs:element name="FORMAT" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="HHDELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="HDELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="LDELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="LLDELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DEVDELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <anaalm>
+    <TAG>CYSS1A_03L_S42\XCBR1\EEHealth</TAG>
+    <NAME>@(Breaker Health SF6 Status)</NAME>
+    <VAR>CYSS1A_03L_S42\XCBR1\EEHealth</VAR>
+    <SETPOINT />
+    <HIGHHIGH />
+    <HIGH />
+    <LOW />
+    <LOWLOW />
+    <DEVIATION />
+    <RATE />
+    <DEADBAND />
+    <FORMAT />
+    <CATEGORY>_PLSALM_HIGH</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <HHDELAY />
+    <HDELAY />
+    <LDELAY />
+    <LLDELAY />
+    <DEVDELAY />
+    <CUSTOM1>CYSS1A_03L_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYSS1A_03L_S42,3090113</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_HIGH),1</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYSS1A_03L_S42</EQUIP>
+  </anaalm>
+  <anaalm>
+    <TAG>CYSS1A_03L_S42\RREC1\AutoRecSt</TAG>
+    <NAME>@(Recloser ready)</NAME>
+    <VAR>CYSS1A_03L_S42\RREC1\AutoRecSt</VAR>
+    <SETPOINT />
+    <HIGHHIGH />
+    <HIGH />
+    <LOW />
+    <LOWLOW />
+    <DEVIATION />
+    <RATE />
+    <DEADBAND />
+    <FORMAT />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <HHDELAY />
+    <HDELAY />
+    <LDELAY />
+    <LLDELAY />
+    <DEVDELAY />
+    <CUSTOM1>CYSS1A_03L_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYSS1A_03L_S42,3090211</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYSS1A_03L_S42</EQUIP>
+  </anaalm>
+  <anaalm>
+    <TAG>CYSS1A_03L_S42\LPHD1\PhyHealth</TAG>
+    <NAME>@(Physical Device Health)</NAME>
+    <VAR>CYSS1A_03L_S42\LPHD1\PhyHealth</VAR>
+    <SETPOINT />
+    <HIGHHIGH />
+    <HIGH />
+    <LOW />
+    <LOWLOW />
+    <DEVIATION />
+    <RATE />
+    <DEADBAND />
+    <FORMAT />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <HHDELAY />
+    <HDELAY />
+    <LDELAY />
+    <LLDELAY />
+    <DEVDELAY />
+    <CUSTOM1>CYSS1A_03L_S42</CUSTOM1>
+    <CUSTOM2>PCBased, ,CYSS1A_03L_S42,3090232</CUSTOM2>
+    <CUSTOM3>@(Fault),14</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>CYSS1A_03L_S42</EQUIP>
+  </anaalm>
+</anaalms>

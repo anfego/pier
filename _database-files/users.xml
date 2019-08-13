@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<users>
+  <xs:schema id="users" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="users" msdata:IsDataSet="true" msdata:MainDataTable="user" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="user" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="FULL_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="PASSWORD" type="xs:string" minOccurs="0" />
+                <xs:element name="ROLES" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <user>
+    <NAME>admin</NAME>
+    <FULL_NAME>Administrator</FULL_NAME>
+    <ROLES>ES_Level_7</ROLES>
+    <TYPE />
+    <COMMENT />
+  </user>
+  <user>
+    <NAME>oper</NAME>
+    <FULL_NAME>Operator</FULL_NAME>
+    <ROLES>ES_Level_4</ROLES>
+    <TYPE />
+    <COMMENT />
+  </user>
+  <user>
+    <NAME>es</NAME>
+    <FULL_NAME>Administrator</FULL_NAME>
+    <PASSWORD />
+    <ROLES>ES_System</ROLES>
+    <TYPE />
+    <COMMENT />
+  </user>
+</users>

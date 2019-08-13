@@ -1,0 +1,1291 @@
+<?xml version="1.0" standalone="yes"?>
+<digalms>
+  <xs:schema id="digalms" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="digalms" msdata:IsDataSet="true" msdata:MainDataTable="digalm" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="digalm" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\WaitRestrart</TAG>
+    <NAME>@(Waiting for Restart)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\WaitRestrart</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-105</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\UnTempAlm</TAG>
+    <NAME>@(Under Temperature Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\UnTempAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-83</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\UnitRatMismat</TAG>
+    <NAME>@(Unit Rating Mismatch)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\UnitRatMismat</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-92</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\UnitMazCap</TAG>
+    <NAME>@(Unit Max Capacity)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\UnitMazCap</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-87</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\SystemOn</TAG>
+    <NAME>@(System Status)</NAME>
+    <DESC>Stopped,Running</DESC>
+    <VAR_A>NOT BXB_BLDG_ACCUSINE_02\SystemOn</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-81</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP />
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\PwSupOutRagAlm</TAG>
+    <NAME>@(Power Supply Out of Range Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\PwSupOutRagAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-74</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\PwrSaveOn</TAG>
+    <NAME>@(Power Save On)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\PwrSaveOn</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-101</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\ProtFMTrAlm</TAG>
+    <NAME>@(Protection Firmware Trip Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\ProtFMTrAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-79</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\PrllWireMismtAlm</TAG>
+    <NAME>@(Parallel Wiring Mismatch Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\PrllWireMismtAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-77</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\PrllVerMismat</TAG>
+    <NAME>@(Parallel Version Mismatch)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\PrllVerMismat</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-94</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\PrllSysSetMismat</TAG>
+    <NAME>@(Parallel System Setup Mismatch)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\PrllSysSetMismat</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-89</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\PrllPwrWireMismat</TAG>
+    <NAME>@(Parallel Power Wiring Mismatch)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\PrllPwrWireMismat</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-90</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\PrllIDConf</TAG>
+    <NAME>@(Parallel ID conflict)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\PrllIDConf</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-88</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\OvTempAlm</TAG>
+    <NAME>@(Over Temperature Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\OvTempAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-82</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\OvrCurConDectAlm</TAG>
+    <NAME>@(Over Current Condition Detected Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\OvrCurConDectAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-65</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\OutputDisable</TAG>
+    <NAME>@(Unit Output is disabled)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\OutputDisable</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-100</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\NoMastAvail</TAG>
+    <NAME>@(No Master Available)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\NoMastAvail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-95</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\NoCTConfig</TAG>
+    <NAME>@(No CTs Configured)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\NoCTConfig</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-96</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\NewUnitRatApp</TAG>
+    <NAME>@(New Unit Rating Applied)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\NewUnitRatApp</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-91</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\MOVSvrReqAlm</TAG>
+    <NAME>@(MOV Requires Service Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\MOVSvrReqAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-73</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\LoOrdHmrOff</TAG>
+    <NAME>@(Low Order Harmonics Off)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\LoOrdHmrOff</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-85</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\LineNotQual</TAG>
+    <NAME>@(Line Not Qualified)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\LineNotQual</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-97</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\InvConfig</TAG>
+    <NAME>@(Invalid configuration)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\InvConfig</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-98</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\IntXfmrTmpAlm</TAG>
+    <NAME>@(Internal Transformer Over temp Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\IntXfmrTmpAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-76</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\IGBTTripAlm</TAG>
+    <NAME>@(IGBT Trip Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\IGBTTripAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-69</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\HMICommLossAlm</TAG>
+    <NAME>@(HMI Communication Loss Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\HMICommLossAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-71</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\HiFqVltDistAlm</TAG>
+    <NAME>@(High Frequency Voltage Distortion Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\HiFqVltDistAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-75</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\HFFilterContTr</TAG>
+    <NAME>@(HF Filter Contactor Trip)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\HFFilterContTr</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-99</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\GtDriTripAlm</TAG>
+    <NAME>@(Gate Drive Trip Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\GtDriTripAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-70</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\FWVerMismat</TAG>
+    <NAME>@(Firmware Version Mismatch)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\FWVerMismat</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-93</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\FWTripAlm</TAG>
+    <NAME>@(Firmware Trip Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\FWTripAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-68</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\FilterTripAlm</TAG>
+    <NAME>@(FilterTrip Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\FilterTripAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-67</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\FanFailAlm</TAG>
+    <NAME>@(Fan Failure Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\FanFailAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-80</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\DCBusTripAlm</TAG>
+    <NAME>@(DC Bus Trip Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\DCBusTripAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-66</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\CuSenInopAlm</TAG>
+    <NAME>@(Current Sensor Inoperable Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\CuSenInopAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-72</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\CtrBrdIniti</TAG>
+    <NAME>@(Control Board Initialization In Progress)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\CtrBrdIniti</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-103</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\CTClip</TAG>
+    <NAME>@(CT Is Clipping)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\CTClip</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-86</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\ContNotCls</TAG>
+    <NAME>@(Contactor Not Closed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\ContNotCls</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-104</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\ContactorTrEvtAlm</TAG>
+    <NAME>@(Contactor Trip Event Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\ContactorTrEvtAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-78</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\AutoStarting</TAG>
+    <NAME>@(Unit Auto-Starting)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\AutoStarting</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-102</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\AtThrmDerat</TAG>
+    <NAME>@(Automatic Thermal  Derating)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\AtThrmDerat</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-84</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\AtDectOutRangAlm</TAG>
+    <NAME>@(Auto Detection Out of Range Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\AtDectOutRangAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-81</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>BXB_BLDG_ACCUSINE_02\ACNotQualAlm</TAG>
+    <NAME>@(AC Line Not Qualified Alarm)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>BXB_BLDG_ACCUSINE_02\ACNotQualAlm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>BXB_BLDG_ACCUSINE_02</CUSTOM1>
+    <CUSTOM2>PCBased, ,BXB_BLDG_ACCUSINE_02,-64</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>BXB_BLDG_ACCUSINE_02</EQUIP>
+  </digalm>
+</digalms>

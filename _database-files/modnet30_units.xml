@@ -1,0 +1,150 @@
+<?xml version="1.0" standalone="yes"?>
+<units>
+  <xs:schema id="units" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="units" msdata:IsDataSet="true" msdata:MainDataTable="unit" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="unit" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SERVER" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOL" type="xs:string" minOccurs="0" />
+                <xs:element name="PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="MODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGWRITE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOGREAD" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHE" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHETIME" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="PROTOCOLID" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EXTERNDB" type="xs:string" minOccurs="0" />
+                <xs:element name="DRIVERID" type="xs:string" minOccurs="0" />
+                <xs:element name="CONNSTRING" type="xs:string" minOccurs="0" />
+                <xs:element name="REFRESH" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGPREFIX" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTE" type="xs:string" minOccurs="0" />
+                <xs:element name="REMOTEWRIT" type="xs:string" minOccurs="0" />
+                <xs:element name="TIME" type="xs:string" minOccurs="0" />
+                <xs:element name="PERIOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONE" type="xs:string" minOccurs="0" />
+                <xs:element name="CALLERID" type="xs:string" minOccurs="0" />
+                <xs:element name="ONCONNECT" type="xs:string" minOccurs="0" />
+                <xs:element name="ONHANGUP" type="xs:string" minOccurs="0" />
+                <xs:element name="ONBROWSE" type="xs:string" minOccurs="0" />
+                <xs:element name="LIVEUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="LASTVARMOD" type="xs:string" minOccurs="0" />
+                <xs:element name="MEMORY" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSIST" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENTEMP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIORITY" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLL" type="xs:string" minOccurs="0" />
+                <xs:element name="BGPOLLRATE" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSFREQ" type="xs:string" minOccurs="0" />
+                <xs:element name="PERSPATH" type="xs:string" minOccurs="0" />
+                <xs:element name="MINUPDATE" type="xs:string" minOccurs="0" />
+                <xs:element name="STALEPERIO" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_PLC</NAME>
+    <NUMBER>5</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>MODNET30</PROTOCOL>
+    <PORT>SP26_PLC</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY />
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP />
+  </unit>
+  <unit>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_PLC</NAME>
+    <NUMBER>4</NUMBER>
+    <ADDR>1</ADDR>
+    <PROTOCOL>MODNET30</PROTOCOL>
+    <PORT>SP24_PLC</PORT>
+    <MODE>Primary</MODE>
+    <LOGWRITE />
+    <LOGREAD />
+    <CACHE />
+    <CACHETIME />
+    <COMMENT />
+    <PROTOCOLID />
+    <LINKED />
+    <EXTERNDB />
+    <DRIVERID />
+    <CONNSTRING />
+    <REFRESH />
+    <TAGPREFIX />
+    <LASTUPDATE />
+    <REMOTE />
+    <REMOTEWRIT />
+    <TIME />
+    <PERIOD />
+    <PHONE />
+    <CALLERID />
+    <ONCONNECT />
+    <ONHANGUP />
+    <ONBROWSE />
+    <LIVEUPDATE />
+    <LASTVARMOD />
+    <MEMORY />
+    <PERSIST />
+    <TAGGEN />
+    <TAGGENTEMP />
+    <PRIORITY />
+    <BGPOLL />
+    <BGPOLLRATE />
+    <PERSFREQ />
+    <PERSPATH />
+    <MINUPDATE />
+    <STALEPERIO />
+    <EQUIP />
+  </unit>
+</units>

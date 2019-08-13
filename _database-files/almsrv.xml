@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<almsrvs>
+  <xs:schema id="almsrvs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="almsrvs" msdata:IsDataSet="true" msdata:MainDataTable="almsrv" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="almsrv" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="MODE" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="NETADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="PUBPROP" type="xs:string" minOccurs="0" />
+                <xs:element name="PUBPORT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <almsrv>
+    <NAME>Alarm1_Pier_E</NAME>
+    <MODE />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <NETADDR>Server1_Pier_E</NETADDR>
+    <PORT />
+    <COMMENT />
+    <PUBPROP />
+    <PUBPORT />
+  </almsrv>
+</almsrvs>

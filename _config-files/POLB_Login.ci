@@ -1,0 +1,8 @@
+// Login function
+FUNCTION POLB_Login()
+	//IF CSV_Form_Login() = 0 THEN 
+		Login("admin","admin")
+	//END
+END
+
+

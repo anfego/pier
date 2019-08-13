@@ -1,0 +1,3783 @@
+<?xml version="1.0" standalone="yes"?>
+<ports>
+  <xs:schema id="ports" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="ports" msdata:IsDataSet="true" msdata:MainDataTable="port" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="port" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SERVER" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="PORT" type="xs:string" minOccurs="0" />
+                <xs:element name="BOARD" type="xs:string" minOccurs="0" />
+                <xs:element name="BAUD_RATE" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA_BITS" type="xs:string" minOccurs="0" />
+                <xs:element name="STOP_BITS" type="xs:string" minOccurs="0" />
+                <xs:element name="PARITY" type="xs:string" minOccurs="0" />
+                <xs:element name="OPTIONS" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_PRI_CM4_ECC_S40</NAME>
+    <PORT>8</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.46 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_PRI_CM4_ECC</NAME>
+    <PORT>8</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.46 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_PLC</NAME>
+    <PORT>3</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.49 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_MAIN_CM4_ECC_S40</NAME>
+    <PORT>7</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.47 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_MAIN_CM4_ECC</NAME>
+    <PORT>7</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.47 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP26_EGX_M98</NAME>
+    <PORT>9</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.48 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_PRI_CM4_ECC_S40</NAME>
+    <PORT>5</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.11 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_PRI_CM4_ECC</NAME>
+    <PORT>5</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.11 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_PLC</NAME>
+    <PORT>2</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.14 -P502 -T</OPTIONS>
+    <COMMENT>PLC</COMMENT>
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_MAIN_CM4_ECC_S40</NAME>
+    <PORT>4</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.12 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_MAIN_CM4_ECC</NAME>
+    <PORT>4</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.12 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>SP24_EGX_M98</NAME>
+    <PORT>6</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.13 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP8_MAIN_PM8_ECC_MTU</NAME>
+    <PORT>164</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.190 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP8_MAIN_PM8_ECC_M98</NAME>
+    <PORT>164</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.190 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP8_MAIN_PM8_ECC</NAME>
+    <PORT>164</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.190 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP7_MAIN_PM8_ECC_MTU</NAME>
+    <PORT>163</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.189 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP7_MAIN_PM8_ECC_M98</NAME>
+    <PORT>163</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.189 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP7_MAIN_PM8_ECC</NAME>
+    <PORT>163</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.189 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP6_MAIN_PM8_ECC_MTU</NAME>
+    <PORT>162</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.187 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP6_MAIN_PM8_ECC_M98</NAME>
+    <PORT>162</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.187 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP6_MAIN_PM8_ECC</NAME>
+    <PORT>162</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.187 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP5_MAIN_PM8_ECC_MTUA</NAME>
+    <PORT>101</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.148 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP5_MAIN_PM8_ECC</NAME>
+    <PORT>101</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.148 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP5_EGX_M98</NAME>
+    <PORT>98</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.132 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP4_MAIN_PM8_ECC_MTUA</NAME>
+    <PORT>100</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.147 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP4_MAIN_PM8_ECC</NAME>
+    <PORT>100</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.147 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP4_EGX_M98</NAME>
+    <PORT>97</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.131 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP3_MAIN_PM8_ECC_MTUA</NAME>
+    <PORT>99</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.146 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP3_MAIN_PM8_ECC</NAME>
+    <PORT>99</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.146 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP3_EGX_M98</NAME>
+    <PORT>96</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.130 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP2_EGX_PM8</NAME>
+    <PORT>122</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.129 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP2_EGX_MTUA</NAME>
+    <PORT>122</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.129 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP2_EGX_M98</NAME>
+    <PORT>122</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.129 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP1_EGX_PM8</NAME>
+    <PORT>121</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.128 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP1_EGX_MTUA</NAME>
+    <PORT>121</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.128 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>RP1_EGX_M98</NAME>
+    <PORT>121</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.128 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>PORT_XML</NAME>
+    <PORT>1</PORT>
+    <BOARD>BOARD1</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS />
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_SP26_CM4_ECC_S40</NAME>
+    <PORT>31</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.40 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_SP26_CM4_ECC</NAME>
+    <PORT>31</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.40 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_RP1_2_CM4_ECC_S40</NAME>
+    <PORT>33</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.42 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_RP1_2_CM4_ECC</NAME>
+    <PORT>33</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.42 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_MAIN_CM4_ECC_S40</NAME>
+    <PORT>35</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.33 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_MAIN_CM4_ECC</NAME>
+    <PORT>35</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.33 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_LP26_CM4_ECC_S40</NAME>
+    <PORT>32</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.41 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_LP26_CM4_ECC</NAME>
+    <PORT>32</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.41 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CYSS1B_CM4_ECC_S40</NAME>
+    <PORT>34</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.43 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CYSS1B_CM4_ECC</NAME>
+    <PORT>34</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.43 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN03B_CM4_ECC_S40</NAME>
+    <PORT>26</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.35 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN03B_CM4_ECC</NAME>
+    <PORT>26</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.35 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN03A_CM4_ECC_S40</NAME>
+    <PORT>25</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.34 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN03A_CM4_ECC</NAME>
+    <PORT>25</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.34 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN02B_CM4_ECC_S40</NAME>
+    <PORT>28</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.37 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN02B_CM4_ECC</NAME>
+    <PORT>28</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.37 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN02A_CM4_ECC_S40</NAME>
+    <PORT>27</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.36 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN01B_CM4_ECC_S40</NAME>
+    <PORT>30</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.39 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN01B_CM4_ECC</NAME>
+    <PORT>30</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.39 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN01A_CM4_ECC_S40</NAME>
+    <PORT>29</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.38 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CRN01A_CM4_ECC</NAME>
+    <PORT>29</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.38 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS3_CP02A_CM4_ECC</NAME>
+    <PORT>170</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.36 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_TIE_3_CM4_ECC</NAME>
+    <PORT>24</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.17 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_TIE_1_CM4_ECC</NAME>
+    <PORT>23</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.30 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_SP24_CM4_ECC_S40</NAME>
+    <PORT>15</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.24 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_SP24_CM4_ECC</NAME>
+    <PORT>15</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.24 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_MAIN_CM4_ECC_S40</NAME>
+    <PORT>22</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.16 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_MAIN_CM4_ECC</NAME>
+    <PORT>22</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.16 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_LPCY1_CM4_ECC_S40</NAME>
+    <PORT>11</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.29 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_LPCY1_CM4_ECC</NAME>
+    <PORT>11</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.29 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_LP24_CM4_ECC_S40</NAME>
+    <PORT>14</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.25 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_LP24_CM4_ECC</NAME>
+    <PORT>14</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.25 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CYSS1A_CM4_ECC_S40</NAME>
+    <PORT>13</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.26 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CYSS1A_CM4_ECC</NAME>
+    <PORT>13</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.26 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP06B_CM4_ECC_S40</NAME>
+    <PORT>21</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.19 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP06B_CM4_ECC</NAME>
+    <PORT>21</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.19 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP06A_CM4_ECC_S40</NAME>
+    <PORT>20</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.18 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP06A_CM4_ECC</NAME>
+    <PORT>20</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.18 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP05B_CM4_ECC_S40</NAME>
+    <PORT>19</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.21 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP05B_CM4_ECC</NAME>
+    <PORT>19</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.21 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP05A_CM4_ECC_S40</NAME>
+    <PORT>18</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.20 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP05A_CM4_ECC</NAME>
+    <PORT>18</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.20 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP04B_CM4_ECC_S40</NAME>
+    <PORT>17</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.23 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP04B_CM4_ECC</NAME>
+    <PORT>17</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.23 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP04A_CM4_ECC_S40</NAME>
+    <PORT>16</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.22 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_CP04A_CM4_ECC</NAME>
+    <PORT>16</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.22 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_BXB_CM4_ECC_S40</NAME>
+    <PORT>12</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.28 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_BXB_CM4_ECC</NAME>
+    <PORT>12</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.28 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_BLDGS_CM4_ECC_S40</NAME>
+    <PORT>10</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.27 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MTS2_BLDGS_CM4_ECC</NAME>
+    <PORT>10</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.27 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSP_MAIN_CM4_ECC_MTUP</NAME>
+    <PORT>128</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.134 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSP_MAIN_CM4_ECC</NAME>
+    <PORT>128</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.134 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSB_SWBD_MAIN_CM4_ECC_MTUA</NAME>
+    <PORT>123</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.144 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSB_SWBD_MAIN_CM4_ECC</NAME>
+    <PORT>127</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.144 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSB_MAIN_CM4_ECC_MTUP</NAME>
+    <PORT>104</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.138 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSB_MAIN_CM4_ECC_MTUE</NAME>
+    <PORT>104</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.138 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSB_MAIN_CM4_ECC</NAME>
+    <PORT>169</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.138 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSA_MAIN_CM4_ECC_MTUP</NAME>
+    <PORT>103</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.137 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSA_MAIN_CM4_ECC_MTUE</NAME>
+    <PORT>103</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.137 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MSA_MAIN_CM4_ECC</NAME>
+    <PORT>168</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.137 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MDB3_EGX_MTUH</NAME>
+    <PORT>118</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.44 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MDB3_EGX_M98</NAME>
+    <PORT>118</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.44 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MDB2_EGX_MTUH</NAME>
+    <PORT>117</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.32 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>MDB2_EGX_M92</NAME>
+    <PORT>117</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.32 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY2_MAIN_PM8_ECC</NAME>
+    <PORT>102</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.145 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY2_EGX_MTUA</NAME>
+    <PORT>102</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.145 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY2_EGX_M98</NAME>
+    <PORT>95</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.127 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY1_EGX_PM8</NAME>
+    <PORT>94</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.126 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY1_EGX_MTUA</NAME>
+    <PORT>94</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.126 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>LPCY1_EGX_M98</NAME>
+    <PORT>94</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.126 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_TIE_IYS2_PM8_ECC_S40</NAME>
+    <PORT>111</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.123 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_TIE_IYS2_PM8_ECC</NAME>
+    <PORT>111</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.123 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_SPR_4L_PM8_ECC_S40</NAME>
+    <PORT>106</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.119 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_SPR_4L_PM8_ECC</NAME>
+    <PORT>106</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.119 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_MAIN_CM4_ECC_S40</NAME>
+    <PORT>112</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.116 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_MAIN_CM4_ECC</NAME>
+    <PORT>112</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.116 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG3_PM8_ECC_S40</NAME>
+    <PORT>107</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.122 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG3_PM8_ECC</NAME>
+    <PORT>107</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.122 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG2_PM8_ECC_S40</NAME>
+    <PORT>108</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.121 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG2_PM8_ECC</NAME>
+    <PORT>108</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.121 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG1_PM8_ECC_S40</NAME>
+    <PORT>105</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.120 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYRMG1_PM8_ECC</NAME>
+    <PORT>105</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.120 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYLV1_PM8_ECC_S40</NAME>
+    <PORT>109</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.118 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYLV1_PM8_ECC</NAME>
+    <PORT>109</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.118 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYCBT1_PM8_ECC_S40</NAME>
+    <PORT>110</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.117 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYS1_IYCBT1_PM8_ECC</NAME>
+    <PORT>110</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.117 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV2_MAIN_PM8_ECC_MTU</NAME>
+    <PORT>165</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.191 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV2_MAIN_PM8_ECC_M98</NAME>
+    <PORT>165</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.191 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV2_MAIN_PM8_ECC</NAME>
+    <PORT>165</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.191 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV1_MAIN_PM8_ECC_MTUA</NAME>
+    <PORT>113</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.125 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV1_MAIN_PM8_ECC</NAME>
+    <PORT>113</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.125 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYLV1_EGX_M98</NAME>
+    <PORT>115</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.149 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYCBT1_MAIN_PM8_ECC_MTUA</NAME>
+    <PORT>114</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.124 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYCBT1_MAIN_PM8_ECC</NAME>
+    <PORT>114</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.124 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>IYCBT1_EGX_M98</NAME>
+    <PORT>116</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.150 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DPE_MAIN_PM8_ECC_MTUA</NAME>
+    <PORT>129</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.141 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DPE_MAIN_PM8_ECC</NAME>
+    <PORT>129</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.141 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DPC_MAIN_CM4_ECC_MTUA</NAME>
+    <PORT>120</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.142 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DPC_MAIN_CM4_ECC</NAME>
+    <PORT>120</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.142 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DPB_MAIN_PM8_ECC_MTUA</NAME>
+    <PORT>124</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.143 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DPB_MAIN_PM8_ECC</NAME>
+    <PORT>124</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.143 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DB1_MAIN_CM4_ECC_MTUP</NAME>
+    <PORT>125</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.133 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>DB1_MAIN_CM4_ECC</NAME>
+    <PORT>126</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.133 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_SPR_5U_PM8_ECC_S40</NAME>
+    <PORT>156</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.178 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_SPR_5U_PM8_ECC</NAME>
+    <PORT>156</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.178 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_SPR_3L_PM8_ECC_S40</NAME>
+    <PORT>153</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.175 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_SPR_3L_PM8_ECC</NAME>
+    <PORT>153</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.175 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_MAIN_CM4_ECC_S40</NAME>
+    <PORT>141</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.173 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_MAIN_CM4_ECC</NAME>
+    <PORT>141</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.173 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC25W_PM8_ECC_S40</NAME>
+    <PORT>152</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.174 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC25W_PM8_ECC</NAME>
+    <PORT>152</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.174 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC24L_PM8_ECC_S40</NAME>
+    <PORT>155</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.177 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC24L_PM8_ECC</NAME>
+    <PORT>155</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.177 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC23W_PM8_ECC_S40</NAME>
+    <PORT>154</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.176 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC23W_PM8_ECC</NAME>
+    <PORT>154</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.176 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC22L_PM8_ECC_S40</NAME>
+    <PORT>157</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.179 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC22L_PM8_ECC</NAME>
+    <PORT>157</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.179 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC20L_PM8_ECC_S40</NAME>
+    <PORT>159</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.181 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC20L_PM8_ECC</NAME>
+    <PORT>159</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.181 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC19W_PM8_ECC_S40</NAME>
+    <PORT>158</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.180 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC19W_PM8_ECC</NAME>
+    <PORT>158</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.180 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC18L_PM8_ECC_S40</NAME>
+    <PORT>161</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.183 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC18L_PM8_ECC</NAME>
+    <PORT>161</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.183 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC17W_PM8_ECC_S40</NAME>
+    <PORT>160</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.182 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3B_ASC17W_PM8_ECC</NAME>
+    <PORT>160</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.182 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_7L_PM8_ECC_S40</NAME>
+    <PORT>151</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.171 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_7L_PM8_ECC</NAME>
+    <PORT>151</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.171 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_5L_PM8_ECC_S40</NAME>
+    <PORT>147</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.167 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_5L_PM8_ECC</NAME>
+    <PORT>147</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.167 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_4L_PM8_ECC_S40</NAME>
+    <PORT>145</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.165 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_SPR_4L_PM8_ECC</NAME>
+    <PORT>145</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.165 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_MAIN_CM4_ECC_S40</NAME>
+    <PORT>140</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.161 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_MAIN_CM4_ECC</NAME>
+    <PORT>140</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.161 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC25L_PM8_ECC_S40</NAME>
+    <PORT>150</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.170 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC25L_PM8_ECC</NAME>
+    <PORT>150</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.170 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC24W_PM8_ECC_S40</NAME>
+    <PORT>149</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.169 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC24W_PM8_ECC</NAME>
+    <PORT>149</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.169 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC23L_PM8_ECC_S40</NAME>
+    <PORT>148</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.168 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC23L_PM8_ECC</NAME>
+    <PORT>148</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.168 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC21L_PM8_ECC_S40</NAME>
+    <PORT>146</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.166 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC21L_PM8_ECC</NAME>
+    <PORT>146</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.166 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC19L_PM8_ECC_S40</NAME>
+    <PORT>144</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.164 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC19L_PM8_ECC</NAME>
+    <PORT>144</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.164 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC18W_PM8_ECC_S40</NAME>
+    <PORT>143</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.163 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC18W_PM8_ECC</NAME>
+    <PORT>143</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.163 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC17L_PM8_ECC_S40</NAME>
+    <PORT>142</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.162 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS3A_ASC17L_PM8_ECC</NAME>
+    <PORT>142</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.162 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_MAIN_CM4_ECC_S40</NAME>
+    <PORT>63</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.82 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_MAIN_CM4_ECC</NAME>
+    <PORT>63</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.82 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_16L_PM8_ECC_S40</NAME>
+    <PORT>71</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.90 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_16L_PM8_ECC</NAME>
+    <PORT>71</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.90 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_15W_PM8_ECC_S40</NAME>
+    <PORT>70</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.89 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_15W_PM8_ECC</NAME>
+    <PORT>70</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.89 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_14L_PM8_ECC_S40</NAME>
+    <PORT>69</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.88 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_14L_PM8_ECC</NAME>
+    <PORT>69</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.88 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_13W_PM8_ECC_S40</NAME>
+    <PORT>68</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.87 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_13W_PM8_ECC</NAME>
+    <PORT>68</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.87 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_12L_PM8_ECC_S40</NAME>
+    <PORT>67</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.86 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_12L_PM8_ECC</NAME>
+    <PORT>67</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.86 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_11W_PM8_ECC_S40</NAME>
+    <PORT>66</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.85 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_11W_PM8_ECC</NAME>
+    <PORT>66</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.85 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_10L_PM8_ECC_S40</NAME>
+    <PORT>65</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.84 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_10L_PM8_ECC</NAME>
+    <PORT>65</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.84 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_09W_PM8_ECC_S40</NAME>
+    <PORT>64</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.83 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2B_09W_PM8_ECC</NAME>
+    <PORT>64</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.83 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_MAIN_CM4_ECC_S40</NAME>
+    <PORT>54</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.72 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_MAIN_CM4_ECC</NAME>
+    <PORT>54</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.72 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_16W_PM8_ECC_S40</NAME>
+    <PORT>62</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.80 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_16W_PM8_ECC</NAME>
+    <PORT>62</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.80 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_15L_PM8_ECC_S40</NAME>
+    <PORT>61</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.79 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_15L_PM8_ECC</NAME>
+    <PORT>61</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.79 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_14W_PM8_ECC_S40</NAME>
+    <PORT>60</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.78 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_14W_PM8_ECC</NAME>
+    <PORT>60</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.78 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_13L_PM8_ECC_S40</NAME>
+    <PORT>59</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.77 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_13L_PM8_ECC</NAME>
+    <PORT>59</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.77 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_12W_PM8_ECC_S40</NAME>
+    <PORT>58</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.76 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_12W_PM8_ECC</NAME>
+    <PORT>58</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.76 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_11L_PM8_ECC_S40</NAME>
+    <PORT>57</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.75 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_11L_PM8_ECC</NAME>
+    <PORT>57</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.75 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_10W_PM8_ECC_S40</NAME>
+    <PORT>56</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.74 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_10W_PM8_ECC</NAME>
+    <PORT>56</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.74 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_09L_PM8_ECC_S40</NAME>
+    <PORT>55</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.73 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS2A_09L_PM8_ECC</NAME>
+    <PORT>55</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.73 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_MAIN_CM4_ECC_S40</NAME>
+    <PORT>45</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.62 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_MAIN_CM4_ECC</NAME>
+    <PORT>45</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.62 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_08L_PM8_ECC_S40</NAME>
+    <PORT>53</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.70 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_08L_PM8_ECC</NAME>
+    <PORT>53</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.70 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_07W_PM8_ECC_S40</NAME>
+    <PORT>52</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.69 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_07W_PM8_ECC</NAME>
+    <PORT>52</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.69 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_06L_PM8_ECC_S40</NAME>
+    <PORT>51</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.68 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_06L_PM8_ECC</NAME>
+    <PORT>51</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.68 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_05W_PM8_ECC_S40</NAME>
+    <PORT>50</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.67 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_05W_PM8_ECC</NAME>
+    <PORT>50</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.67 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_04L_PM8_ECC_S40</NAME>
+    <PORT>49</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.66 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_04L_PM8_ECC</NAME>
+    <PORT>49</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.66 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_03W_PM8_ECC_S40</NAME>
+    <PORT>48</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.65 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_03W_PM8_ECC</NAME>
+    <PORT>48</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.65 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_02L_PM8_ECC_S40</NAME>
+    <PORT>47</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.64 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_02L_PM8_ECC</NAME>
+    <PORT>47</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.64 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_01W_PM8_ECC_S40</NAME>
+    <PORT>46</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.63 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1B_01W_PM8_ECC</NAME>
+    <PORT>46</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.63 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_MAIN_CM4_ECC_S40</NAME>
+    <PORT>36</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.52 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_MAIN_CM4_ECC</NAME>
+    <PORT>36</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.52 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_08W_PM8_ECC_S40</NAME>
+    <PORT>44</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.60 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_08W_PM8_ECC</NAME>
+    <PORT>44</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.60 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_07L_PM8_ECC_S40</NAME>
+    <PORT>43</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.59 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_07L_PM8_ECC</NAME>
+    <PORT>43</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.59 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_06W_PM8_ECC_S40</NAME>
+    <PORT>42</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.58 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_06W_PM8_ECC</NAME>
+    <PORT>42</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.58 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_05L_PM8_ECC_S40</NAME>
+    <PORT>41</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.57 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_05L_PM8_ECC</NAME>
+    <PORT>41</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.57 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_04W_PM8_ECC_S40</NAME>
+    <PORT>40</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.56 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_04W_PM8_ECC</NAME>
+    <PORT>40</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.56 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_03L_PM8_ECC_S40</NAME>
+    <PORT>39</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.55 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_03L_PM8_ECC</NAME>
+    <PORT>39</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.55 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_02W_PM8_ECC_S40</NAME>
+    <PORT>38</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.54 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_02W_PM8_ECC</NAME>
+    <PORT>38</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.54 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_01L_PM8_ECC_S40</NAME>
+    <PORT>37</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.53 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYSS1A_01L_PM8_ECC</NAME>
+    <PORT>37</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.53 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_15U_PM8_ECC_S40</NAME>
+    <PORT>92</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.111 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_15U_PM8_ECC</NAME>
+    <PORT>92</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.111 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_15L_PM8_ECC_S40</NAME>
+    <PORT>93</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.112 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_15L_PM8_ECC</NAME>
+    <PORT>93</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.112 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_14U_PM8_ECC_S40</NAME>
+    <PORT>90</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.109 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_14U_PM8_ECC</NAME>
+    <PORT>90</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.109 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_14L_PM8_ECC_S40</NAME>
+    <PORT>91</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.110 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_14L_PM8_ECC</NAME>
+    <PORT>91</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.110 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_13U_PM8_ECC_S40</NAME>
+    <PORT>88</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.107 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_13U_PM8_ECC</NAME>
+    <PORT>88</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.107 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_13L_PM8_ECC_S40</NAME>
+    <PORT>89</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.108 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_13L_PM8_ECC</NAME>
+    <PORT>89</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.108 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_12L_PM8_ECC_S40</NAME>
+    <PORT>87</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.106 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_SPR_12L_PM8_ECC</NAME>
+    <PORT>87</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.106 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_RP7_8_PM8_ECC_S40</NAME>
+    <PORT>86</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.105 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_RP7_8_PM8_ECC</NAME>
+    <PORT>86</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.105 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_MAIN_CM4_ECC_S40</NAME>
+    <PORT>83</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.113 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_MAIN_CM4_ECC</NAME>
+    <PORT>83</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.113 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_CYSS3B_PM8_ECC_S40</NAME>
+    <PORT>85</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.104 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_CYSS3B_PM8_ECC</NAME>
+    <PORT>85</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.104 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_CYSS2B_PM8_ECC_S40</NAME>
+    <PORT>84</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.103 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS2_CYSS2B_PM8_ECC</NAME>
+    <PORT>84</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.103 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_6U_PM8_ECC_S40</NAME>
+    <PORT>79</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.98 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_6U_PM8_ECC</NAME>
+    <PORT>79</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.98 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_6L_PM8_ECC_S40</NAME>
+    <PORT>80</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.99 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_6L_PM8_ECC</NAME>
+    <PORT>80</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.99 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_4U_PM8_ECC_S40</NAME>
+    <PORT>75</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.94 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_4U_PM8_ECC</NAME>
+    <PORT>75</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.94 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_3U_PM8_ECC_S40</NAME>
+    <PORT>73</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.92 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_3U_PM8_ECC</NAME>
+    <PORT>73</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.92 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_3L_PM8_ECC_S40</NAME>
+    <PORT>74</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.93 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_SPR_3L_PM8_ECC</NAME>
+    <PORT>74</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.93 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_RP5_6_PM8_ECC</NAME>
+    <PORT>78</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.97 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_RP5_6_CM4_ECC_S40</NAME>
+    <PORT>78</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.97 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_RP3_4_PM8_ECC_S40</NAME>
+    <PORT>77</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.96 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_RP3_4_PM8_ECC</NAME>
+    <PORT>77</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.96 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_MAIN_CM4_ECC_S40</NAME>
+    <PORT>72</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.91 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_MAIN_CM4_ECC</NAME>
+    <PORT>72</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.91 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_IYS1_PM8_ECC_S40</NAME>
+    <PORT>76</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.95 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_IYS1_PM8_ECC</NAME>
+    <PORT>76</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.95 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_CYSS3A_PM8_ECC_S40</NAME>
+    <PORT>82</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.101 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_CYSS3A_PM8_ECC</NAME>
+    <PORT>82</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.101 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_CYSS2A_PM8_ECC_S40</NAME>
+    <PORT>81</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.100 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>CYS1_CYSS2A_PM8_ECC</NAME>
+    <PORT>81</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.100 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_MDB3_PM8_ECC</NAME>
+    <PORT>139</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.155 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_EGX3_MTU</NAME>
+    <PORT>131</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.153 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_EGX2_MTU</NAME>
+    <PORT>137</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.152 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_EGX1_MTU</NAME>
+    <PORT>138</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.151 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_12_PM</NAME>
+    <PORT>130</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.157 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_11_PM</NAME>
+    <PORT>119</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.156 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_10_PM</NAME>
+    <PORT>132</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.158 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_09_PM</NAME>
+    <PORT>167</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.193 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_06_PM</NAME>
+    <PORT>133</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.159 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_05_PM</NAME>
+    <PORT>134</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.184 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_04_PM</NAME>
+    <PORT>135</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.185 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_03_PM</NAME>
+    <PORT>136</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.186 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+  <port>
+    <SERVER>IO1_Pier_E</SERVER>
+    <NAME>BXB_BLDG_ACCUSINE_02_PM</NAME>
+    <PORT>166</PORT>
+    <BOARD>BOARD2</BOARD>
+    <BAUD_RATE />
+    <DATA_BITS />
+    <STOP_BITS />
+    <PARITY />
+    <OPTIONS>-I172.21.57.192 -P502 -T</OPTIONS>
+    <COMMENT />
+  </port>
+</ports>

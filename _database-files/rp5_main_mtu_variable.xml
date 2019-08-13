@@ -1,0 +1,796 @@
+<?xml version="1.0" standalone="yes"?>
+<variables>
+  <xs:schema id="variables" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="variables" msdata:IsDataSet="true" msdata:MainDataTable="variable" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="variable" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="RAW_ZERO" type="xs:string" minOccurs="0" />
+                <xs:element name="RAW_FULL" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_ZERO" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_FULL" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_UNITS" type="xs:string" minOccurs="0" />
+                <xs:element name="FORMAT" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="OID" type="xs:string" minOccurs="0" />
+                <xs:element name="REF1" type="xs:string" minOccurs="0" />
+                <xs:element name="REF2" type="xs:string" minOccurs="0" />
+                <xs:element name="DEADBAND" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <variable>
+    <NAME>RP5_MAIN_MTU\ZBAT1\EEHealth</NAME>
+    <TYPE>LONG</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:EN;D:P;m:8843:0:0;m:8843:0:20;E:2;L:P:229</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Battery Health)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(LV Breaker/Trip Unit Status),16</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\XCBR1\Pos</NAME>
+    <TYPE>LONG</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:DS;D:B;m:661:1;E:2;L:P:27</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Breaker Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\XCBR1\CBRkdPos</NAME>
+    <TYPE>LONG</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:EN;D:C;m:661:100:0;m:661:400:0;m:661:0:700;E:2;L:P:229</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Device drawn out)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\PTRC1\Tr</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:B;m:661:4;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Breaker Trip Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(LV Breaker/Trip Unit Status),16</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\MMXU1\A\zgnd</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:MV;D:P;m:8825:u1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current G)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\MMXU1\A\phsC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:MV;D:P;m:8823:u1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\MMXU1\A\phsB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:MV;D:P;m:8822:u1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\MMXU1\A\phsA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:MV;D:P;m:8821:u1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\MMXU1\A\neut</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:MV;D:P;m:8824:u1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\ZTmLos2</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:C;m:679:8000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Time Loss - Cradle Comms Module)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Faults),17</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\ZTmLos1</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:B;m:679:8000;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Time Loss - Breaker Comms Module)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Faults),17</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\ZRsDateTm\ctlVal</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>Reset(DATETIME)</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Device Date/Time)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3>@(Resets),31</CUSTOM3>
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\PwrUp2\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:ALM;D:B;F:30;q:1</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Power-Up/Reset)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\EEHealthPM</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>ModuleOnline;D:P</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(PM Online status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\EEHealthMM</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>ModuleOnline;D:M</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(MM Online status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\EEHealthCCM</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>ModuleOnline;D:C</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CCM Online status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LPHD1\EEHealthBCM</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>ModuleOnline;D:B</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(BCM Online status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LLN0\OpTmh\t</NAME>
+    <TYPE>LONG</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:UT;D:B;m:679:u4;E:2;L:P:6</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Device Clock Date/Time)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Date / Time),5</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LLN0\AlarmUnhandled</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>AlarmUnhandled</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Unhandled Alarm Received)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\LLN0\AlarmInvalidTimestamp</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>AlarmIncorrectDateTime</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Invalid Timestamp Alarm Received)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\A51N_PTOC2\Op</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:B;m:650:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Protection 50N/51N unit 2)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(Protection),6</CUSTOM2>
+    <CUSTOM3>@(Faults),17</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\A51N_PTOC1\Op</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:B;m:650:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Protection 50N/51N unit 1)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(Protection),6</CUSTOM2>
+    <CUSTOM3>@(Faults),17</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\A51_PTOC2\Op</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:B;m:650:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Protection 50/51 unit 2)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(Protection),6</CUSTOM2>
+    <CUSTOM3>@(Faults),17</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\A51_PTOC1\Op</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:B;m:650:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Protection 50/51 unit 1)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(Protection),6</CUSTOM2>
+    <CUSTOM3>@(Faults),17</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>RP5_MAIN_MTU\A5027_PIOC1\Op</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>RP5_MAIN_MTU</UNIT>
+    <ADDR>T:SS;D:B;m:650:1;E:2;L:P:28</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Protection 50/27)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>RP5_MAIN_MTU</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <CUSTOM1>RP5_MAIN_MTU</CUSTOM1>
+    <CUSTOM2>@(Protection),6</CUSTOM2>
+    <CUSTOM3>@(Faults),17</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+</variables>

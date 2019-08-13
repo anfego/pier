@@ -1,0 +1,4 @@
+﻿*.[dD][bB][fF]
+.temp/
+system-files/*
+_build-files/*

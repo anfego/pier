@@ -1,0 +1,4336 @@
+<?xml version="1.0" standalone="yes"?>
+<digalms>
+  <xs:schema id="digalms" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="digalms" msdata:IsDataSet="true" msdata:MainDataTable="digalm" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="digalm" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <digalm>
+    <TAG>SP24_PLC\SWGR_E_STOP</TAG>
+    <NAME>SP24 Switchgear E Stop</NAME>
+    <DESC>Active,Reset</DESC>
+    <VAR_A>SP24_PLC\SWGR_E_STOP</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_10_DOOR_LIMIT_SW_OPEN</TAG>
+    <NAME>SP24 SP10 Door Status</NAME>
+    <DESC>Open,Closed</DESC>
+    <VAR_A>SP24_PLC\SPO_10_DOOR_LIMIT_SW_OPEN</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_10_Active_Pilot_Loop</TAG>
+    <NAME>SP24 SP10 Pilot Loop</NAME>
+    <DESC>Active,Trip</DESC>
+    <VAR_A>SP24_PLC\SPO_10_Active_Pilot_Loop</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_09_DOOR_LIMIT_SW_OPEN</TAG>
+    <NAME>SP24 SP09 Door Status</NAME>
+    <DESC>Open,Closed</DESC>
+    <VAR_A>SP24_PLC\SPO_09_DOOR_LIMIT_SW_OPEN</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_09_Active_Pilot_Loop</TAG>
+    <NAME>SP24 SP09 Pilot Loop</NAME>
+    <DESC>Active,Trip</DESC>
+    <VAR_A>SP24_PLC\SPO_09_Active_Pilot_Loop</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_08_DOOR_LIMIT_SW_OPEN</TAG>
+    <NAME>SP24 SP08 Door Status</NAME>
+    <DESC>Open,Closed</DESC>
+    <VAR_A>SP24_PLC\SPO_08_DOOR_LIMIT_SW_OPEN</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_08_Active_Pilot_Loop</TAG>
+    <NAME>SP24 SP08 Pilot Loop</NAME>
+    <DESC>Active,Trip</DESC>
+    <VAR_A>SP24_PLC\SPO_08_Active_Pilot_Loop</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_07_DOOR_LIMIT_SW_OPEN</TAG>
+    <NAME>SP24 SP07 Door Status</NAME>
+    <DESC>Open,Closed</DESC>
+    <VAR_A>SP24_PLC\SPO_07_DOOR_LIMIT_SW_OPEN</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_07_Active_Pilot_Loop</TAG>
+    <NAME>SP24 SP07 Pilot Loop</NAME>
+    <DESC>Active,Trip</DESC>
+    <VAR_A>SP24_PLC\SPO_07_Active_Pilot_Loop</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_06_DOOR_LIMIT_SW_OPEN</TAG>
+    <NAME>SP24 SP06 Door Status</NAME>
+    <DESC>Open,Closed</DESC>
+    <VAR_A>SP24_PLC\SPO_06_DOOR_LIMIT_SW_OPEN</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SPO_06_Active_Pilot_Loop</TAG>
+    <NAME>SP24 SP06 Pilot Loop</NAME>
+    <DESC>Active,Trip</DESC>
+    <VAR_A>SP24_PLC\SPO_06_Active_Pilot_Loop</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP10_LATCH_A_Contact</TAG>
+    <NAME>SP24 SP10 Latch Status</NAME>
+    <DESC>Locked,Unlocked</DESC>
+    <VAR_A>SP24_PLC\SP10_LATCH_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP10_GND_A_Contact</TAG>
+    <NAME>SP24 SP10 Ground Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP10_GND_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP10_FDR_A_Contact</TAG>
+    <NAME>SP24 SP10 Feeder Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP10_FDR_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP09_LATCH_A_Contact</TAG>
+    <NAME>SP24 SP09 Latch Status</NAME>
+    <DESC>Locked,Unlocked</DESC>
+    <VAR_A>SP24_PLC\SP09_LATCH_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP09_GND_A_Contact</TAG>
+    <NAME>SP24 SP09 Ground Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP09_GND_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP09_FDR_A_Contact</TAG>
+    <NAME>SP24 SP09 Feeder Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP09_FDR_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP08_LATCH_A_Contact</TAG>
+    <NAME>SP24 SP08 Latch Status</NAME>
+    <DESC>Locked,Unlocked</DESC>
+    <VAR_A>SP24_PLC\SP08_LATCH_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP08_GND_A_Contact</TAG>
+    <NAME>SP24 SP08 Ground Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP08_GND_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP08_FDR_A_Contact</TAG>
+    <NAME>SP24 SP08 Feeder Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP08_FDR_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP07_LATCH_A_Contact</TAG>
+    <NAME>SP24 SP07 Latch Status</NAME>
+    <DESC>Locked,Unlocked</DESC>
+    <VAR_A>SP24_PLC\SP07_LATCH_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP07_GND_A_Contact</TAG>
+    <NAME>SP24 SP07 Ground Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP07_GND_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP07_FDR_A_Contact</TAG>
+    <NAME>SP24 SP07 Feeder Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP07_FDR_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP06_LATCH_A_Contact</TAG>
+    <NAME>SP24 SP06 Latch Status</NAME>
+    <DESC>Locked,Unlocked</DESC>
+    <VAR_A>SP24_PLC\SP06_LATCH_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP06_GND_A_Contact</TAG>
+    <NAME>SP24 SP06 Ground Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP06_GND_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP06_FDR_A_Contact</TAG>
+    <NAME>SP24 SP06 Feeder Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\SP06_FDR_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10B_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP10B Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10B_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10A_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP10A Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10A_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_GND_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP10 Ground Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_GND_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_GND_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP10 Ground Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_GND_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_GND_SW_External_Open</TAG>
+    <NAME>SP24 SP10 Ground External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_GND_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_GND_SW_External_Close</TAG>
+    <NAME>SP24 SP10 Ground External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_GND_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_GND_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP10 Ground Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_GND_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_FDR_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP10 Feeder Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_FDR_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_FDR_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP10 Feeder Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_FDR_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_FDR_SW_External_Open</TAG>
+    <NAME>SP24 SP10 Feeder External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_FDR_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_FDR_SW_External_Close</TAG>
+    <NAME>SP24 SP10 Feeder External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_FDR_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_FDR_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP10 Feeder Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_FDR_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_DEADBOLT_Fail_to_Unlock</TAG>
+    <NAME>SP24 SP10 Latch Fail to Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_DEADBOLT_Fail_to_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_DEADBOLT_Fail_to_Lock</TAG>
+    <NAME>SP24 SP10 Latch Fail to Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_DEADBOLT_Fail_to_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_DEADBOLT_External_Unlock</TAG>
+    <NAME>SP24 SP10 Latch External Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_DEADBOLT_External_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_DEADBOLT_External_Lock</TAG>
+    <NAME>SP24 SP10 Latch External Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_DEADBOLT_External_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_10_DEADBOLT_Aux_Disagree</TAG>
+    <NAME>SP24 SP10 Latch Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_10_DEADBOLT_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09B_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP09B Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09B_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09A_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP09A Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09A_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_GND_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP09 Ground Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_GND_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_GND_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP09 Ground Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_GND_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_GND_SW_External_Open</TAG>
+    <NAME>SP24 SP09 Ground External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_GND_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_GND_SW_External_Close</TAG>
+    <NAME>SP24 SP09 Ground External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_GND_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_GND_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP09 Ground Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_GND_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_FDR_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP09 Feeder Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_FDR_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_FDR_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP09 Feeder Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_FDR_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_FDR_SW_External_Open</TAG>
+    <NAME>SP24 SP09 Feeder External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_FDR_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_FDR_SW_External_Close</TAG>
+    <NAME>SP24 SP09 Feeder External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_FDR_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_FDR_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP09 Feeder Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_FDR_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_DEADBOLT_Fail_to_Unlock</TAG>
+    <NAME>SP24 SP09 Latch Fail to Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_DEADBOLT_Fail_to_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_DEADBOLT_Fail_to_Lock</TAG>
+    <NAME>SP24 SP09 Latch Fail to Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_DEADBOLT_Fail_to_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_DEADBOLT_External_Unlock</TAG>
+    <NAME>SP24 SP09 Latch External Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_DEADBOLT_External_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_DEADBOLT_External_Lock</TAG>
+    <NAME>SP24 SP09 Latch External Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_DEADBOLT_External_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_09_DEADBOLT_Aux_Disagree</TAG>
+    <NAME>SP24 SP09 Latch Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_09_DEADBOLT_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08B_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP08B Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08B_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08A_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP08A Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08A_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_GND_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP08 Ground Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_GND_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_GND_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP08 Ground Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_GND_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_GND_SW_External_Open</TAG>
+    <NAME>SP24 SP08 Ground External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_GND_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_GND_SW_External_Close</TAG>
+    <NAME>SP24 SP08 Ground External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_GND_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_GND_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP08 Ground Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_GND_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_FDR_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP08 Feeder Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_FDR_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_FDR_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP08 Feeder Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_FDR_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_FDR_SW_External_Open</TAG>
+    <NAME>SP24 SP08 Feeder External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_FDR_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_FDR_SW_External_Close</TAG>
+    <NAME>SP24 SP08 Feeder External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_FDR_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_FDR_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP08 Feeder Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_FDR_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_DEADBOLT_Fail_to_Unlock</TAG>
+    <NAME>SP24 SP08 Latch Fail to Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_DEADBOLT_Fail_to_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_DEADBOLT_Fail_to_Lock</TAG>
+    <NAME>SP24 SP08 Latch Fail to Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_DEADBOLT_Fail_to_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_DEADBOLT_External_Unlock</TAG>
+    <NAME>SP24 SP08 Latch External Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_DEADBOLT_External_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_DEADBOLT_External_Lock</TAG>
+    <NAME>SP24 SP08 Latch External Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_DEADBOLT_External_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_08_DEADBOLT_Aux_Disagree</TAG>
+    <NAME>SP24 SP08 Latch Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_08_DEADBOLT_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07B_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP07B Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07B_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07A_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP07A Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07A_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_GND_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP07 Ground Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_GND_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_GND_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP07 Ground Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_GND_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_GND_SW_External_Open</TAG>
+    <NAME>SP24 SP07 Ground External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_GND_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_GND_SW_External_Close</TAG>
+    <NAME>SP24 SP07 Ground External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_GND_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_GND_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP07 Ground Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_GND_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_FDR_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP07 Feeder Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_FDR_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_FDR_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP07 Feeder Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_FDR_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_FDR_SW_External_Open</TAG>
+    <NAME>SP24 SP07 Feeder External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_FDR_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_FDR_SW_External_Close</TAG>
+    <NAME>SP24 SP07 Feeder External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_FDR_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_FDR_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP07 Feeder Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_FDR_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_DEADBOLT_Fail_to_Unlock</TAG>
+    <NAME>SP24 SP07 Latch Fail to Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_DEADBOLT_Fail_to_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_DEADBOLT_Fail_to_Lock</TAG>
+    <NAME>SP24 SP07 Latch Fail to Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_DEADBOLT_Fail_to_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_DEADBOLT_External_Unlock</TAG>
+    <NAME>SP24 SP07 Latch External Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_DEADBOLT_External_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_DEADBOLT_External_Lock</TAG>
+    <NAME>SP24 SP07 Latch External Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_DEADBOLT_External_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_07_DEADBOLT_Aux_Disagree</TAG>
+    <NAME>SP24 SP07 Latch Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_07_DEADBOLT_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06B_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP06B Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06B_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06A_SEPAM_HEALTH</TAG>
+    <NAME>SP24 SP06A Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06A_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_GND_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP06 Ground Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_GND_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_GND_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP06 Ground Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_GND_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_GND_SW_External_Open</TAG>
+    <NAME>SP24 SP06 Ground External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_GND_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_GND_SW_External_Close</TAG>
+    <NAME>SP24 SP06 Ground External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_GND_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_GND_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP06 Ground Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_GND_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_FDR_SW_Fail_to_Open</TAG>
+    <NAME>SP24 SP06 Feeder Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_FDR_SW_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_FDR_SW_Fail_to_Close</TAG>
+    <NAME>SP24 SP06 Feeder Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_FDR_SW_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_FDR_SW_External_Open</TAG>
+    <NAME>SP24 SP06 Feeder External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_FDR_SW_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_FDR_SW_External_Close</TAG>
+    <NAME>SP24 SP06 Feeder External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_FDR_SW_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_FDR_SW_Aux_Disagree</TAG>
+    <NAME>SP24 SP06 Feeder Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_FDR_SW_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_DEADBOLT_Fail_to_Unlock</TAG>
+    <NAME>SP24 SP06 Latch Fail to Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_DEADBOLT_Fail_to_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_DEADBOLT_Fail_to_Lock</TAG>
+    <NAME>SP24 SP06 Latch Fail to Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_DEADBOLT_Fail_to_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_DEADBOLT_External_Unlock</TAG>
+    <NAME>SP24 SP06 Latch External Unlock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_DEADBOLT_External_Unlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_DEADBOLT_External_Lock</TAG>
+    <NAME>SP24 SP06 Latch External Lock</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_DEADBOLT_External_Lock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SP_06_DEADBOLT_Aux_Disagree</TAG>
+    <NAME>SP24 SP06 Latch Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SP_06_DEADBOLT_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SE330_RES_FAULT</TAG>
+    <NAME>SP24 SE330 NGR Fault</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SE330_RES_FAULT</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\SE330_HEALTH</TAG>
+    <NAME>SP24 SE330 NGR Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\SE330_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\Remote_Local_SS_Error</TAG>
+    <NAME>SP24 PLC Auto/Manual Switch Error</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\Remote_Local_SS_Error</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\Remote_Ctrl_HMI</TAG>
+    <NAME>SP24 Auto/Manual Switch</NAME>
+    <DESC>Auto,Manual</DESC>
+    <VAR_A>SP24_PLC\Remote_Ctrl_HMI</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_Trip</TAG>
+    <NAME>SP24 Primary Breaker 86 Relay</NAME>
+    <DESC>Trip,Reset</DESC>
+    <VAR_A>SP24_PLC\PRI_Trip</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_Rack_In</TAG>
+    <NAME>SP24 Primary Breaker Cell Position</NAME>
+    <DESC>Connected,Test</DESC>
+    <VAR_A>SP24_PLC\PRI_Rack_In</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_BKR_SEPAM_TIME_TRIP</TAG>
+    <NAME>SP24 Main S42 R21 Trip</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PRI_BKR_SEPAM_TIME_TRIP</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_BKR_SEPAM_HEALTH</TAG>
+    <NAME>SP24 Primary Breaker Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PRI_BKR_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_BKR_Fail_to_Open</TAG>
+    <NAME>SP24 Primary Breaker Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PRI_BKR_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_BKR_Fail_to_Close</TAG>
+    <NAME>SP24 Primary Breaker Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PRI_BKR_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_BKR_Cell_Disagree</TAG>
+    <NAME>SP24 Primary Breaker Cell Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PRI_BKR_Cell_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_BKR_Aux_Disagree</TAG>
+    <NAME>SP24 Primary Breaker Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PRI_BKR_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_BKR_56G</TAG>
+    <NAME>SP24 Primary Breaker 59G Trip</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PRI_BKR_56G</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PRI_A_Contact</TAG>
+    <NAME>SP24 Primary Breaker Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\PRI_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PLC_Storage_Batt_Status</TAG>
+    <NAME>SP24 PLC Storage Battery Low</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PLC_Storage_Batt_Status</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PLC_RT_Clock_Error</TAG>
+    <NAME>SP24 PLC RT Clock Error</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PLC_RT_Clock_Error</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PLC_Processor_Batt_Status</TAG>
+    <NAME>SP24 PLC Processor Battery Low</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PLC_Processor_Batt_Status</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PLC_IO_Error</TAG>
+    <NAME>SP24 PLC IO Module Fault</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PLC_IO_Error</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PLC_EV_Error</TAG>
+    <NAME>SP24 PLC Event Log Error</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PLC_EV_Error</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PLC_Auto_Lockout</TAG>
+    <NAME>SP24 PLC Auto Lockout</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PLC_Auto_Lockout</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\PLC_App_Batt_Status</TAG>
+    <NAME>SP24 PLC Application Battery Low</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\PLC_App_Batt_Status</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\Pilot_Loop_Error</TAG>
+    <NAME>SP24 PLC Pilot Loop Logic Error</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\Pilot_Loop_Error</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\Pilot_Loop_Active</TAG>
+    <NAME>SP24 Pilot Loop Status</NAME>
+    <DESC>Trip,Active</DESC>
+    <VAR_A>NOT SP24_PLC\Pilot_Loop_Active</VAR_A>
+    <VAR_B>NOT SP24_PLC\FDR_SW_All_Open</VAR_B>
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\OIT_E_STOP</TAG>
+    <NAME>SP24 OIT E Stop</NAME>
+    <DESC>Active,Reset</DESC>
+    <VAR_A>SP24_PLC\OIT_E_STOP</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_Trip</TAG>
+    <NAME>SP24 Main Breaker 86 Relay</NAME>
+    <DESC>Trip,Reset</DESC>
+    <VAR_A>SP24_PLC\MAIN_Trip</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_Rack_In</TAG>
+    <NAME>SP24 Main Breaker Cell Position</NAME>
+    <DESC>Connected,Test</DESC>
+    <VAR_A>SP24_PLC\MAIN_Rack_In</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_SEPAM_HEALTH</TAG>
+    <NAME>SP24 Main Breaker Sepam Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_SEPAM_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_SEPAM_B22_HEALTH</TAG>
+    <NAME>SP24 Main Breaker Sepam B22 Health</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_SEPAM_B22_HEALTH</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_Fail_to_Open</TAG>
+    <NAME>SP24 Main Breaker Fail to Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_Fail_to_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_Fail_to_Close</TAG>
+    <NAME>SP24 Main Breaker Fail to Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_Fail_to_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_External_Open</TAG>
+    <NAME>SP24 Main Breaker External Open</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_External_Open</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_External_Close</TAG>
+    <NAME>SP24 Main Breaker External Close</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_External_Close</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_Cell_Disagree</TAG>
+    <NAME>SP24 Main Breaker Cell Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_Cell_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_BKR_Aux_Disagree</TAG>
+    <NAME>SP24 Main Breaker Aux Disagree</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\MAIN_BKR_Aux_Disagree</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\MAIN_A_Contact</TAG>
+    <NAME>SP24 Main Breaker Status</NAME>
+    <DESC>Closed,Open</DESC>
+    <VAR_A>SP24_PLC\MAIN_A_Contact</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\InterLock_Defeated_Alarm</TAG>
+    <NAME>SP24 Interlock Defeated</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_PLC\InterLock_Defeated_Alarm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP />
+  </digalm>
+  <digalm>
+    <TAG>SP24_PLC\B22</TAG>
+    <NAME>SP24 Main B22 UV Interlock</NAME>
+    <DESC>Active,Normal</DESC>
+    <VAR_A>SP24_PLC\Main_BKR_B22_Undervolt_Interlock</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_PLC</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_PLC,</CUSTOM2>
+    <CUSTOM3>@(Status),10</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_PLC</EQUIP>
+  </digalm>
+</digalms>

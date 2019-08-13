@@ -1,0 +1,1001 @@
+<?xml version="1.0" standalone="yes"?>
+<tsdigs>
+  <xs:schema id="tsdigs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="tsdigs" msdata:IsDataSet="true" msdata:MainDataTable="tsdig" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tsdig" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSCA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vca)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSCA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,30800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSCA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vca)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSCA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,30900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vcn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,60800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vcn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,60900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSBC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vbc)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSBC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,20800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSBC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vbc)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSBC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,20900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vbn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,50800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vbn)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,50900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSAB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Vab)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSAB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,10800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSAB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Vab)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSAB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,10900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Swell Van)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,40800</CUSTOM2>
+    <CUSTOM3>@(Swell),2</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\SSA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Sag Van)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\SSA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,40900</CUSTOM2>
+    <CUSTOM3>@(Sag),1</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OWLN_QVUB1\Str\general\dchg</TAG>
+    <NAME>@(Over Voltage Unbalance L-N Worst)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OWLN_QVUB1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,11360100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(Unbalance),2</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OWLL_QVUB1\Str\general\dchg</TAG>
+    <NAME>@(Over Voltage Unbalance L-L Worst)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OWLL_QVUB1\Str\general\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11320100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(Unbalance),2</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OCT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage C-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OCT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,12090100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OCAT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage C-A)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OCAT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,12130100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OCA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage C-A)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OCA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11220100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OCA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage C-A)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OCA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11220200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage C-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11260100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage C-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11260200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OBT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage B-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OBT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,12080100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OBCT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage B-C)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OBCT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,12120100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OBC_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage B-C)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OBC_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11210100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OBC_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage B-C)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OBC_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11210200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage B-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11250100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage B-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11250200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OAT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage A-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OAT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2>Waveform,PM800,RP8_MAIN_PM8,12070100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OABT_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over THD Voltage A-B)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OABT_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,12110100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OAB_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage A-B)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OAB_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11200100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OAB_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage A-B)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OAB_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11200200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OA_QVVR1\SwlStr\stVal\dchg</TAG>
+    <NAME>@(Over Voltage A-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OA_QVVR1\SwlStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11240100</CUSTOM2>
+    <CUSTOM3>@(Over),3</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\OA_QVVR1\DipStr\stVal\dchg</TAG>
+    <NAME>@(Under Voltage A-N)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\OA_QVVR1\DipStr\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,11240200</CUSTOM2>
+    <CUSTOM3>@(Under),4</CUSTOM3>
+    <CUSTOM4>@(Power Quality),1</CUSTOM4>
+    <CUSTOM5>@(Voltages),2</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+  <tsdig>
+    <TAG>RP8_MAIN_PM8\LPHD1\PwrUp\stVal\dchg</TAG>
+    <NAME>@(Unary Power Up/ Reset)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>RP8_MAIN_PM8\LPHD1\PwrUp\stVal\dchg</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_EVENT</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>RP8_MAIN_PM8</CUSTOM1>
+    <CUSTOM2> ,PM800,RP8_MAIN_PM8,50700</CUSTOM2>
+    <CUSTOM3>@(Loss),8</CUSTOM3>
+    <CUSTOM4>@(System),3</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_EVENT),4</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>RP8_MAIN_PM8</EQUIP>
+    <TAGGENLINK />
+  </tsdig>
+</tsdigs>

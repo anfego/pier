@@ -1,0 +1,421 @@
+<?xml version="1.0" standalone="yes"?>
+<digalms>
+  <xs:schema id="digalms" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="digalms" msdata:IsDataSet="true" msdata:MainDataTable="digalm" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="digalm" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_A" type="xs:string" minOccurs="0" />
+                <xs:element name="VAR_B" type="xs:string" minOccurs="0" />
+                <xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+                <xs:element name="HELP" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="SEQUENCE" type="xs:string" minOccurs="0" />
+                <xs:element name="DELAY" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGING" type="xs:string" minOccurs="0" />
+                <xs:element name="PAGINGGRP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\Tr</TAG>
+    <NAME>@(Trip Status)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\Tr</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1586</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\TermBlkTmpSenFail</TAG>
+    <NAME>@(Terminal Block Temperature Sensor Failed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\TermBlkTmpSenFail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1587</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\RPhSenFail</TAG>
+    <NAME>@(Right Phase Sensor Failed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\RPhSenFail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1592</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\Phase</TAG>
+    <NAME>@(Phase Status)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\Phase</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1595</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\ManFan</TAG>
+    <NAME>@(Manual Fan State)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\ManFan</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1597</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\LPhSenFail</TAG>
+    <NAME>@(Left Phase Sensor Failed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\LPhSenFail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1598</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\FanExerDisab</TAG>
+    <NAME>@(Fan Exerciser Disabled)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\FanExerDisab</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1602</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\EEPROMFail</TAG>
+    <NAME>@(EEPROM Failed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\EEPROMFail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1604</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\DispDrvFail</TAG>
+    <NAME>@(Display Driver Failed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\DispDrvFail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1605</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\CPhSenFail</TAG>
+    <NAME>@(Center Phase Sensor Failed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\CPhSenFail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1607</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\Buz</TAG>
+    <NAME>@(Buzzer State)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\Buz</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1610</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\Alm</TAG>
+    <NAME>@(Alarm State)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\Alm</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1611</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+  <digalm>
+    <TAG>SP24_MAIN_M98\Dig\St\ADConvFail</TAG>
+    <NAME>@(A/D Converter Failed)</NAME>
+    <DESC>,</DESC>
+    <VAR_A>SP24_MAIN_M98\Dig\St\ADConvFail</VAR_A>
+    <VAR_B />
+    <CATEGORY>_PLSALM_MEDIUM</CATEGORY>
+    <HELP />
+    <PRIV />
+    <AREA />
+    <COMMENT />
+    <SEQUENCE />
+    <DELAY />
+    <CUSTOM1>SP24_MAIN_M98</CUSTOM1>
+    <CUSTOM2>PCBased, ,SP24_MAIN_M98,-1612</CUSTOM2>
+    <CUSTOM3>@(N/A),0</CUSTOM3>
+    <CUSTOM4>@(N/A),0</CUSTOM4>
+    <CUSTOM5>@(N/A),0</CUSTOM5>
+    <CUSTOM6>@(N/A),0</CUSTOM6>
+    <CUSTOM7>@(_PLSALM_MEDIUM),2</CUSTOM7>
+    <CUSTOM8 />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <PAGING />
+    <PAGINGGRP />
+    <EDITCODE />
+    <LINKED />
+    <EQUIP>SP24_MAIN_M98</EQUIP>
+  </digalm>
+</digalms>

@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<keyboards>
+  <xs:schema id="keyboards" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="keyboards" msdata:IsDataSet="true" msdata:MainDataTable="keyboard" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="keyboard" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="KEY_SEQ" type="xs:string" minOccurs="0" />
+                <xs:element name="CMD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="MSG_LOG" type="xs:string" minOccurs="0" />
+                <xs:element name="DEVICE" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</keyboards>

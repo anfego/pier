@@ -1,0 +1,152 @@
+//  This cicode document include functions for server startup and shutdown as well as client startup and shutdown.
+//  This is to be customized for each project...also includes common functions that may be enabled or disabled.
+
+//	The following INI parameters should be included in Citect.ini on server, and/or display clients (if needed):
+//	[Client]
+//		ShutdownCode = Client_Shutdown()
+//		StartupCode = Client_Startup()
+
+//	The following INI parameters should be included in Citect.ini on server:
+//	[IOServer.Cluster1.IOServer1]
+//		ShutdownCode = IOServer1_Shutdown()
+//		StartupCode = IOServer_Startup()
+
+//	The following INI parameters should be included in Citect.ini on server, and/or display clients if any client process(es) need to write tags:
+//	[General]
+//		SystemLogin = 1
+
+//===========================================================================================================================================
+
+FUNCTION
+IOServer1_Startup()
+
+//Required to disable devices on startup that were disabled prior to shutdown
+	DC_DisableDevicesOnStartup();
+
+//If using ES_AdvOneline in Multi-process mode - Enable the functions below:
+	ES_LoginSystem(1);			//Log in using system login account
+	
+	ES_StartAdvOneLine();			//Initialize AdvOneline.
+	
+//If using default colors specified in Citect.INI for standard popups
+	//SetPopupDefaultColorScheme();
+
+//Enable and/or insert other startup functions here...
+	//ES_LoginSystem(1);			//If not already enabled above and if IOServer process(es) need to write tags.
+
+
+
+
+END
+
+
+FUNCTION
+IOServer1_Shutdown()
+
+//Enable and/or insert other shutdown functions here...
+
+END
+
+//===========================================================================================================================================
+
+FUNCTION
+Client_Startup()
+
+    //Required for ES_Common functions (standard popups, etc.)
+	ES_LoginSystem(1);		//Applies to all clients.
+
+    //Applies to client on server machine only.
+	IF ES_ComputerRole() = 0 THEN  //comment for darin
+		//If using ES_AdvOneline in Single-process mode - Enable the function below:
+		//ES_StartAdvOneLine();			//Initialize AdvOneline.		
+		//Insert any other code that is to be executed only on local server client
+	END // comment from darin
+	
+//If using ES_AdvOneline and need to customize settings/colors, ensure that this function is called from all clients (including thick and web clients):
+	//ES_AdvOneline_ClientSettings();
+
+	saveFirstPage();				//Enable the navigation buttons.
+
+//Enable and/or insert other startup functions here...
+	//ES_LogoutIdle(StrToInt(ParameterGet("General", "LogoutIdleTime", "0")));	//Use if workstation idle logout is needed.  Applies to all clients.
+	ES_LogoutIdle(StrToInt(ParameterGet("General", "LogoutIdleTime", "5")));	//Use if workstation idle logout is needed.  Applies to all clients.
+
+	
+END
+
+FUNCTION
+Client_Shutdown()
+
+//Enable and/or insert other shutdown functions here...
+	//ES_LogoutUser();				//Logs out user before client shutdown (also logs event if it is enabled) - Used mainly for web clients.
+
+END
+
+
+//===========================================================================================================================================
+
+//This function Initializes ES_AdvOneline global settings and bus colors.
+//The settings/colors shown below reflect the default settings.
+//To customize settings/colors for a project, this function must be called from startup code of all clients (including thick and web clients).
+//Note:  If ES_AdvOneline is removed from included projects (i.e. if it not needed), then this function must also be deleted (or everything commented out).
+
+FUNCTION
+ES_AdvOneline_ClientSettings()
+	//Text Label Colors
+	ES_SetValue("TextColor_Label1", 250);		//Text Color for Label1:  				(1-255); 250 = Black.
+	ES_SetValue("TextColor_Label2", 250);		//Text Color for Label2:  				(1-255); 250 = Black.
+	ES_SetValue("TextColor_Label3", 250);		//Text Color for Label3 (Ratings):  	(1-255); 250 = Black.
+	ES_SetValue("TextColor_Label4", 7);			//Text Color for Label4 (Value Block):  (1-255); 7 = Lt Blue.
+
+	//Breaker Open/Closed Settings
+	ES_SetValue("BkrColor_BkrA", 0);			//Breaker Symbol Color A (Closed):		(0-255); 0 = Normal color animation, 1-255 = Custom color.
+	ES_SetValue("BkrColor_BkrB", 0);			//Breaker Symbol Color B (Open):		(0-255); 0 = Normal color animation, 1-255 = Custom color.
+	
+	//Breaker Trip Settings
+	ES_SetValue("BkrColor_BkrTrip", 0);			//Breaker Symbol Color TRIP:			(0-255); 0 = Normal color animation, 1-255 = Custom color.
+	ES_SetValue("BkrBlink_BkrTrip", 0);			//Breaker Symbol Blink TRIP:			(0/1); 0 = No blink, 1 = Blink.
+	ES_SetValue("TextColor_BkrTrip", 1);		//Breaker Text Color TRIP:				(1-255); 1 = Lt Red.  Note:  128 = Hidden text.
+	ES_SetValue("TextBlink_BkrTrip", 0);		//Breaker Text Blink TRIP:				(0/1); 0 = No blink, 1 = Blink.
+	
+	//Breaker Rack Test Settings
+	ES_SetValue("BkrColor_BkrRckTest", 0);		//Breaker Symbol Color TEST:			(0-255); 0 = Normal color animation, 1-255 = Custom color.
+	ES_SetValue("BkrBlink_BkrRckTest", 0);		//Breaker Symbol Blink TEST:			(0/1); 0 = No blink, 1 = Blink.
+	ES_SetValue("TextColor_BkrRckTest", 7);		//Breaker Text Color TEST:				(1-255); 7 = Lt Blue.    Note:  128 = Hidden text.
+	ES_SetValue("TextBlink_BkrRckTest", 0);		//Breaker Text Blink TEST:				(0/1); 0 = No blink, 1 = Blink.
+
+	//Breaker Misc Settings
+	ES_SetValue("BkrOpt_AnInStbColor", 0);		//Breaker Animate InStb Color option:	(0/1); 0 = Appropriate bus color, 1 = Bkr symbol color.
+													//Valid whenever using custom color settings for BkrColor_BkrA, _BkrB, _BkrTrip, and _BkrRckTest.
+	
+	//Invalid and Unknown State Settings
+	ES_SetValue("TextColor_Invalid", 1);		//Breaker Text Color Invalid (?):		(1-255); 1 = Lt Red.
+	ES_SetValue("TextBlink_Invalid", 0);		//Breaker Text Blink Invalid (?):		(0/1); 0 = No blink, 1 = Blink.
+	ES_SetValue("TextBlink_Unknown", 0);		//Breaker Text Blink Unknown (?):		(0/1); 0 = No blink, 1 = Blink.
+	
+	//ATS Settings
+	ES_SetValue("TextColor_AtsNormal", 254);	//ATS Text Color Normal:				(1-255); 254 = Green.
+	ES_SetValue("TextColor_AtsEmerg", 1);		//ATS Text Color Emergency:				(1-255); 1 = Lt Red.
+	ES_SetValue("TextColor_AtsOff", 251);		//ATS Text Color Off:					(1-255); 251 = Dk Gray.
+	
+	//Misc Settings
+	ES_SetValue("BlinkRate", 0);				//Blink Rate for all blinking objects:	(0/1); 0 = Normal rate (1 per sec), 1 = Fast rate (2 per sec).
+
+
+	//Bus Color Settings
+	//The settings shown below conform to a default (Simple) color assignments.
+	//For Bus ColorIndex 1 to 100, use combination of ES_SetBusColor() and ES_SetBusColorRange() functions to configure color settings.
+	ES_SetBusColorRange(1, 100, 1)					//Sets Bus ColorIndex 1 to 100 to 1 (Lt Red).
+
+	ES_SetBusColor(250, 250);						//Sets Bus Color 250 (Static 1) to 250 (Black).
+	ES_SetBusColor(251, 251);						//Sets Bus Color 251 (Static 2) to 251 (Dk Grey).
+	ES_SetBusColor(252, 252);						//Sets Bus Color 252 (Static 3) to 252 (White).
+	ES_SetBusColor(253, 253);						//Sets Bus Color 253 (Energized Indeterminate) to 253 (Lt Red).
+	ES_SetBusColor(254, 254);						//Sets Bus Colors 0 and 254 (De-Energized) to 254 (Green).
+	ES_SetBusColor(255, 255);						//Sets Bus Color 255 (Unknown) to 255 (Yellow).
+END
+
+//===========================================================================================================================================
+
+//Insert other functions, such as event functions here
+
+

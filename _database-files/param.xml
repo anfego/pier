@@ -1,0 +1,745 @@
+<?xml version="1.0" standalone="yes"?>
+<params>
+  <xs:schema id="params" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="params" msdata:IsDataSet="true" msdata:MainDataTable="param" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="param" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SECTION" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DATA" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPB_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>DPB_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPB_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>DPB_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPB_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>DPB_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPB_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>DPB_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPC_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>DPC_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPC_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>DPC_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPC_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>DPC_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPC_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>DPC_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPE_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>DPE_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPE_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>DPE_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPE_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>DPE_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.DPE_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>DPE_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYCBT1_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>IYCBT1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYCBT1_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>IYCBT1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYCBT1_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>IYCBT1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYCBT1_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>IYCBT1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV1_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>IYLV1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV1_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>IYLV1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV1_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>IYLV1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV1_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>IYLV1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV2_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>IYLV2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV2_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>IYLV2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV2_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>IYLV2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.IYLV2_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>IYLV2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY1_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>LPCY1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY1_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>LPCY1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY1_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>LPCY1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY1_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>LPCY1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY2_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>LPCY2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY2_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>LPCY2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY2_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>LPCY2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.LPCY2_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>LPCY2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_FDR_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>MSB_SWBD_FDR_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_FDR_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>MSB_SWBD_FDR_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_FDR_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>MSB_SWBD_FDR_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_FDR_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>MSB_SWBD_FDR_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>MSB_SWBD_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>MSB_SWBD_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>MSB_SWBD_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.MSB_SWBD_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>MSB_SWBD_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP1_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP1_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP1_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP1_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP1_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP2_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP2_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP2_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP2_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP2_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP3_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP3_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP3_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP3_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP3_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP3_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP3_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP3_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP4_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP4_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP4_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP4_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP4_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP4_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP4_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP4_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP5_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP5_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP5_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP5_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP5_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP6_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP6_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP6_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP6_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP6_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP6_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP6_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP6_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP7_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP7_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP7_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP7_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP7_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP7_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP7_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP7_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP8_MAIN_MTU.BCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>125</DATA>
+    <COMMENT>Maximum Block Size for BCM</COMMENT>
+    <EQUIP>RP8_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP8_MAIN_MTU.CCM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for CCM</COMMENT>
+    <EQUIP>RP8_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP8_MAIN_MTU.MM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for MM</COMMENT>
+    <EQUIP>RP8_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+  <param>
+    <SECTION>MICROLOGIC.Cluster1_Pier_E.RP8_MAIN_MTU.PM</SECTION>
+    <NAME>maxBlockSize</NAME>
+    <DATA>21</DATA>
+    <COMMENT>Maximum Block Size for PM</COMMENT>
+    <EQUIP>RP8_MAIN_MTU</EQUIP>
+    <EDITCODE />
+    <LINKED />
+    <TAGGENLINK />
+  </param>
+</params>

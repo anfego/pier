@@ -1,0 +1,514 @@
+<?xml version="1.0" standalone="yes"?>
+<profiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.citect.com/SCADA/ProfileSchema/v2/">
+  <category name="Schneider Electric" hidden="false">
+    <category name="Monitoring Device" hidden="false">
+      <profile name="AccuSinePlus" family="AccuSine_PCS" base="System Devices.Base Devices.Generic Power Device" hidden="false" version="7.2.1" UnitTemplateName="Standard Template">
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\MMXU1\PPV\zavg" type="REAL" unit="%NAME%" addr="T:MV;m:2051:u1;m:2052:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(V)" format="####.##" comment="@(Voltage L-L Avg)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Voltages),2" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Voltage),13" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDSrcVoltCA" type="REAL" unit="%NAME%" addr="T:MV;m:2089:u1;m:2090:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(V)" format="####.##" comment="@(THD Source Voltage C-A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Voltages),2" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Voltage),13" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDSrcVoltBC" type="REAL" unit="%NAME%" addr="T:MV;m:2087:u1;m:2088:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(V)" format="####.##" comment="@(THD Source Voltage B-C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Voltages),2" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Voltage),13" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDSrcVoltAB" type="REAL" unit="%NAME%" addr="T:MV;m:2085:u1;m:2086:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(V)" format="####.##" comment="@(THD Source Voltage A-B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Voltages),2" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Voltage),13" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FundVoltCA" type="REAL" unit="%NAME%" addr="T:MV;m:2107:u1;m:2108:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(V)" format="####.##" comment="@(Fundamental Voltage C-A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Voltages),2" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Voltage),13" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FundVoltBC" type="REAL" unit="%NAME%" addr="T:MV;m:2105:u1;m:2106:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(V)" format="####.##" comment="@(Fundamental Voltage B-C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Voltages),2" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Voltage),13" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FundVoltAB" type="REAL" unit="%NAME%" addr="T:MV;m:2103:u1;m:2104:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(V)" format="####.##" comment="@(Fundamental Voltage A-B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Voltages),2" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Voltage),13" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcFundRealPwr" type="REAL" unit="%NAME%" addr="T:MV;m:2111:u1;m:2112:u1;V:1E-3;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(kW)" format="####.##" comment="@(Source Fundamental Real Power)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Powers),3" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Power),11" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcFundReactivePwr" type="REAL" unit="%NAME%" addr="T:MV;m:2113:u1;m:2114:u1;V:1E-3;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(kVAR)" format="####.##" comment="@(Source Fundamental Reactive Power)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Powers),3" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Reactive Power),18" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcFundAprPwr" type="REAL" unit="%NAME%" addr="T:MV;m:2109:u1;m:2110:u1;V:1E-3;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(kVA)" format="####.##" comment="@(Source Fundamental Apparent Power)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Powers),3" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Apparent Power),17" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputFundReactivePwr" type="REAL" unit="%NAME%" addr="T:MV;m:2121:u1;m:2122:u1;V:1E-3;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(kVAR)" format="####.##" comment="@(Output Fundamental Reactive Power)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Powers),3" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Reactive Power),18" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadFundRealPwr" type="REAL" unit="%NAME%" addr="T:MV;m:2117:u1;m:2118:u1;V:1E-3;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(kW)" format="####.##" comment="@(Load Fundamental Real Power)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Powers),3" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Power),11" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadFundReactivePwr" type="REAL" unit="%NAME%" addr="T:MV;m:2119:u1;m:2120:u1;V:1E-3;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(kVAR)" format="####.##" comment="@(Load Fundamental Reactive Power)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Powers),3" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Reactive Power),18" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadFundAprPwr" type="REAL" unit="%NAME%" addr="T:MV;m:2115:u1;m:2116:u1;V:1E-3;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(kVA)" format="####.##" comment="@(Load Fundamental Apparent Power)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Powers),3" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Apparent Power),17" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcDispPF" type="REAL" unit="%NAME%" addr="T:MV;m:2123:u1;m:2124:u1;V:1E2;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="#.###" comment="@(Source Displacement Power Factor)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Power Factors),6" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Power Factor),36" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadDispPF" type="REAL" unit="%NAME%" addr="T:MV;m:2125:u1;m:2126:u1;V:1E2;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="#.###" comment="@(Load Displacement Power Factor)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Power Factors),6" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Power Factor),36" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SysAvailCurrentCap" type="REAL" unit="%NAME%" addr="T:MV;m:3001:u1;m:3002:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(%)" format="####.##" comment="@(System Available Current Capacity)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(N/A),1" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SysActCurrentCap" type="REAL" unit="%NAME%" addr="T:MV;m:3003:u1;m:3004:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(%)" format="####.##" comment="@(System Active Current Capacity)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(N/A),1" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\MMXU1\Hz" type="REAL" unit="%NAME%" addr="T:MV;m:2053:u1;m:2054:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(Hz)" format="####.##" comment="@(Frequency)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Frequencies),18" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Frequency),15" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDSrcCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2077:u1;m:2078:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(THD Source Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDSrcCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2075:u1;m:2076:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(THD Source Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDSrcCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2073:u1;m:2074:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(THD Source Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDLoadCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2083:u1;m:2084:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(THD Load Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDLoadCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2081:u1;m:2082:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(THD Load Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\THDLoadCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2079:u1;m:2080:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(THD Load Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcFundCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2101:u1;m:2102:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Source Fundamental Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcFundCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2099:u1;m:2100:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Source Fundamental Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcFundCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2097:u1;m:2098:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Source Fundamental Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2035:u1;m:2036:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Source Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2033:u1;m:2034:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Source Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\SrcCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2031:u1;m:2032:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Source Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\ReactiveOutputCurrent" type="REAL" unit="%NAME%" addr="T:MV;m:2039:u1;m:2040:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Reactive Output Current)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\ReactiveLoadCurrent" type="REAL" unit="%NAME%" addr="T:MV;m:2037:u1;m:2038:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Reactive Load Current)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputHrmCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2017:u1;m:2018:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output Harmonics Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputHrmCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2015:u1;m:2016:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output Harmonics Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputHrmCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2013:u1;m:2014:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output Harmonics Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputFundCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2023:u1;m:2024:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output Fundamental Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputFundCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2021:u1;m:2022:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output Fundamental Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputFundCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2019:u1;m:2020:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output Fundamental Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputCurrentNegSeq" type="REAL" unit="%NAME%" addr="T:MV;m:2043:u1;m:2044:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output Current Negative Sequence)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputCurrentCTot" type="REAL" unit="%NAME%" addr="T:MV;m:2029:u1;m:2030:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output  Current C Total)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputCurrentBTot" type="REAL" unit="%NAME%" addr="T:MV;m:2027:u1;m:2028:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output  Current B Total)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputCurrentATot" type="REAL" unit="%NAME%" addr="T:MV;m:2025:u1;m:2026:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Output  Current A Total)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadHrmCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2011:u1;m:2012:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Harmonics Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadHrmCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2009:u1;m:2010:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Harmonics Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadHrmCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2007:u1;m:2008:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Harmonics Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadFundCurrentC" type="REAL" unit="%NAME%" addr="T:MV;m:2095:u1;m:2096:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Fundamental Current C)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadFundCurrentB" type="REAL" unit="%NAME%" addr="T:MV;m:2093:u1;m:2094:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Fundamental Current B)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadFundCurrentA" type="REAL" unit="%NAME%" addr="T:MV;m:2091:u1;m:2092:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Fundamental Current A)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadCurrentNegSeq" type="REAL" unit="%NAME%" addr="T:MV;m:2041:u1;m:2042:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Current Negative Sequence)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadCurrentCTot" type="REAL" unit="%NAME%" addr="T:MV;m:2005:u1;m:2006:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Current C Total)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadCurrentBTot" type="REAL" unit="%NAME%" addr="T:MV;m:2003:u1;m:2004:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Current B Total)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoadCurrentATot" type="REAL" unit="%NAME%" addr="T:MV;m:2001:u1;m:2002:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Load Current A Total)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(RMS),8" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FundCurrentCReq" type="REAL" unit="%NAME%" addr="T:MV;m:2049:u1;m:2050:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Fundamental Current C Required)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FundCurrentBReq" type="REAL" unit="%NAME%" addr="T:MV;m:2047:u1;m:2048:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Fundamental Current B Required)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FundCurrentAReq" type="REAL" unit="%NAME%" addr="T:MV;m:2045:u1;m:2046:u1;E:2;L:P:37" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="@(A)" format="####.##" comment="@(Fundamental Current A Required)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Currents),1" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(Current),14" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\WaitRestrart" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:4000;m:6008:4000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Waiting for Restart)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\UnitRatMismat" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:2;m:6008:2;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Unit Rating Mismatch)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OutputDisable" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:200;m:6008:200;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Unit Output is disabled)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\UnitMazCap" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6005:4;m:6006:4;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Unit Max Capacity)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\AutoStarting" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:800;m:6008:800;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Unit Auto-Starting)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\UnTempAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:400;m:6002:400;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Under Temperature Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\ProtFMTrAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6003:20;m:6004:20;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Protection Firmware Trip Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\PwSupOutRagAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:1000;m:6002:1000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Power Supply Out of Range Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\PwrSaveOn" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:400;m:6008:400;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Power Save On)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\PrllWireMismtAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6003:8;m:6004:8;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Parallel Wiring Mismatch Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\PrllVerMismat" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:8;m:6008:8;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Parallel Version Mismatch)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\PrllSysSetMismat" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6005:4000;m:6006:4000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Parallel System Setup Mismatch)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\PrllPwrWireMismat" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6005:8000;m:6006:8000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Parallel Power Wiring Mismatch)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\PrllIDConf" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6005:2000;m:6006:2000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Parallel ID conflict)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OvTempAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:200;m:6002:200;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Over Temperature Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\OvrCurConDectAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:2;m:6002:2;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Over Current Condition Detected Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\NoMastAvail" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:10;m:6008:10;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(No Master Available)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\NoCTConfig" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:20;m:6008:20;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(No CTs Configured)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\NewUnitRatApp" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:1;m:6008:1;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(New Unit Rating Applied)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\MOVSvrReqAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:2000;m:6002:2000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(MOV Requires Service Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LoOrdHmrOff" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6005:2;m:6006:2;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Low Order Harmonics Off)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\LineNotQual" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:40;m:6008:40;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Line Not Qualified)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\InvConfig" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:80;m:6008:80;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Invalid configuration)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\IntXfmrTmpAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6003:4;m:6004:4;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Internal Transformer Over temp Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\IGBTTripAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:20;m:6002:20;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(IGBT Trip Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\HMICommLossAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:80;m:6002:80;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(HMI Communication Loss Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\HiFqVltDistAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6003:2;m:6004:2;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(High Frequency Voltage Distortion Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\HFFilterContTr" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:100;m:6008:100;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(HF Filter Contactor Trip)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\GtDriTripAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:40;m:6002:40;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Gate Drive Trip Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FWVerMismat" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:4;m:6008:4;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Firmware Version Mismatch)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FWTripAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:10;m:6002:10;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Firmware Trip Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FilterTripAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:8;m:6002:8;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(FilterTrip Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\FanFailAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6003:40;m:6004:40;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Fan Failure Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\DCBusTripAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:4;m:6002:4;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(DC Bus Trip Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\CuSenInopAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:800;m:6002:800;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Current Sensor Inoperable Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\CTClip" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6005:8;m:6006:8;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(CT Is Clipping)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\CtrBrdIniti" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:1000;m:6008:1000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Control Board Initialization In Progress)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\ContactorTrEvtAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6003:10;m:6004:10;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Contactor Trip Event Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\ContNotCls" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6007:2000;m:6008:2000;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Contactor Not Closed)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\AtThrmDerat" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6005:1;m:6006:1;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Automatic Thermal  Derating)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\AtDectOutRangAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:100;m:6002:100;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(Auto Detection Out of Range Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+            <dbf-variableTag name="%NAME%\ACNotQualAlm" type="DIGITAL" unit="%NAME%" addr="T:SS;m:6001:1;m:6002:1;E:2;L:P:28" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="####.##" comment="@(AC Line Not Qualified Alarm)" deadBand="" custom="%NAME%" custom1="%NAME%" custom2="@(N/A),1" custom3="@(Miscellaneous),12" custom4="@(Electrical),2" custom5="@(N/A),10" custom6="@(N/A),1" custom7="" custom8="" />
+          </dbf-variableTags>
+          <dbf-digitalAlarms>
+            <dbf-digitalAlarm tag="%NAME%\WaitRestrart" name="@(Waiting for Restart)" desc="," var_a="%NAME%\WaitRestrart" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-105" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\UnitRatMismat" name="@(Unit Rating Mismatch)" desc="," var_a="%NAME%\UnitRatMismat" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-92" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\OutputDisable" name="@(Unit Output is disabled)" desc="," var_a="%NAME%\OutputDisable" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-100" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\UnitMazCap" name="@(Unit Max Capacity)" desc="," var_a="%NAME%\UnitMazCap" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-87" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\AutoStarting" name="@(Unit Auto-Starting)" desc="," var_a="%NAME%\AutoStarting" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-102" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\UnTempAlm" name="@(Under Temperature Alarm)" desc="," var_a="%NAME%\UnTempAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-83" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\ProtFMTrAlm" name="@(Protection Firmware Trip Alarm)" desc="," var_a="%NAME%\ProtFMTrAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-79" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\PwSupOutRagAlm" name="@(Power Supply Out of Range Alarm)" desc="," var_a="%NAME%\PwSupOutRagAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-74" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\PwrSaveOn" name="@(Power Save On)" desc="," var_a="%NAME%\PwrSaveOn" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-101" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\PrllWireMismtAlm" name="@(Parallel Wiring Mismatch Alarm)" desc="," var_a="%NAME%\PrllWireMismtAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-77" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\PrllVerMismat" name="@(Parallel Version Mismatch)" desc="," var_a="%NAME%\PrllVerMismat" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-94" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\PrllSysSetMismat" name="@(Parallel System Setup Mismatch)" desc="," var_a="%NAME%\PrllSysSetMismat" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-89" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\PrllPwrWireMismat" name="@(Parallel Power Wiring Mismatch)" desc="," var_a="%NAME%\PrllPwrWireMismat" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-90" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\PrllIDConf" name="@(Parallel ID conflict)" desc="," var_a="%NAME%\PrllIDConf" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-88" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\OvTempAlm" name="@(Over Temperature Alarm)" desc="," var_a="%NAME%\OvTempAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-82" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\OvrCurConDectAlm" name="@(Over Current Condition Detected Alarm)" desc="," var_a="%NAME%\OvrCurConDectAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-65" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\NoMastAvail" name="@(No Master Available)" desc="," var_a="%NAME%\NoMastAvail" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-95" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\NoCTConfig" name="@(No CTs Configured)" desc="," var_a="%NAME%\NoCTConfig" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-96" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\NewUnitRatApp" name="@(New Unit Rating Applied)" desc="," var_a="%NAME%\NewUnitRatApp" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-91" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\MOVSvrReqAlm" name="@(MOV Requires Service Alarm)" desc="," var_a="%NAME%\MOVSvrReqAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-73" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\LoOrdHmrOff" name="@(Low Order Harmonics Off)" desc="," var_a="%NAME%\LoOrdHmrOff" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-85" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\LineNotQual" name="@(Line Not Qualified)" desc="," var_a="%NAME%\LineNotQual" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-97" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\InvConfig" name="@(Invalid configuration)" desc="," var_a="%NAME%\InvConfig" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-98" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\IntXfmrTmpAlm" name="@(Internal Transformer Over temp Alarm)" desc="," var_a="%NAME%\IntXfmrTmpAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-76" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\IGBTTripAlm" name="@(IGBT Trip Alarm)" desc="," var_a="%NAME%\IGBTTripAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-69" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\HMICommLossAlm" name="@(HMI Communication Loss Alarm)" desc="," var_a="%NAME%\HMICommLossAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-71" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\HiFqVltDistAlm" name="@(High Frequency Voltage Distortion Alarm)" desc="," var_a="%NAME%\HiFqVltDistAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-75" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\HFFilterContTr" name="@(HF Filter Contactor Trip)" desc="," var_a="%NAME%\HFFilterContTr" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-99" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\GtDriTripAlm" name="@(Gate Drive Trip Alarm)" desc="," var_a="%NAME%\GtDriTripAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-70" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\FWVerMismat" name="@(Firmware Version Mismatch)" desc="," var_a="%NAME%\FWVerMismat" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-93" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\FWTripAlm" name="@(Firmware Trip Alarm)" desc="," var_a="%NAME%\FWTripAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-68" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\FilterTripAlm" name="@(FilterTrip Alarm)" desc="," var_a="%NAME%\FilterTripAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-67" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\FanFailAlm" name="@(Fan Failure Alarm)" desc="," var_a="%NAME%\FanFailAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-80" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\DCBusTripAlm" name="@(DC Bus Trip Alarm)" desc="," var_a="%NAME%\DCBusTripAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-66" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\CuSenInopAlm" name="@(Current Sensor Inoperable Alarm)" desc="," var_a="%NAME%\CuSenInopAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-72" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\CTClip" name="@(CT Is Clipping)" desc="," var_a="%NAME%\CTClip" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-86" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\CtrBrdIniti" name="@(Control Board Initialization In Progress)" desc="," var_a="%NAME%\CtrBrdIniti" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-103" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\ContactorTrEvtAlm" name="@(Contactor Trip Event Alarm)" desc="," var_a="%NAME%\ContactorTrEvtAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-78" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\ContNotCls" name="@(Contactor Not Closed)" desc="," var_a="%NAME%\ContNotCls" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-104" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\AtThrmDerat" name="@(Automatic Thermal  Derating)" desc="," var_a="%NAME%\AtThrmDerat" var_b="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-84" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\AtDectOutRangAlm" name="@(Auto Detection Out of Range Alarm)" desc="," var_a="%NAME%\AtDectOutRangAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-81" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+            <dbf-digitalAlarm tag="%NAME%\ACNotQualAlm" name="@(AC Line Not Qualified Alarm)" desc="," var_a="%NAME%\ACNotQualAlm" var_b="" category="_PLSALM_MEDIUM" help="" priv="" area="" comment="" delay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-64" custom3="@(Status),10" custom4="@(System),3" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_MEDIUM),2" custom8="" paging="" paginggrp="" />
+          </dbf-digitalAlarms>
+          <dbf-analogAlarms>
+            <dbf-analogAlarm name="@(System Available Current Capacity)" tag="%NAME%\SysAvailCurrentCap" var="%NAME%\SysAvailCurrentCap" setPoint="" highHigh="" high="" low="" lowLow="" deviation="" rate="" deadBand="" format="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" hhDelay="" hDelay="" lDelay="" llDelay="" devDelay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-61" custom3="@(N/A),0" custom4="@(Protection),2" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+            <dbf-analogAlarm name="@(System Active Current Capacity)" tag="%NAME%\SysActCurrentCap" var="%NAME%\SysActCurrentCap" setPoint="" highHigh="" high="" low="" lowLow="" deviation="" rate="" deadBand="" format="" category="_PLSALM_EVENT" help="" priv="" area="" comment="" hhDelay="" hDelay="" lDelay="" llDelay="" devDelay="" custom1="%NAME%" custom2="PCBased, ,%NAME%,-62" custom3="@(N/A),0" custom4="@(Protection),2" custom5="@(N/A),0" custom6="@(N/A),0" custom7="@(_PLSALM_EVENT),4" custom8="" paging="" paginggrp="" />
+          </dbf-analogAlarms>
+        </dbf-outputs>
+      </profile>
+    </category>
+  </category>
+  <category name="System Devices" hidden="false">
+    <category name="Base Devices" hidden="false">
+      <profile name="CM4000" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="PLOGIC4000" xsi:nil="true" />
+          <comms-method name="Modbus/TCP" protocol="PLOGIC4000" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LLN0\WaveformCollectionEnabled" type="DIGITAL" unit="%NAME%" addr="WaveformCollectionEnabled" comment="@(Waveform Collection Enabled)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\AlarmUnhandled" type="DIGITAL" unit="%NAME%" addr="AlarmUnhandled" comment="@(Unhandled Alarm Received)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\WaveformDownloading" type="DIGITAL" unit="%NAME%" addr="WaveformDownloading" comment="@(Waveform Download In Progress)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-timeStampDigitalAlarms>
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LLN0\AlarmUnhandled" name="@(Unhandled Alarm Received)" desc="Yes,No" var_a="%NAME%\LLN0\AlarmUnhandled" category="_PLSALM_HIGH" custom1="%NAME%" />
+          </dbf-timeStampDigitalAlarms>
+          <dbf-equipment custom3="PLOGIC4000" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="PM800" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="PLOGIC870" xsi:nil="true" />
+          <comms-method name="Modbus/TCP" protocol="PLOGIC870" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LLN0\WaveformCollectionEnabled" type="DIGITAL" unit="%NAME%" addr="WaveformCollectionEnabled" comment="@(Waveform Collection Enabled)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\AlarmUnhandled" type="DIGITAL" unit="%NAME%" addr="AlarmUnhandled" comment="@(Unhandled Alarm Received)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\WaveformDownloading" type="DIGITAL" unit="%NAME%" addr="WaveformDownloading" comment="@(Waveform Download In Progress)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-timeStampDigitalAlarms>
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LLN0\AlarmUnhandled" name="@(Unhandled Alarm Received)" desc="Yes,No" var_a="%NAME%\LLN0\AlarmUnhandled" category="_PLSALM_HIGH" custom1="%NAME%" />
+          </dbf-timeStampDigitalAlarms>
+          <dbf-equipment custom3="PLOGIC870" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="MicroLogic" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="MICROLOGIC" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LLN0\AlarmUnhandled" type="DIGITAL" unit="%NAME%" addr="AlarmUnhandled" comment="@(Unhandled Alarm Received)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\AlarmInvalidTimestamp" type="DIGITAL" unit="%NAME%" addr="AlarmIncorrectDateTime" comment="@(Invalid Timestamp Alarm Received)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LPHD1\EEHealthBCM" type="DIGITAL" unit="%NAME%" addr="ModuleOnline;D:B" comment="@(BCM Online status)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LPHD1\EEHealthPM" type="DIGITAL" unit="%NAME%" addr="ModuleOnline;D:P" comment="@(PM Online status)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LPHD1\EEHealthMM" type="DIGITAL" unit="%NAME%" addr="ModuleOnline;D:M" comment="@(MM Online status)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-timeStampDigitalAlarms>
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LLN0\AlarmUnhandled" name="@(Unhandled Alarm Received)" desc="Yes,No" var_a="%NAME%\LLN0\AlarmUnhandled" category="_PLSALM_HIGH" custom1="%NAME%" />
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LLN0\AlarmInvalidTimestamp" name="@(Invalid Timestamp Alarm Received)" desc="Yes,No" var_a="%NAME%\LLN0\AlarmInvalidTimestamp" category="_PLSALM_HIGH" custom1="%NAME%" />
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LPHD1\EEHealthBCM" name="@(BCM offline Alarm Received)" desc="Yes,No" var_a="NOT %NAME%\LPHD1\EEHealthBCM" category="_PLSALM_HIGH" custom1="%NAME%" />
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LPHD1\EEHealthPM" name="@(PM offline Alarm Received)" desc="Yes,No" var_a="NOT %NAME%\LPHD1\EEHealthPM" category="_PLSALM_HIGH" custom1="%NAME%" />
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LPHD1\EEHealthMM" name="@(MM offline Alarm Received)" desc="Yes,No" var_a="NOT %NAME%\LPHD1\EEHealthMM" category="_PLSALM_HIGH" custom1="%NAME%" />
+          </dbf-timeStampDigitalAlarms>
+          <dbf-equipment custom3="MICROLOGIC" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="MicroLogicWithoutCCM" base="System Devices.Base Devices.MicroLogic" hidden="true" />
+      <profile name="MicroLogicWithCCM" base="System Devices.Base Devices.MicroLogic" hidden="true">
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LPHD1\EEHealthCCM" type="DIGITAL" unit="%NAME%" addr="ModuleOnline;D:C" comment="@(CCM Online status)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-timeStampDigitalAlarms>
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LPHD1\EEHealthCCM" name="@(CCM offline Alarm Received)" desc="Yes,No" var_a="NOT %NAME%\LPHD1\EEHealthCCM" category="_PLSALM_HIGH" custom1="%NAME%" />
+          </dbf-timeStampDigitalAlarms>
+        </dbf-outputs>
+      </profile>
+      <profile name="MicroLogicAWithoutCCM" base="System Devices.Base Devices.MicroLogicWithoutCCM" hidden="true">
+        <dbf-outputs>
+          <dbf-parameters>
+            <dbf-parameter section="MICROLOGIC.%CLUSTER%.%NAME%.BCM" name="maxBlockSize" data="125" comment="Maximum Block Size for BCM" />
+            <dbf-parameter section="MICROLOGIC.%CLUSTER%.%NAME%.PM" name="maxBlockSize" data="21" comment="Maximum Block Size for PM" />
+            <dbf-parameter section="MICROLOGIC.%CLUSTER%.%NAME%.MM" name="maxBlockSize" data="21" comment="Maximum Block Size for MM" />
+          </dbf-parameters>
+        </dbf-outputs>
+      </profile>
+      <profile name="MicroLogicAWithCCM" base="System Devices.Base Devices.MicroLogicWithCCM" hidden="true">
+        <dbf-outputs>
+          <dbf-parameters>
+            <dbf-parameter section="MICROLOGIC.%CLUSTER%.%NAME%.BCM" name="maxBlockSize" data="125" comment="Maximum Block Size for BCM" />
+            <dbf-parameter section="MICROLOGIC.%CLUSTER%.%NAME%.PM" name="maxBlockSize" data="21" comment="Maximum Block Size for PM" />
+            <dbf-parameter section="MICROLOGIC.%CLUSTER%.%NAME%.MM" name="maxBlockSize" data="21" comment="Maximum Block Size for MM" />
+            <dbf-parameter section="MICROLOGIC.%CLUSTER%.%NAME%.CCM" name="maxBlockSize" data="21" comment="Maximum Block Size for CCM" />
+          </dbf-parameters>
+        </dbf-outputs>
+      </profile>
+      <profile name="MicroLogicHWithoutCCM" base="System Devices.Base Devices.MicroLogicHBase" hidden="true" />
+      <profile name="MicroLogicHWithCCM" base="System Devices.Base Devices.MicroLogicHBase" hidden="true">
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LPHD1\EEHealthCCM" type="DIGITAL" unit="%NAME%" addr="ModuleOnline;D:C" comment="@(CCM Online status)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-timeStampDigitalAlarms>
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LPHD1\EEHealthCCM" name="@(CCM offline Alarm Received)" desc="Yes,No" var_a="NOT %NAME%\LPHD1\EEHealthCCM" category="_PLSALM_HIGH" custom1="%NAME%" />
+          </dbf-timeStampDigitalAlarms>
+        </dbf-outputs>
+      </profile>
+      <profile name="MicroLogicHBase" base="System Devices.Base Devices.MicroLogic" hidden="true">
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LLN0\WaveformCollectionEnabled1" type="DIGITAL" unit="%NAME%" addr="WaveformCollectionEnabled;D:P" comment="@(Waveform Collection Enabled - PM)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\WaveformDownloading1" type="DIGITAL" unit="%NAME%" addr="WaveformDownloading;D:P" comment="@(Waveform Download In Progress - PM)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\WaveformCollectionEnabled2" type="DIGITAL" unit="%NAME%" addr="WaveformCollectionEnabled;D:M" comment="@(Waveform Collection Enabled - MM)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\WaveformDownloading2" type="DIGITAL" unit="%NAME%" addr="WaveformDownloading;D:M" comment="@(Waveform Download In Progress - MM)" custom1="%NAME%" />
+          </dbf-variableTags>
+        </dbf-outputs>
+      </profile>
+      <profile name="SEPAM2000" base="System Devices.Base Devices.SEPAM" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="SEPAM2000" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="SEPAM2000" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="SEPAM20" base="System Devices.Base Devices.SEPAM" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="SEPAM20" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="SEPAM20" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="SEPAM40" base="System Devices.Base Devices.SEPAM" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="SEPAM40" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="SEPAM40" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="SEPAM80" base="System Devices.Base Devices.SEPAM" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="SEPAM80" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="SEPAM80" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="SEPAM" base="System Devices.Base Devices.Field Device" hidden="true">
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LLN0\WaveformCollectionEnabled" type="DIGITAL" unit="%NAME%" addr="WaveformCollectionEnabled" comment="@(Waveform Collection Enabled)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\AlarmUnhandled" type="DIGITAL" unit="%NAME%" addr="AlarmUnhandled" comment="@(Unhandled Alarm Received)" custom1="%NAME%" />
+            <dbf-variableTag name="%NAME%\LLN0\WaveformDownloading" type="DIGITAL" unit="%NAME%" addr="WaveformDownloading" comment="@(Waveform Download In Progress)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-timeStampDigitalAlarms>
+            <dbf-timeStampDigitalAlarm tag="%NAME%\LLN0\AlarmUnhandled" name="@(Unhandled Alarm Received)" desc="Yes,No" var_a="%NAME%\LLN0\AlarmUnhandled" category="_PLSALM_HIGH" custom1="%NAME%" />
+          </dbf-timeStampDigitalAlarms>
+          <dbf-advancedAlarms>
+            <dbf-advancedAlarm tag="%NAME%\LLN0\WaveformDownloading" name="@(Waveform Download In Progress)" expr="%NAME%\LLN0\WaveformDownloading = 1" category="_PLSALM_LOW" custom1="%NAME%" custom2="PCBased" />
+          </dbf-advancedAlarms>
+        </dbf-outputs>
+      </profile>
+      <profile name="Generic Power Device" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="PWRMODBUS" xsi:nil="true" />
+          <comms-method name="Modbus/TCP" protocol="PWRMODBUS" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="PWRMODBUS" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="Controllable Device" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="PWRMODBUS" xsi:nil="true" />
+          <comms-method name="Modbus/TCP" protocol="PWRMODBUS" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="PWRMODBUS" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="MODNET" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="Modbus/RTU via Gateway" protocol="MODNET" xsi:nil="true" />
+          <comms-method name="Modbus/TCP" protocol="MODNET" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="MODNET" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="DNP3" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="DNP3 TCP" protocol="DNPR" xsi:nil="true" />
+          <comms-method name="DNP3 Serial" protocol="DNPR" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="DNPR" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="IEC870IP" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="IEC60870-5-104 TCP" protocol="IEC870IP" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="IEC870IP" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="IEC61850_FTP" base="System Devices.Base Devices.IEC61850 Base" hidden="true">
+        <attributes>
+          <attribute name="FTPHost" displayName="FTP Address">
+            <help>FTP IP address</help>
+          </attribute>
+          <attribute name="FTPUserName" displayName="FTP User Name">
+            <help>FTP User Name</help>
+          </attribute>
+          <attribute name="FTPPassword" displayName="FTP Password">
+            <help>FTP Password</help>
+            <passwordEncryption>true</passwordEncryption>
+          </attribute>
+        </attributes>
+        <dbf-outputs>
+          <dbf-equipment custom3="IEC61850N" custom6="%FTPHost%" custom7="%FTPUserName%" custom8="%FTPPassword%" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="IEC61850_FTP_DCed" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="IEC61850 Native" protocol="IEC61850N" xsi:nil="true" />
+        </comms-methods>
+        <attributes>
+          <attribute name="FTPHost" displayName="FTP Address">
+            <help>FTP IP address</help>
+          </attribute>
+          <attribute name="FTPUserName" displayName="FTP User Name">
+            <help>FTP User Name</help>
+          </attribute>
+          <attribute name="FTPPassword" displayName="FTP Password">
+            <help>FTP Password</help>
+            <passwordEncryption>true</passwordEncryption>
+          </attribute>
+        </attributes>
+        <dbf-outputs>
+          <dbf-equipment custom3="IEC61850N" custom6="%FTPHost%" custom7="%FTPUserName%" custom8="%FTPPassword%" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="IEC61850" base="System Devices.Base Devices.IEC61850 Base" hidden="true">
+        <dbf-outputs>
+          <dbf-equipment custom3="IEC61850N" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="IEC61850_DCed" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="IEC61850 Native" protocol="IEC61850N" xsi:nil="true" />
+        </comms-methods>
+        <dbf-outputs>
+          <dbf-equipment custom3="IEC61850N" iodevice="%NAME%" />
+        </dbf-outputs>
+      </profile>
+      <profile name="IEC61850 Base" base="System Devices.Base Devices.Field Device" hidden="true">
+        <comms-methods>
+          <comms-method name="IEC61850 Native" protocol="IEC61850N">
+            BRCBS=%BRCBS%;URCBS=%URCBS%
+          </comms-method>
+        </comms-methods>
+        <attributes>
+          <attribute name="BRCBS" displayName="BRCBs">
+            <help>List of BRCBs seperated by commas.  Example: LD0/LLN0$BR$brcb01,LD0/LLN0$BR$brcb02</help>
+            <defaultValue />
+          </attribute>
+          <attribute name="URCBS" displayName="URCBs">
+            <help>List of URCBs seperated by commas.  Example: LD0/LLN0$RP$urcb01,LD0/LLN0$RP$urcb02</help>
+            <defaultValue />
+          </attribute>
+        </attributes>
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LLN0\WaveformCollectionEnabled" type="DIGITAL" unit="%NAME%" addr="WaveformCollectionEnabled" comment="@(Waveform Collection Enabled)" custom1="%NAME%" />
+            <dbf-variableTag name="@exp = return &quot;%NAME%\\&quot; + &quot;$EXPAND(%BRCBS%)\\Stalled&quot;.Replace('/', '\\').Replace('$', '\\');" type="DIGITAL" unit="%NAME%" addr="%EXPAND_VALUE%!Stalled" comment="@(Report is stalled)" custom1="%NAME%" />
+            <dbf-variableTag name="@exp = return &quot;%NAME%\\&quot; + &quot;$EXPAND(%URCBS%)\\Stalled&quot;.Replace('/', '\\').Replace('$', '\\');" type="DIGITAL" unit="%NAME%" addr="%EXPAND_VALUE%!Stalled" comment="@(Report is stalled)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-digitalAlarms>
+            <dbf-digitalAlarm tag="@exp = return &quot;%NAME%\\&quot; + &quot;$EXPAND(%BRCBS%)\\Stalled&quot;.Replace('/', '\\').Replace('$', '\\');" name="BRCB stalled" desc="Report is stalled" var_a="@exp = return &quot;%NAME%\\&quot; + &quot;$EXPAND(%BRCBS%)\\Stalled&quot;.Replace('/', '\\').Replace('$', '\\');" custom1="%NAME%" />
+            <dbf-digitalAlarm tag="@exp = return &quot;%NAME%\\&quot; + &quot;$EXPAND(%URCBS%)\\Stalled&quot;.Replace('/', '\\').Replace('$', '\\');" name="URCB stalled" desc="Report is stalled" var_a="@exp = return &quot;%NAME%\\&quot; + &quot;$EXPAND(%URCBS%)\\Stalled&quot;.Replace('/', '\\').Replace('$', '\\');" custom1="%NAME%" />
+          </dbf-digitalAlarms>
+        </dbf-outputs>
+      </profile>
+      <profile name="Field Device" base="System Devices.Base Devices.Field Device Name" hidden="true">
+        <dbf-outputs>
+          <dbf-variableTags>
+            <dbf-variableTag name="%NAME%\LPHD1\EEHealth" type="INT" unit="NetworkTagsDev" addr="%NAME%\LPHD1\EEHealth" comment="@(External Equipment Health)" custom1="%NAME%" />
+          </dbf-variableTags>
+          <dbf-advancedAlarms>
+            <dbf-advancedAlarm tag="%NAME%\LPHD1\EEHealth" name="@(Communication Failure)" expr="%NAME%\LPHD1\EEHealth &lt;&gt; 1" category="_PLSALM_HIGH" custom1="%NAME%" custom2="PCBased" />
+          </dbf-advancedAlarms>
+        </dbf-outputs>
+      </profile>
+      <profile name="Field Device Name" hidden="true">
+        <attributes>
+          <attribute name="NAME">
+            <help>The Profile may be up to 16 characters long using alphanumeric characters and underscores.</help>
+            <validationRegex>^[A-Za-z_]{1}[\w_\%]{0,31}$</validationRegex>
+          </attribute>
+        </attributes>
+      </profile>
+    </category>
+    <profile name="Cluster Setup">
+      <comms-methods>
+        <comms-method name="DiskXML NetworkTagsDevice" protocol="DISKXML" xsi:nil="true" />
+      </comms-methods>
+      <attributes>
+        <attribute name="NAME">
+          <defaultValue>%CLUSTER%_NetworkTagsDev</defaultValue>
+        </attribute>
+      </attributes>
+      <dbf-outputs>
+        <dbf-variableTags>
+          <dbf-variableTag name="PLSALM_SOUND_LEVEL" type="INT" unit="NetworkTagsDev" addr="PLSALM_SOUND_LEVEL" comment="@(Helper Tag for Audible Alarms)" />
+          <dbf-variableTag name="PLSALM_SOUND_RESET" type="INT" unit="NetworkTagsDev" addr="PLSALM_SOUND_RESET" comment="@(Helper Tag for Audible Alarms)" />
+        </dbf-variableTags>
+        <dbf-advancedAlarms>
+          <dbf-advancedAlarm tag="System_Event" name="" expr="FALSE" category="_PLSALM_EVENT" />
+          <dbf-advancedAlarm tag="User_Event" name="" expr="FALSE" category="_PLSALM_EVENT" />
+          <dbf-advancedAlarm tag="General_Event" name="" expr="FALSE" category="_PLSALM_EVENT" />
+        </dbf-advancedAlarms>
+        <dbf-equipment iodevice="NetworkTagsDev" />
+      </dbf-outputs>
+    </profile>
+    <profile name="IEC61850 Virtual Device">
+      <comms-methods>
+        <comms-method name="IEC61850 Virtual Unit" protocol="IEC61850N100" xsi:nil="true" />
+      </comms-methods>
+      <dbf-outputs>
+        <dbf-equipment custom3="IEC61850N100" iodevice="%NAME%" />
+      </dbf-outputs>
+    </profile>
+    <profile name="IEC61850 Data Concentrator" base="System Devices.Base Devices.IEC61850" />
+    <profile name="IEC61850 Virtual Tags">
+      <attributes>
+        <attribute name="IECDevice" displayName="IEC Device">
+          <help>The real I/O device name the virtual tags will be created for.</help>
+          <validationRegex>^[\w_\%]{1,40}$</validationRegex>
+          <crossReference table="equip" column="Name" allowEmptySet="false">
+            <constraint column="Custom3" value="IEC61850N" />
+          </crossReference>
+        </attribute>
+        <attribute name="VirtualUnit" displayName="Virtual Unit">
+          <help>The I/O device name of the virtual unit to use for this virtual tag.</help>
+          <validationRegex>^[\w_\%]{1,40}$</validationRegex>
+          <crossReference table="equip" column="Name" allowEmptySet="false">
+            <constraint column="Custom3" value="IEC61850N100" />
+          </crossReference>
+        </attribute>
+      </attributes>
+      <dbf-outputs>
+        <dbf-variableTags>
+          <dbf-variableTag name="%VIRTUALUNIT%\%IECDEVICE%\CIDFileValid" type="DIGITAL" unit="%VIRTUALUNIT%" addr="%IECDEVICE%!CIDFileValid" raw_zero="" raw_full="" eng_zero="" eng_full="" eng_units="" format="" comment="" deadBand="" custom="%IECDEVICE%" custom1="%IECDEVICE%" custom2="" custom3="" custom4="" custom5="" custom6="" custom7="" custom8="" />
+        </dbf-variableTags>
+        <dbf-advancedAlarms>
+          <dbf-advancedAlarm tag="%VIRTUALUNIT%\%IECDEVICE%\CIDFileValid" name="@(Invalid ICD File)" expr="%VIRTUALUNIT%\%IECDEVICE%\CIDFileValid &lt;&gt; 1" category="_PLSALM_HIGH" custom1="%IECDEVICE%" custom2="PCBased" />
+        </dbf-advancedAlarms>
+      </dbf-outputs>
+    </profile>
+  </category>
+</profiles>

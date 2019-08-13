@@ -1,0 +1,8968 @@
+<?xml version="1.0" standalone="yes"?>
+<ENGLISHs>
+  <xs:schema id="ENGLISHs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="ENGLISHs" msdata:IsDataSet="true" msdata:MainDataTable="ENGLISH" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ENGLISH" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NATIVE" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCAL" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ENGLISH>
+    <NATIVE>Enter Old Password</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Others</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Device</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Equipment Name:</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Location</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Summary</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Go Back a Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Write</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Limits</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Integral</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Password authentication succeeded</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>privilege verification attempt cancelled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unable to display the splash screen</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trend Name</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Add Trend</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Shutdown Runtime</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Category</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Off Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>OnDateTime</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Complete</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display page name.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Click to change override value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Startup failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Loading data set</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No alarms are found in the specified group.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disabled Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>End Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm queue access failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disabled System Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Logout idle time exceeded</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Healthy</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Legend</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Full Name</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Active Alarm Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>!TrendStats</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Off System Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>was approved by the following person</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Detail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Verified</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Error creating temp file</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Click for Tag Data Menu</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>to the device</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>This page has been disabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Add Columns</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Out of buffer space</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display in Popup</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Columns</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Process Range</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>at</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Attention</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New Start Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Save column settings</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Local</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List All Buttons</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Turn on override mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Event Information</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>to tag</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Window is already open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>On Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Set Override value to Valid value initially</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Process</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Limit</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Stop Demo</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Data point is already selected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm queue not enabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Black and white</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Valid values for the first
+argument must be 0-2.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Cluster</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New Span Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Incorrect Configuration file:</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Delete Selected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Play Demo</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>and NOT for device commissioning or simulation.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Approve</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Timestamp:</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Active Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Intermediate</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Tag</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Delete</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Step/Default</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Subgroup size should be</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Command</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disabled Alarm Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page Select</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the page select dialog</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Turn off control inhibit mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display page title.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enter New Password</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Maximize Display</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>You must be an authorized user to close PowerLogic Scada.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Medium</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Comment</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>On Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>LCL</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Areas for privilege</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Retype New Password</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Verify</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Parameter updated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Generating alarm list for printing...</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Process Std. Dev.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>A log of this operation was successfully recorded</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Remove all data points from the list</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Server name</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Advanced Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Tool Tip Settings</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Updating list. Please wait</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Bad/Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List Hidden Tabs</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>All Pages</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New End Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Summary Alarm Filter Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reset</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Tag</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Delete All</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Confirm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Pen</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Export</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Please select another page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>About</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waveform</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Number of bars should be</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trend Interpolator</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reset column settings</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Total Number of Items</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Login</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Delete Column</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page Up</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>User queue access failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Powers</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Period</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unacknowledged System Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Racked Out</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>User chooses not to continue with Graphics Test Mode.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>You must be an administrator to access this area.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>This operation requires a user with the following privileges:</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Off Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Approval is pending verification of the above users</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>The operation</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Password authentication failed or privileges not met</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Go Forward a Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Are you sure ?</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Please wait</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Export</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Login Form</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the last page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>State</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Standard Dev.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the alarm page.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>waveform files.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm queue format parameter not set</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Number of bars to display</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enter your password to approve this operation</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Earth Sw Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Printer Setup</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New Start Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Mean</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Turn off override mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Operation Cancelled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the previous page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New Resolution</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Stretch Options</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Window Display</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>OK</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Failed to write user event queue</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>All Trend Pens</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Maximum</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the alarm summary page.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Log device</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Equipment Name</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Print Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Font Name</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>High</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Cluster</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Loading the default startup</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Shutdown Disabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List of disabled programs</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Toggle test bit on/off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Mean Chart</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Add Point</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Insert Column</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Description</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Active Alarm Filter Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Change user password failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reset Settings</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Read</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trend</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Gain</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Global privilege</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List Hidden Buttons</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>n/a</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Passwords do not match</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Operator</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Duration</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Authentication in progress ...</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Process Mean</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Scale Value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Analog</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Resets</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Activate Command</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Operation</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>First Item Number</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Date/Time search options</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid End Date / Time is entered.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Low</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Diff Cursor 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Diff Cursor 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Search Waveform</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Home Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Print / Export Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>To</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Operation Approved</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Change value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Data Points Stored for Trending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Std. Dev.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>or other errors have occurred</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>was approved by the following people</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Help</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Initializing Display</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Do not display this form next time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Tool tip settings.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Retype Password</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Acknowledge Current Page of Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Add</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>LSL</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Popup Process Analyst</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>user verification attempt cancelled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UCL</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>On Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disabled Alarm Filter Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Create User</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List of disabled tags</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Tag Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Save Settings</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disable</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override Mode is off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Click to change override mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unable to open window</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Password authentication failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>waveform file.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Collecting alarm records from page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Comm Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Click to change control inhibit mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ratio</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Area</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Italic</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Terminated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Failed to write to log device.  Error code</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unacknowledged Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Show Tool Tips</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Limit Changed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Min.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Clear Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Equipment</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Yes</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Average/Default</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>View</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Event Log</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Avg.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>History</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Change Password</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New End Event</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Racked In</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Name</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Onboard</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Currents</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Failed to connect to I/O Server</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Range Chart</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>AlarmFilterForm Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current Trend &amp;Pen</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apply</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>On System Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Minimum</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Digital</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>You must be an authorized user to control this device.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Min. Scale</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>This operation requires approval from all the following people</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Min</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>The selected Event data is Invalid</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Information</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>any valid user</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Tag Control</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Access (viewable areas</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New End Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Log</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the next page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Event Number</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Privilege Verification</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Configured Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List Recent Pages</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Remove Trend</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Colour</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Difference Cursor</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>OK to Logout</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>All</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Filter Parameters list is too long.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Go to hardware alarm page.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select colour</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Analysis</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Subgroup Size</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CAUTION: This mode is for graphical animation testing ONLY</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Warning</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>User Name</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Logout</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Graphics Test Mode is enabled.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Use Override value directly</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>and</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unaccepted Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Valid Mode must be 0-3.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Event</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Alarm Log</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select Pen</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Last Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Signature Verification</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>All users verified.  This operation can now be approved</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Program list</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Underline</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Acknowledged System Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display Current time.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page To End</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Print</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Maximum number of data points reached</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enter your username and password to close PowerLogic Scada.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Type</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Warning: A record of this operation could NOT be written</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Max.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Failed to open log device</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Instant Trend</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enable log file</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Writing value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Show Equipment Data Menu</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Derivative</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Auto Fit Columns</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Prog error list</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Password authentication succeeded and privileges met</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarms / Events</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Are you sure</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Acknowledge Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the hardware alarm page.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Approval awaiting a user with the specified privileges</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enter Password</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Static Mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm category exclude</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Start Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Any commands issued will be sent to the connected devices.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Activate</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltages</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Prev</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>All Available</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display the last alarm.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Plot Setup</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Close</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>was already added.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Please enter administrator password to continue.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override Tag</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Max. Scale</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>The value is outside the permitted range</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Edit User</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Configured System Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trends</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Acknowledged Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Next</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Silence Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Passwords did not match</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Date / Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unable to run the specified startup function</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Graphics Test Mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Cancel</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>USL</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>This operation has been approved</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Custom Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No equipment is selected.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unacknowledged alarms signal.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Found</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>From</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Information</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Save Columns</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unable to find a data point</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Analyst</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unknown</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Hardware alarms signal.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Search Results</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display Help text.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>DateTime Range</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>End Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Filtered Group</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>This operation has been cancelled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Configured</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unable to open page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No Privilege for Action</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Timebase</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current Page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Data point added successfully</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Lock Override value to Valid value continuously</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Priority</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Close Window</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Show Alarm Setpoints</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Size</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Category</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Process Analyst Pen Selection from Comments</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page Down</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PCBased</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Pages</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display Current date.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Authenticate credentials</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Year          Month      Day             Hour      Minute    Second</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Go to page</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No tags are found in the specified group.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Acknowledge</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Remote</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Data</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Quadrant Display</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Off Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Acknowledge Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Earth Sw Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>User chooses to continue with Graphics Test Mode.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Remove data point from the list</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page To Top</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Hardware Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Remove</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>OffDateTime</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Loading</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Eng. Units</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enter a new value:</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Start Date / Time is entered.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Bold</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Priority</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Startup complete</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Scale-can't find bar</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>AckDateTime</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enable</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Password</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Print</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Process Analyst</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Set Override value to Field value initially</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Print Progress</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Create user failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Now</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Turn on control inhibit mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>0 waveform files.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Tag Override</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Go to general alarm page.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Do you wish to continue?</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Dynamic Mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Clear</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Please enter value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Startup</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disabled alarms signal.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Comm Ok</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page Number</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select from Tags</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Print engine failed to initialize Internet Explorer.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>You must be an authorized user to edit this alarm.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Range</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select from Comments</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Time Range</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Print engine failed to create temporary output file.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Show Trend</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Column</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Hardware Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>TagDebug</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Shift</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Disabled Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Area</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>of the alarm list...</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Spc Start Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Access denied.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Page Number</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Circuit Breaker</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unassigned</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List All Tabs</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>You must be an authorized user to save column settings.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm Description</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trend Start Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Start Date</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Instant Trend Tag Selection</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>User Login</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Title</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Inhibit Tag</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>RealTime</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Page Dn</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Shutdown</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Too many windows open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Summary Alarm Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>You must be an authorized user to view waveforms.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Condense Options</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Click to login</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Comm Warning</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Comm Unknown</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Print List</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Export List</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Graphics Test</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Click on items to toggle state</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>List</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Setpoints</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Match Text</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Match Dates/Times</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Match Type</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Custom Field</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>The system is in Graphics Test</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unfreeze</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Freeze</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Filter Applied</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display Frozen</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Filter Applied and Display Frozen</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Basic Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Type Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Group Filter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Filtered by exact match</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>This field is filtered by exact match</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Product Versions</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CitectSCADA</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Product Version</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Racked Test</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>In Between</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Label</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Element</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No Operation</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Read Pending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Write Pending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Read &amp; Write Pending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Last Write OK</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Last Write OK &amp; Read Pending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Last Write OK &amp; Write Pending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Last Write OK &amp; Read &amp; Write Pending</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Last Write Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Item</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Note: Move mouse pointer over values for tag syntax.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Write Inhibited</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Normal</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Inhibit</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override On</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override to Valid</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>ON</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override display value with override value?</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Field value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Inhibit mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Inhibit control of tag value?</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Operation mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override mode ON</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Override mode OFF</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Inhibit mode ON</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Inhibit mode OFF</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Inhibit On</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Inhibit Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Logout idle time exceded</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Shutting down web client in</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm History</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>seconds</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Shutting down</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>About PowerLogicSCADA</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Helper Tag for Audible Alarms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Space</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Enter</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Project Information</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Revision</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Project Includes</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Information</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Role</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Screen Size</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Dynamic Point Count</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>About PowerLogic SCADA</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Project</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Phone</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Web</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Email</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Technical Support</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Hours of Operation</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Normal hours of operation</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 High Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 High Current Phase A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 High Current Phase B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 High Current Phase C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 10</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 11</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 12</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 13</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 14</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 15</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 16</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Over Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 17</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 1 Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 18</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 19</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 39 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 35 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 20</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 21</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 22</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 31 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 23</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 24</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 25</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 26</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 27</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 28</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 49 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 29</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 45 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 41 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 30</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 31</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 32</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Frequencies</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 33</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 34</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 19 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 35</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 36</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 37</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 15 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 38</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 39</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Power Factor</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 11 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 01</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 02</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real power Ch. 03</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 04</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 05</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 40</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 06</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 29 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 41</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 07</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 42</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 08</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 43</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 09</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 25 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 44</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 45</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 46</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 High Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 21 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 47</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 48</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 49</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Under Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 09 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 05 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>V</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 01 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 30</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 31</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Communication Failure</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 32</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 33</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 34</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 35</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 36</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 37</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 38</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 39</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Under Frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 40</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 41</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 42</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 43</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 44</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 45</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 46</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 01</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 47</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 02</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 48</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 03</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 49</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 04</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 05</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Low Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 06</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 07</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 08</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 09</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 10</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 11</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Current RMS Neutral</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 12</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 13</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 14</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 15</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 16</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 17</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 18</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Summary Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 19</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 20</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 21</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 22</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 23</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 24</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 25</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 26</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 27</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 28</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 29</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 71 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 4 Position Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Real Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 59 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Low Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Over Frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Real Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 55 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 51 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 2 Position Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 50</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 69 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 51</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 52</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Over Frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 53</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 65 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 56</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 61 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 57</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Over Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 58</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 3 Position Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 59</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 60</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 61</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 62</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 63</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Hz</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>kVA</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 64</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 65</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 66</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 67</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 68</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 69</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 70</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 71</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 72</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 70</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 1 Position Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 71</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Alarm Ch. 72</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 50</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 51</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 52</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 53</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 54</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 55</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 56</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>kW</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 57</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 58</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 59</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 4 Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Over Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 60</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 61</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 62</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 20</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 63</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 38 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 21</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 64</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 22</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 65</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 23</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 66</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 34 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 24</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 67</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 25</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 68</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 26</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 69</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 30 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 27</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 28</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 29</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 48 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 44 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 10</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 11</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 12</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 40 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 13</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 14</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Faults</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 15</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 16</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 17</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Under Frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 18</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 18 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 19</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 14 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 10 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 40</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 41</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 42</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 43</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 44</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 28 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 45</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 46</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 47</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 24 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 48</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 49</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 20 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 30</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 31</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 32</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 33</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 34</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 35</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 36</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 37</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 38</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 39</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Under Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 08 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 04 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Apparent Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Current RMS Neutral</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 01</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 02</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 03</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 01</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 04</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 02</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 05</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 03</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 06</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 04</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 07</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 05</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 08</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 06</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 09</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Under Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 07</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 08</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Low Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 09</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Apparent Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 30</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 31</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 32</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 33</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 34</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 35</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 36</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 37</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 38</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 39</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 70 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 40</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 41</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 42</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 43</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 44</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 45</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 46</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 47</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 48</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 49</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 58 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 54 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 10</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 11</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 50 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 12</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 13</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 14</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 15</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>LV Breaker/Trip Unit Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 16</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 17</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 68 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Over Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 18</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 19</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 64 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 60 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>External Equipment Health</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 20</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 21</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 22</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 60</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 23</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 61</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 24</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 62</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 25</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 63</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 26</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 64</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 27</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 65</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 28</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 66</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Ch. 29</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 67</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 68</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 69</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 50</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 51</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 52</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 53</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 54</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 55</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 56</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 57</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 58</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 59</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 40</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 41</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 42</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 43</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 44</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 High Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 45</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 46</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 70</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 47</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 71</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 48</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Ch. 72</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 49</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Over Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 3 Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 30</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 31</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 32</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 33</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 34</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 37 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 35</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 36</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 37</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 33 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 38</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 39</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 20</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 47 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 21</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 22</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 23</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 43 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 24</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 25</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 26</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 27</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 28</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 29</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>kVAR</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 17 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 13 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 10</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 11</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 12</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 13</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 14</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 15</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 16</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 17</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 18</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 27 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 19</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 23 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 01</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 02</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 03</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 High Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 04</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 05</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 06</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 07</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 08</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 09</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 07 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Under Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 03 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Electrical</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Under Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 1 Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 57 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 53 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Low Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 2 Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 67 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 63 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 70</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 71</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 72</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 3 Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 60</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 61</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 62</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 4 Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 63</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 64</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 65</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 66</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 67</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 68</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 69</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 50</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 51</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 52</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 53</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 54</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 55</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 56</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 57</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 58</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Ch. 59</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 High Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 2 Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 36 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 32 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 46 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 42 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 16 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 12 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 26 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 22 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 High Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factors</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 06 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 02 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Reactive Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>RMS</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 3 Trip Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Over Current Phase A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Over Current Phase B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Over Current Phase C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 2 Trip Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Under Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Low Voltage Phase A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Reactive Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 4 Trip Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker 1 Trip Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 70</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 71</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 72</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 72 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Over Current Phase A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Over Current Phase B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB1 Over Current Phase C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 56 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Low Voltage Phase B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 52 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 50</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 51</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 52</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 High Current Phase A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 53</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 High Current Phase B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 54</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 High Current Phase C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 55</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 56</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 66 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 57</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 58</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 59</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ch. 62 Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Over Voltage Phase C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 60</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 61</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 62</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 63</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 64</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 65</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 66</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 67</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 68</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Ch. 69</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main CB2 Power Factor</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unbalance</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD  Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD  Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>TC phase fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 46 unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 46 unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Onboard Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 36 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>%</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 47 unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>_PLSALM_HIGH</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 81L unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 81L unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 38 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 81L unit 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 81L unit 4</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Miscellaneous</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 37 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alarm State</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Loss</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Status O01</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Status O02</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Status O03</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Status O04</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fan Exerciser Disabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage Unbalance L-L Worst</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over THD Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Quality</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 C44 Slt2 IO 22 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Swell</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50/51 unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50/51 unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50/51 unit 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50/51 unit 4</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 C44 Slt2 IO 20 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Power Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>kWH</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 C44 Slt2 IO 21 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Temperature Right Phase</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unbalance Readings</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD  Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Energy</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Average Over Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Recloser ready</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 42 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD  Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Wiring Type</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>_PLSALM_MEDIUM</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 41 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waveform Download In Progress</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Physical Device Health</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Display Driver Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>�C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Device Date/Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sag Van</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Time lost</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sag Vcn</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 40 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unhandled Alarm Received</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>_PLSALM_EVENT</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Energy Into the Load</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Demand Reactive Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sag Vbn</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 59N unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 59N unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 35 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unary Power Up/ Reset</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over THD Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Not synchronous</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Generic I/O</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Quality Readings</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Demand Readings &amp; History</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Setting group B in service</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Setting group A in service</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Temperature Center Phase</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Center Phase Sensor Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50N/51N unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50N/51N unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50N/51N unit 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50N/51N unit 4</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>TP phase fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Remote control inhibited</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD  Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Buzzer State</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD  Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>kVAH</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waveform Collection Enabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breakers</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Left Phase Sensor Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Energy Out of the Load</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Phase Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker Health SF6 Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Energy</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50BF</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Factor Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker Trip Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Demand Real Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Right Phase Sensor Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sepam not reset after fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Input Status I11</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Input Status I12</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Input Status I13</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Input Status I14</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Temperatures</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current Avg</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Manual Fan State</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current G</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Power Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27/27S unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27/27S unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Swell Vcn</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>EEPROM Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 59 unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 59 unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Swell Vbn</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>kVARH</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Thermal protection inhibited</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Power Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Swell Van</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage Unbalance L-N Worst</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage L-N Avg</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>A/D Converter Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Energy</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Terminal Block Temperature</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Output Status O11</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Output Status O12</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Output Status O13</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>M114 Output Status O14</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Demand Apparent Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Matching fault / trip circuit supervision</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over THD Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Energies</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trip Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sag</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Cumulative</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Energy Out of the Load</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Apparent Energy</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage L-L Avg</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 C44 Slt2 IO 19 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Terminal Block Temperature Sensor Failed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Maximum Stored Temperature</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Real Energy Into the Load</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage Unbalance L-N Worst</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Temperature Left Phase</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 81H unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 81H unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Consumption</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4 IOX Slt3 IO 39 Dig In On/Off Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Device Clock Date/Time</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS Battery Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS On Normal Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fiber Optic C1 Communication Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ship Breaker Open Request</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Auto Mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Tripped Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Voltage C-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fence E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Closed Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fiber Optic C2 Communication Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Close Command</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4B Over Current Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>NGR Sepam Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ship PLC Communication Established</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Voltage B-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Select Pilot Loop ID</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Normal</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fiber Optic Communication Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ship E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Tripped Permissive</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ship On Shore Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Open Command</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Closed Permissive</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker Closed Delay Timer Reset Command</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS Control Power Available</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker External Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker Closed Delay Timer</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>NGR Monitor Resistor Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Voltage A-N</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Manual Mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Switchgear E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS On Battery</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS Summary Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>NGR Monitor Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ship Breaker Closed Request</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>NGR Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 2B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 1B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker External Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Any E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 5B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 4B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 3 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 6 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Please close existing popup first.</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Global Escalation Alarm - Level 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Global Escalation Alarm - Level 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unix Date / Time Value</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>�C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 32Q</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27R unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 67 unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 67 unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 32P unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27D unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27D unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 67N unit 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 67N unit 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Differential</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>&gt;C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 02 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 01 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 08 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 07 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 01 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 07 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 03 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 02 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 03 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 04 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 05 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 06 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 07 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 08 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 09 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 06 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 07 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 06 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 08 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 04 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 09 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 08 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 03 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 02 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 05 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 04 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 05 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 01 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 09 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 05 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 01 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 04 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 03 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 09 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 06 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 02 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Release Arc Latch Outputs</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 8 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 4 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VO6 Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VO1 Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Clear LED and Output Matrix</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VO4 Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Alive Indicator</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VO5 Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VO2 Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VO3 Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 7 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 3 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Clear IO Unit Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 6 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 2 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Residual current I0 Sum</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 12 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 11 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 10 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 10 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 08 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 04 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 09 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 08 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 10 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 03 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 07 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 07 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 06 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 12 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 05 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 9 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 5 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 04 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 1 Sensor Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 06 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 03 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 01 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Sensor 02 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 02 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 11 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 05 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 01 Active</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 10 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 09 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 02 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 07 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 06 Sensor 01 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 08 Address Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 04 Sensor 09 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Slave 03 Sensor 05 Connected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fault Register 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fault Register 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fault Register 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fault Register 4</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VO Register</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Health Alarm - Register 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Health Alarm - Register 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Health Alarm - Register 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Health Alarm - Register 4</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 3 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 2 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 5 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 4 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 1 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 7 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 6 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IO Unit 8 Sensor Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Health Alarm - Hardware/OS Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Health Alarm - IO Card Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Health Alarm - Output Ralay Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vamp Self-Diag Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>_PLSALM_LOW</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vamp Self-Diag Alarm - I/O Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vamp Self-Diag Alarm - Hardware/OS Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vamp Self-Diag Alarm - Output Relay Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Self-Diag Alarm - IO Card Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Self-Diag Alarm - Hardware/OS Error</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>VAMP Self-Diag Alarm - Output Ralay Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8B Over Current Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20B Over Current Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12B Over Current Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16B Over Current Tripped</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 16 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 17 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Interlock Defeated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 18 Pilot Loop Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 9 Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 20B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 7B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 15 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 12 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 19B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 8 Earth Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 13 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 14B Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 10A Over Current Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Vault 11 Feeder Switch Contact Disagree</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Power Available</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 1A1B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Close Permissive</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Fail to Close</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 6A6B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 7A7B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ship Breaker Close Permissive Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 5A5B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 4A4B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Global Status Reset</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 4A4B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 10A10B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 7A7B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 10B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 1A1B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 6A6B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ship Breaker Close Permissive On</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 5A5B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 9A9B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 5B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 10A10B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 3A3B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 4B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 8A8B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 7B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 2A2B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 8A8B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>HMI Reset Close Delay Timer</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 6B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS Low Battery</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 4A4B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 9B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 6A6B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 9A9B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 8B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 5A5B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Trip Permissive</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 7A7B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 8A8B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 10A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker 86 Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PLC in Manual Mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 9A9B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS Battery Fault</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 8A8B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 1B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reverse Power Relay Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Racked In</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 2A2B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 3B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Ground Check OK</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 1A1B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 2B Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 9A9B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 3A3B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 5A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Fail to Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PLC Auto Lockout</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 6A6B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 4A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>E-Stop Acknowledged</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PLC Trip Relay Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 10A10B Earth Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 7A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 6A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 7A7B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 9A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PLC in Auto Mode</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Main Breaker Trip Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 2A2B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 8A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 10A10B Earth Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 4A4B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 3A3B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS on Bypass</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>At Least One E-Stop Activated</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 5A5B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>UPS on Utility</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 1A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 1A1B Feeder Switch Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 3A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 2A Sepam Health Fail</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 2A2B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>E-Stop Detected</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>SPO 3A3B Feeder Switch Open</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Diagnostic</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over THD Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient AB</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient AC</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient Threshold Invalid</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 4</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 5</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 6</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 7</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T tripping set point sensor 8</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient BC</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient Alarm - Disabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sag Vab</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sag Vca</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Sag Vbc</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over THD Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>RTD Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49 RMS trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Impulsive Transient ABC</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Rate Of Change</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49 RMS alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Transient</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 81R rate of change of frequency</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Swell Vca</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Swell Vbc</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage Unbalance L-L Worst</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Swell Vab</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over THD Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27S ph.-to-n. undervoltage phase 1</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 4</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27S ph.-to-n. undervoltage phase 2</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 5</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 27S ph.-to-n. undervoltage phase 3</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 6</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 7</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 49T alarm set point sensor 8</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM8 P26 Slt1 IO 8 Dig In On/Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM8 P26 Slt1 IO 10 Dig In On/Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM8 P26 Slt1 IO 9 Dig In On/Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM8 P26 Slt1 IO 5 Dig In On/Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM8 P26 Slt1 IO 6 Dig In On/Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CM4/PM8 SltOB IO 2 Dig In On/Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM8 P26 Slt1 IO 7 Dig In On/Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Device drawn out</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>BCM Online status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Battery Health</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CCM Online status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid Timestamp Alarm Received</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM offline Alarm Received</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power-Up/Reset</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Time Loss - Cradle Comms Module</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection 50/27</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>MM offline Alarm Received</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Time Loss - Breaker Comms Module</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CCM offline Alarm Received</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>BCM offline Alarm Received</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>MM Online status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>PM Online status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker Trip Output</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>86 Trip Output</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Trip Unit Door Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Breaker Status - Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waveform Collection Enabled - PM</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waveform Download In Progress - MM</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waveform Download In Progress - PM</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waveform Collection Enabled - MM</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Firmware Version Mismatch</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Displacement Power Factor</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Fundamental Apparent Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Supply Out of Range Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Current Negative Sequence</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Source Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fundamental Current A Required</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Current Sensor Inoperable Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Fundamental Reactive Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output  Current B Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Active Current Capacity</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Protection Firmware Trip Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No Master Available</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Internal Transformer Over temp Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Auto Detection Out of Range Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Fundamental Apparent Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Fundamental Reactive Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Current Condition Detected Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Fundamental Real Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fundamental Current C Required</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fundamental Current B Required</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Fundamental Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Fundamental Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Fundamental Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Line Not Qualified</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>New Unit Rating Applied</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Parallel ID conflict</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Parallel Wiring Mismatch Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Waiting for Restart</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>DC Bus Trip Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>AC Line Not Qualified Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Source Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Source Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Source Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Gate Drive Trip Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>CT Is Clipping</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Source Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>No CTs Configured</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Contactor Not Closed</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Fundamental Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Fundamental Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Fundamental Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Parallel Power Wiring Mismatch</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fundamental Voltage C-A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>IGBT Trip Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Current Negative Sequence</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Fundamental Real Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unit Max Capacity</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Fundamental Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Fundamental Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Fundamental Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Source Displacement Power Factor</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Under Temperature Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Over Temperature Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Harmonics Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Harmonics Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Harmonics Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unit Auto-Starting</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>FilterTrip Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Source Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Parallel System Setup Mismatch</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>MOV Requires Service Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>HF Filter Contactor Trip</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output Fundamental Reactive Power</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fundamental Voltage B-C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Current A Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Firmware Trip Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Current B Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fan Failure Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Harmonics Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Harmonics Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Harmonics Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Control Board Initialization In Progress</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>HMI Communication Loss Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>High Frequency Voltage Distortion Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Parallel Version Mismatch</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output  Current A Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Low Order Harmonics Off</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Load Current C Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unit Rating Mismatch</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Output Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Invalid configuration</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Fundamental Voltage A-B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Automatic Thermal  Derating</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Contactor Trip Event Alarm</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Reactive Load Current</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Output  Current C Total</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Power Save On</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Available Current Capacity</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>Unit Output is disabled</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Load Current A</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Load Current B</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>THD Load Current C</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>ms</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System On</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+  <ENGLISH>
+    <NATIVE>System Status</NATIVE>
+    <LOCAL />
+  </ENGLISH>
+</ENGLISHs>

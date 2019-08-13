@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<groups>
+  <xs:schema id="groups" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="groups" msdata:IsDataSet="true" msdata:MainDataTable="group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="group" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS1" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS2" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS3" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS4" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS5" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS6" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS7" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS8" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS9" type="xs:string" minOccurs="0" />
+                <xs:element name="ASS10" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</groups>

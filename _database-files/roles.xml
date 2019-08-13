@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<roles>
+  <xs:schema id="roles" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="roles" msdata:IsDataSet="true" msdata:MainDataTable="role" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="role" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="GROUP_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="ACCESS" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_G" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_1" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_2" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_3" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_4" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_5" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_6" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_7" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV_8" type="xs:string" minOccurs="0" />
+                <xs:element name="ENTRY_FUNC" type="xs:string" minOccurs="0" />
+                <xs:element name="EXIT_FUNC" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</roles>

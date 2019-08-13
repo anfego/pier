@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<trends>
+  <xs:schema id="trends" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="trends" msdata:IsDataSet="true" msdata:MainDataTable="trend" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="trend" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPR" type="xs:string" minOccurs="0" />
+                <xs:element name="TRIG" type="xs:string" minOccurs="0" />
+                <xs:element name="SAMPLEPER" type="xs:string" minOccurs="0" />
+                <xs:element name="PRIV" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_UNITS" type="xs:string" minOccurs="0" />
+                <xs:element name="FORMAT" type="xs:string" minOccurs="0" />
+                <xs:element name="FILENAME" type="xs:string" minOccurs="0" />
+                <xs:element name="FILES" type="xs:string" minOccurs="0" />
+                <xs:element name="TIME" type="xs:string" minOccurs="0" />
+                <xs:element name="PERIOD" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="SPCFLAG" type="xs:string" minOccurs="0" />
+                <xs:element name="LSL" type="xs:string" minOccurs="0" />
+                <xs:element name="USL" type="xs:string" minOccurs="0" />
+                <xs:element name="SUBGRPSIZE" type="xs:string" minOccurs="0" />
+                <xs:element name="XDOUBLEBAR" type="xs:string" minOccurs="0" />
+                <xs:element name="RANGE" type="xs:string" minOccurs="0" />
+                <xs:element name="SDEVIATION" type="xs:string" minOccurs="0" />
+                <xs:element name="STORMETHOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="DEADBAND" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <trend>
+    <NAME>CYSS3A_MAIN_S42\MMXU1\TotW</NAME>
+    <EXPR>CYSS3A_MAIN_S42\MMXU1\TotW</EXPR>
+    <TRIG />
+    <SAMPLEPER>00:15:00</SAMPLEPER>
+    <PRIV />
+    <AREA />
+    <ENG_UNITS>@(kW)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <FILENAME />
+    <FILES>13</FILES>
+    <TIME />
+    <PERIOD>1st</PERIOD>
+    <COMMENT>@(Real Power Total)</COMMENT>
+    <TYPE>TRN_PERIODIC</TYPE>
+    <SPCFLAG />
+    <LSL />
+    <USL />
+    <SUBGRPSIZE />
+    <XDOUBLEBAR />
+    <RANGE />
+    <SDEVIATION />
+    <STORMETHOD>Floating Point (8-byte samples)</STORMETHOD>
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <TAGGENLINK />
+    <EDITCODE />
+    <LINKED />
+    <DEADBAND />
+    <EQUIP>CYSS3A_MAIN_S42</EQUIP>
+  </trend>
+</trends>

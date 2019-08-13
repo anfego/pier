@@ -1,0 +1,147 @@
+//Description - SAG Standard Popup Offering (Custom variety)
+//Author      - Saeed Ghezawi
+//Company	  - Schneider Electric
+//Group		  - Software Applications Group
+//Date Mod.	  - 9/4/2012
+
+//Naming conventions followed:
+//		-Module Variable       -> (Global to Cicode file) = All caps with underscores between words
+//		-Local Variable Tags   -> First character of each word caps with no spaces/no underscores
+//		-Cicode Local Variable -> Data type identifier letter (i=INT,h=Handle(INT),s=STRING,r=REAL
+//								  o=OBJECT, b=Boolean (INT)) followed by first character of each
+//								  word caps with no spaces/no underscores
+
+//This product uses the following PLSCADA resources (Required for project to use the popup):
+//		-Graphics page
+//			!ES_Popup_Model98
+//			!ES_Popup_MGE_UPS_NB
+//			!ES_Popup_MTA
+//			!ES_Popup_MGE_STS
+//			!ES_ColorSelection
+//			!ES_Historical_Trending
+//			!ES_Webpage
+
+//		-Variable Tags (Disk):
+//			INT zES\Box_Fill_Color
+//				I/O Device Name - zES
+//				Data Type - INT
+//			INT zES\Box_Border_Color
+//				I/O Device Name - zES
+//				Data Type - INT
+//			INT zES\Box_Gradient_Mode
+//				I/O Device Name - zES
+//				Data Type - INT
+//			INT zES\Background_Color
+//				I/O Device Name - zES
+//				Data Type - INT
+
+//		-Cicode Files
+//			ES_Standard_Popup.ci
+//			ES_Trending.ci
+
+//This file includes the following Cicode functions (In order):
+// - Core Functions
+//		ES_Popup_Model98(STRING sDevice , STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+//		ES_Popup_MGE_UPS_NB(STRING sDevice , STRING sType = "L27", STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+//		ES_Popup_MTA(STRING sDevice , STRING sType = "L14" , STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+//		ES_Popup_MGE_STS(STRING sDevice , STRING sType = "L24" , STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+//		ES_Popup_ION7550(STRING sDevice , STRING sType = "L24" , STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+//		ES_Popup_ION7300(STRING sDevice , STRING sType = "L24" , STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+//		ES_Popup_GE735(STRING sDevice , STRING sType = "L24" , STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+//		ES_Popup_GE489(STRING sDevice , STRING sType = "L24" , STRING sTitle = sDevice , STRING sBitmap = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+
+//Constants
+MODULE INT WINDOW_OPEN_FAILED = -1; //WinNew or WinNewAt failed
+MODULE INT DEFAULT_WINDOW_MODE = 901;	//Window mode used by default : 1(Page child window)/4(No resize window)/128(Unique window)/256(Show all window)/512(Unique super genie)
+
+//Description - Sets popup associations and displays popup window.
+//				For the MODEL 98 TEMPERATURE SENSOR DEVICE TYPE
+//Args	      - sDevice  -> Name of device to call popup for. No default (Required parameter)
+//					Example: "MyCM4000" if you have a device in units.DBF named "MyCM4000"
+//				sTitle   -> Title shown in window title bar. Defaults to device name
+//					Example: "Circuit Monitor 4000 Popup"
+//				sTrendTimeSpan  -> Sets default timespan for the trend popup, in HH:SS format
+//					Example: "01:00" for 1 hour.  Default is 1 hour. 
+//				sHelpPDF -> Any PDF file path. Defaults to nothing and hides button on popup
+//					Example: PathToStr("[RUN]:CM4000_Manual.PDF")
+//				sWebsite -> Any webpage link. Defaults to nothing and hides button on popup
+//					Example: "http://10.10.10.10" (For EGX/ECC webpage)
+//				sCluster -> The cluster the device residues in. Defaults to active cluster
+//					Example: "MyCluster" if you have a cluster in cluster.DBF named "MyCluster"
+
+
+
+FUNCTION ES_Popup_Accusine(STRING sDevice , STRING sTitle = sDevice , STRING sTrendTimeSpan = "" , STRING sHelpPDF = "" , STRING sWebsite = "" , STRING sCluster = "")
+	//Local variables
+	INT iMouseX;
+	INT iMouseY;
+	INT hWin;
+	
+	//Get mouse position (Where popup will be displayed)
+	DspGetMouse(iMouseX , iMouseY); 
+	
+	
+	//Graphical Associations
+	ESAssText("Device" , "'" + sDevice + "'" , sCluster);
+	ESAssText("Cluster" , "'" + sCluster + "'" , sCluster);
+	//ESAssText("Bitmap" , "'" + sBitmap + "'" , sCluster);
+	ESAssText("Type" , "'L13'" , sCluster);
+	ESAssText("Device_Website" , "'" + sWebsite + "'" , sCluster);
+	ESAssText("Help_PDF" , "'" + sHelpPDF + "'" , sCluster);
+	ESAssText("Title" , "'" + sTitle + "'" , sCluster);
+	ESAssText("TrendTimeSpan" , "'" + sTrendTimeSpan + "'" , sCluster);
+
+	ESAssText("WaitRestrart" , sDevice + "\WaitRestrart" , sCluster);
+	ESAssText("UnitRatMismat" , sDevice + "\UnitRatMismat" , sCluster);
+	ESAssText("OutputDisable" , sDevice + "\OutputDisable" , sCluster);
+	ESAssText("UnitMazCap" , sDevice + "\UnitMazCap" , sCluster);
+	ESAssText("AutoStarting" , sDevice + "\AutoStarting" , sCluster);
+	ESAssText("UnTempAlm" , sDevice + "\UnTempAlm" , sCluster);
+	ESAssText("ProtFMTrAlm" , sDevice + "\ProtFMTrAlm" , sCluster);
+	ESAssText("PwSupOutRagAlm" , sDevice + "\PwSupOutRagAlm" , sCluster);
+	ESAssText("PwrSaveOn" , sDevice + "\PwrSaveOn" , sCluster);
+	ESAssText("PrllWireMismtAlm" , sDevice + "\PrllWireMismtAlm" , sCluster);
+	ESAssText("PrllVerMismat" , sDevice + "\PrllVerMismat" , sCluster);
+	ESAssText("PrllSysSetMismat" , sDevice + "\PrllSysSetMismat" , sCluster);
+	ESAssText("PrllPwrWireMismat" , sDevice + "\PrllPwrWireMismat" , sCluster);
+	ESAssText("PrllIDConf" , sDevice + "\PrllIDConf" , sCluster);
+	ESAssText("OvTempAlm" , sDevice + "\OvTempAlm" , sCluster);
+	ESAssText("OvrCurConDectAlm" , sDevice + "\OvrCurConDectAlm" , sCluster);
+	ESAssText("NoMastAvail" , sDevice + "\NoMastAvail" , sCluster);
+	ESAssText("NoCTConfig" , sDevice + "\NoCTConfig" , sCluster);
+	ESAssText("NewUnitRatApp" , sDevice + "\NewUnitRatApp" , sCluster);
+	ESAssText("MOVSvrReqAlm" , sDevice + "\MOVSvrReqAlm" , sCluster);
+	ESAssText("LoOrdHmrOff" , sDevice + "\LoOrdHmrOff" , sCluster);
+	ESAssText("LineNotQual" , sDevice + "\LineNotQual" , sCluster);
+	ESAssText("InvConfig" , sDevice + "\InvConfig" , sCluster);
+	ESAssText("IntXfmrTmpAlm" , sDevice + "\IntXfmrTmpAlm" , sCluster);
+	ESAssText("IGBTTripAlm" , sDevice + "\IGBTTripAlm" , sCluster);
+	ESAssText("HMICommLossAlm" , sDevice + "\HMICommLossAlm" , sCluster);
+	ESAssText("HiFqVltDistAlm" , sDevice + "\HiFqVltDistAlm" , sCluster);
+	ESAssText("HFFilterContTr" , sDevice + "\HFFilterContTr" , sCluster);
+	ESAssText("GtDriTripAlm" , sDevice + "\GtDriTripAlm" , sCluster);
+	ESAssText("FWVerMismat" , sDevice + "\FWVerMismat" , sCluster);
+	ESAssText("FWTripAlm" , sDevice + "\FWTripAlm" , sCluster);
+	ESAssText("FilterTripAlm" , sDevice + "\FilterTripAlm" , sCluster);
+	ESAssText("FanFailAlm" , sDevice + "\FanFailAlm" , sCluster);
+	ESAssText("DCBusTripAlm" , sDevice + "\DCBusTripAlm" , sCluster);
+	ESAssText("CuSenInopAlm" , sDevice + "\CuSenInopAlm" , sCluster);
+	ESAssText("CTClip" , sDevice + "\CTClip" , sCluster);
+	ESAssText("CtrBrdIniti" , sDevice + "\CtrBrdIniti" , sCluster);
+	ESAssText("ContactorTrEvtAlm" , sDevice + "\ContactorTrEvtAlm" , sCluster);
+	ESAssText("ContNotCls" , sDevice + "\ContNotCls" , sCluster);
+	ESAssText("AtThrmDerat" , sDevice + "\AtThrmDerat" , sCluster);
+	ESAssText("AtDectOutRangAlm" , sDevice + "\AtDectOutRangAlm" , sCluster);
+	ESAssText("ACNotQualAlm" , sDevice + "\ACNotQualAlm" , sCluster);
+	ESAssText("SystemOn" , sDevice + "\SystemOn" , sCluster);
+
+	
+	//Create popup window
+	hWin = WinNewAt("!ES_Popup_Accusine" , iMouseX + StrToInt(PageInfo(14)) , iMouseY + StrToInt(PageInfo(15)) , DEFAULT_WINDOW_MODE);
+	
+	//Ensure popup window opened
+	IF (hWin <> WINDOW_OPEN_FAILED) THEN
+		//Set window title
+		WinTitle(sTitle);
+	END
+END

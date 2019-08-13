@@ -1,0 +1,2836 @@
+<?xml version="1.0" standalone="yes"?>
+<variables>
+  <xs:schema id="variables" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="variables" msdata:IsDataSet="true" msdata:MainDataTable="variable" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="variable" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="UNIT" type="xs:string" minOccurs="0" />
+                <xs:element name="ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="RAW_ZERO" type="xs:string" minOccurs="0" />
+                <xs:element name="RAW_FULL" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_ZERO" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_FULL" type="xs:string" minOccurs="0" />
+                <xs:element name="ENG_UNITS" type="xs:string" minOccurs="0" />
+                <xs:element name="FORMAT" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="EDITCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="LINKED" type="xs:string" minOccurs="0" />
+                <xs:element name="OID" type="xs:string" minOccurs="0" />
+                <xs:element name="REF1" type="xs:string" minOccurs="0" />
+                <xs:element name="REF2" type="xs:string" minOccurs="0" />
+                <xs:element name="DEADBAND" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TAGGENLINK" type="xs:string" minOccurs="0" />
+                <xs:element name="CLUSTER" type="xs:string" minOccurs="0" />
+                <xs:element name="EQUIP" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM2" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM3" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM4" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM5" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM6" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM7" type="xs:string" minOccurs="0" />
+                <xs:element name="CUSTOM8" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSCA_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:30800</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Swell Vca)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSCA_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:30900</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Sag Vca)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSC_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:60800</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Swell Vcn)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSC_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:60900</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Sag Vcn)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSBC_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:20800</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Swell Vbc)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSBC_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:20900</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Sag Vbc)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSB_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:50800</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Swell Vbn)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSB_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:50900</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Sag Vbn)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSAB_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:10800</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Swell Vab)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSAB_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:10900</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Sag Vab)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSA_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:40800</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Swell Van)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SSA_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:40900</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Sag Van)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SLR_MSQI1\MaxImbV</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1136:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage Unbalance L-N Worst)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Unbalance Readings),8</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\SLR_MSQI1\MaxImbPPV</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1132:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage Unbalance L-L Worst)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Unbalance Readings),8</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\PhC_QVTR1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:41110</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\PhBC_QVTR1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:61110</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient BC)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\PhB_QVTR1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:21110</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\PhAC_QVTR1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:51110</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient AC)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\PhABC_QVTR1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:71110</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient ABC)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\PhAB_QVTR1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:31110</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient AB)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\PhA_QVTR1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11110</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OWLN_QVUB1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11360100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage Unbalance L-N Worst)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OWLL_QVUB1\Str\general\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11320100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage Unbalance L-L Worst)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OCT_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12090100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over THD Voltage C-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OCAT_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12130100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over THD Voltage C-A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OCA_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11220100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage C-A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OCA_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11220200</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Under Voltage C-A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OC_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11260100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage C-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OC_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11260200</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Under Voltage C-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OBT_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12080100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over THD Voltage B-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OBCT_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12120100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over THD Voltage B-C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OBC_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11210100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage B-C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OBC_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11210200</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Under Voltage B-C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OB_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11250100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage B-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OB_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11250200</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Under Voltage B-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OAT_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12070100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over THD Voltage A-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OABT_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12110100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over THD Voltage A-B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OAB_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11200100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage A-B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OAB_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11200200</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Under Voltage A-B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OA_QVVR1\SwlStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11240100</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Over Voltage A-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\OA_QVVR1\DipStr\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:11240200</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Under Voltage A-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MSTA1\AvW</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:2150:u1;R:3214;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kW)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Demand Real Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Demand Readings &amp; History),4</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Average Over Time),2</CUSTOM5>
+    <CUSTOM6>@(Power),11</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MSTA1\AvVAr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:2165:u1;R:3214;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVAR)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Demand Reactive Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Demand Readings &amp; History),4</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Average Over Time),2</CUSTOM5>
+    <CUSTOM6>@(Reactive Power),18</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MSTA1\AvVA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:2180:u1;R:3214;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVA)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Demand Apparent Power)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Demand Readings &amp; History),4</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Average Over Time),2</CUSTOM5>
+    <CUSTOM6>@(Apparent Power),17</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\TotW</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1143:u1;R:3214;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kW)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Real Power Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Power),11</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\TotVAr</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1147:u1;R:3214;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVAR)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Reactive Power Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Reactive Power),18</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\TotVA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1151:u1;R:3214;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVA)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Apparent Power Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Powers),3</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Apparent Power),17</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\TotPF</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1163:u1;E:2;L:P:50</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>#.###</FORMAT>
+    <COMMENT>@(Power Factor Total)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Factors),6</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(Power Factor),36</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PPV\zavg</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1123:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage L-L Avg)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PPV\phsCA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1122:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage C-A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PPV\phsBC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1121:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage B-C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PPV\phsAB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1120:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage A-B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PhV\zavg</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1128:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage L-N Avg)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PhV\phsC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1126:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage C-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PhV\phsB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1125:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage B-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\PhV\phsA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1124:u1;R:3212;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(V)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Voltage A-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Voltages),2</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Voltage),13</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\Hz</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1180:u1;R:3208;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(Hz)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Frequency)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Frequencies),18</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Frequency),15</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\A\zgnd</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1104:u1;R:3211;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current G)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\A\zavg</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1105:u1;R:3209;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current Avg)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\A\phsC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1102:u1;R:3209;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\A\phsB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1101:u1;R:3209;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\A\phsA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1100:u1;R:3209;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMXU1\A\neut</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1103:u1;R:3210;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(A)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Current N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Currents),1</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(RMS),8</CUSTOM5>
+    <CUSTOM6>@(Current),14</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMTR1\TotWh</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:BC;m:1716:u4;E:2;L:P:13</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kWH)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Real Energy)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(Consumption),4</CUSTOM2>
+    <CUSTOM3>@(Energies),5</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Cumulative),6</CUSTOM5>
+    <CUSTOM6>@(Energy),12</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMTR1\TotVArh</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:BC;m:1720:u4;E:2;L:P:13</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVARH)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Reactive Energy)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(Consumption),4</CUSTOM2>
+    <CUSTOM3>@(Energies),5</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Cumulative),6</CUSTOM5>
+    <CUSTOM6>@(Reactive Energy),20</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MMTR1\TotVAh</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:BC;m:1724:u4;E:2;L:P:13</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(kVAH)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Apparent Energy)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(Consumption),4</CUSTOM2>
+    <CUSTOM3>@(Energies),5</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Cumulative),6</CUSTOM5>
+    <CUSTOM6>@(Apparent Energy),19</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MHAI1\ZThdPhV\phsC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1209:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD  Voltage C-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Quality Readings),7</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MHAI1\ZThdPhV\phsB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1208:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD  Voltage B-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Quality Readings),7</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MHAI1\ZThdPhV\phsA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1207:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD  Voltage A-N)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Quality Readings),7</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MHAI1\ThdPPV\phsCA</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1213:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD  Voltage C-A)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Quality Readings),7</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MHAI1\ThdPPV\phsBC</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1212:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD  Voltage B-C)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Quality Readings),7</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\MHAI1\ThdPPV\phsAB</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:1211:u1;N:-1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS>@(%)</ENG_UNITS>
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(THD  Voltage A-B)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Power Quality Readings),7</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LPHD1\ZRsDateTm\ctlVal</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>Reset(DATETIME)</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Device Date/Time)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3>@(Resets),31</CUSTOM3>
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LPHD1\ZDiag\zImpTrsThr\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12500:2</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient Threshold Invalid)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LPHD1\ZDiag\zImpTrsAlm\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:12500:1</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Impulsive Transient Alarm - Disabled)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LPHD1\PwrUp\stVal\dchg</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:ALM;F:26;q:50700</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Unary Power Up/ Reset)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Onboard Alarm),30</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LLN0\ZWrType</NAME>
+    <TYPE>REAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:MV;m:3200:u1;E:2;L:P:32</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Wiring Type)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LLN0\WaveformDownloading</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>WaveformDownloading</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Waveform Download In Progress)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LLN0\WaveformCollectionEnabled</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>WaveformCollectionEnabled</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Waveform Collection Enabled)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LLN0\OpTmh\t</NAME>
+    <TYPE>LONG</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:UT;m:3034:u4;E:2;L:P:3</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT>####.##</FORMAT>
+    <COMMENT>@(Device Clock Date/Time)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Miscellaneous),12</CUSTOM3>
+    <CUSTOM4>@(Electrical),2</CUSTOM4>
+    <CUSTOM5>@(Date / Time),5</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\LLN0\AlarmUnhandled</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>AlarmUnhandled</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(Unhandled Alarm Received)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM />
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2 />
+    <CUSTOM3 />
+    <CUSTOM4 />
+    <CUSTOM5 />
+    <CUSTOM6 />
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd8\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5530;m:5555:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 42 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd7\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5500;m:5525:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 41 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd6\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5470;m:5495:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 40 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd5\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5440;m:5465:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 39 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd4\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5410;m:5435:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 38 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd3\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5380;m:5405:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 37 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd2\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5350;m:5375:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 36 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\IOX_GGIO3\ZMtrInd1\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:5320;m:5345:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 IOX Slt3 IO 35 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\C44_GGIO2\ZMtrInd4\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:4930;m:4955:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 C44 Slt2 IO 22 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\C44_GGIO2\ZMtrInd3\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:4900;m:4925:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 C44 Slt2 IO 21 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\C44_GGIO2\ZMtrInd2\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:4870;m:4895:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 C44 Slt2 IO 20 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+  <variable>
+    <NAME>CYSS2A_MAIN_CM4\C44_GGIO2\ZMtrInd1\zInd</NAME>
+    <TYPE>DIGITAL</TYPE>
+    <UNIT>CYSS2A_MAIN_CM4</UNIT>
+    <ADDR>T:SS;m:4840;m:4865:1;E:2;L:P:22</ADDR>
+    <RAW_ZERO />
+    <RAW_FULL />
+    <ENG_ZERO />
+    <ENG_FULL />
+    <ENG_UNITS />
+    <FORMAT />
+    <COMMENT>@(CM4 C44 Slt2 IO 19 Dig In On/Off Status)</COMMENT>
+    <EDITCODE />
+    <LINKED />
+    <REF1 />
+    <REF2 />
+    <DEADBAND />
+    <CUSTOM>CYSS2A_MAIN_CM4</CUSTOM>
+    <TAGGENLINK />
+    <CLUSTER>Cluster1_Pier_E</CLUSTER>
+    <EQUIP>CYSS2A_MAIN_CM4</EQUIP>
+    <CUSTOM1>CYSS2A_MAIN_CM4</CUSTOM1>
+    <CUSTOM2>@(N/A),1</CUSTOM2>
+    <CUSTOM3>@(Generic I/O),28</CUSTOM3>
+    <CUSTOM4>@(N/A),1</CUSTOM4>
+    <CUSTOM5>@(N/A),10</CUSTOM5>
+    <CUSTOM6>@(N/A),1</CUSTOM6>
+    <CUSTOM7 />
+    <CUSTOM8 />
+  </variable>
+</variables>

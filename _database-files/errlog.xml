@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<errlogs>
+  <xs:schema id="errlogs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="errlogs" msdata:IsDataSet="true" msdata:MainDataTable="errlog" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="errlog" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="E_TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="E_REC" type="xs:string" minOccurs="0" />
+                <xs:element name="E_PAGE" type="xs:string" minOccurs="0" />
+                <xs:element name="E_FIELD" type="xs:string" minOccurs="0" />
+                <xs:element name="E_TABLE" type="xs:string" minOccurs="0" />
+                <xs:element name="E_ERROR" type="xs:string" minOccurs="0" />
+                <xs:element name="E_CONTEXT" type="xs:string" minOccurs="0" />
+                <xs:element name="E_TAG" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</errlogs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<oids>
+  <xs:schema id="oids" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="oids" msdata:IsDataSet="true" msdata:MainDataTable="oid" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="oid" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DBF_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="INDEX" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <oid>
+    <DBF_NAME>VARIABLE</DBF_NAME>
+    <INDEX>281312</INDEX>
+  </oid>
+</oids>

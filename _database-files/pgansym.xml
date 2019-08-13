@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<pgansyms>
+  <xs:schema id="pgansyms" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="pgansyms" msdata:IsDataSet="true" msdata:MainDataTable="pgansym" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="pgansym" msdata:CaseSensitive="False" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PAGE" type="xs:string" minOccurs="0" />
+                <xs:element name="AN" type="xs:string" minOccurs="0" />
+                <xs:element name="EXPR" type="xs:string" minOccurs="0" />
+                <xs:element name="OFF_SYMBOL" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_1" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_2" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_3" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_4" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_5" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_6" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_7" type="xs:string" minOccurs="0" />
+                <xs:element name="SYMBOL_8" type="xs:string" minOccurs="0" />
+                <xs:element name="MODE" type="xs:string" minOccurs="0" />
+                <xs:element name="COMMENT" type="xs:string" minOccurs="0" />
+                <xs:element name="VISIBLE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</pgansyms>
