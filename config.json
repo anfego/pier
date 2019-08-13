@@ -6280,7 +6280,7 @@
     ]
   },
   "FileBreakdownConfig": {
-    "VARIABLE.DBF": {
+        "VARIABLE.DBF": {
       "Filename": "variable.DBF",
       "Column": "UNIT",
       "ColumnSort": "NAME",
@@ -6356,6 +6356,41 @@
       "ColumnSort": "TAG",
       "SortOrder": "desc",
       "Regex": "^[^\\\\]*"
+    },
+    "PGDYNOBJ.DBF": {
+      "Filename": "pgdynobj.DBF",
+      "Column": "PAGE",
+      "ColumnSort": "AN",
+      "SortOrder": "asc",
+      "Regex": ""
+    },
+    "PGBUTTON.DBF": {
+      "Filename": "pgbutton.DBF",
+      "Column": "PAGE",
+      "ColumnSort": "AN",
+      "SortOrder": "asc",
+      "Regex": ""
+    },
+    "PGKEY.DBF": {
+      "Filename": "pgkey.DBF",
+      "Column": "PAGE",
+      "ColumnSort": "AN",
+      "SortOrder": "asc",
+      "Regex": ""
+    },
+    "PGTOUCH.DBF": {
+      "Filename": "pgtouch.DBF",
+      "Column": "PAGE",
+      "ColumnSort": "AN",
+      "SortOrder": "asc",
+      "Regex": ""
+    },
+    "PGADV.DBF": {
+      "Filename": "pgadv.DBF",
+      "Column": "PAGE",
+      "ColumnSort": "AN",
+      "SortOrder": "asc",
+      "Regex": ""
     }
   }
 }
